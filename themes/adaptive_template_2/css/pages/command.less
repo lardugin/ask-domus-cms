@@ -1,0 +1,70 @@
+/* Command Page
+----------------------------------------------------------*/
+.command-page {
+	
+}
+.command {
+	.clearfix;
+	font-size: 0;
+	margin-bottom: 36px;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+.command__item {
+	float: left;
+	width: 25%;
+	padding: 0 12px;
+	margin-bottom: 24px;
+
+
+	&:nth-child(4) ~ .command__item {
+		margin-bottom: 0;
+	}
+}
+.person {
+	.box-shadow;
+}
+.person__foto {
+	height: 285px;
+	overflow: hidden;
+	font-size: 0;
+}
+.person__info {
+	height: 80px;
+	padding: 14px 24px 4px;
+}
+.person__name {
+	color: @coloe-dark;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 1px;
+}
+.person__position {
+	font-size: 13px;
+	color: @coloe-dark;
+	font-family: @f-2;
+}
+
+@media ( max-width: 1199px ) {
+	.person__info {
+		height: 80px;
+		padding: 15px 20px 5px;
+	}
+}
+
+@media ( max-width: 991px ) {
+	.command__item {
+
+		&,
+		&:nth-child(4) ~.command__item {
+			margin-bottom: 10px;
+		}
+	}
+	.command__item {
+		width: 33.3%;
+	}
+}
+
+@media ( max-width: 767px ) {
+
+}

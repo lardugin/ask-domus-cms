@@ -1,0 +1,409 @@
+/* Form
+----------------------------------------------------------*/
+.form-box {
+    .box-shadow;
+    .clearfix;
+    max-width: 450px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 40px;
+
+    &__headline {
+        margin-bottom: 26px;
+    }
+
+    &__title {
+    	color: #383838;
+    	font-size: 20px;
+    	margin-bottom: 2px;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        span {
+            color: @color-green;
+        }
+
+        &_min {
+            text-align: center;
+            color: #2d2d38;
+            font-size: 18px;
+        }
+    }
+
+    &__body {
+        min-height: 260px;
+
+        .form-box__title {
+            font-weight: normal;
+            padding-top: 55px;
+        }
+    }
+}
+
+.form {
+    .input {
+    	width: 100%;
+    }
+
+    textarea.input {
+        height: 80px;
+        padding: 10px 15px;
+    }
+}
+
+.form-row {
+    margin-bottom: 24px;
+
+    label {
+        //padding: 0 24px;
+        //color: #a7a7a7;
+        //font-size: 12px;
+        //margin-bottom: -6px;
+        //display: block;
+        //position: relative;
+        //z-index: 1;
+    }
+}
+
+.form-row_button {
+    margin-top: 37px;
+}
+
+.form-box__footer {
+    font-size: 12px;
+    color: #a7a7a7;
+    font-family: @f-2;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input {
+    background: transparent !important;
+    padding: 0 24px;
+    border: 0;
+    border-bottom: 1px solid #E5E5E5;
+    outline: 0;
+    height: 40px;
+    font-size: 14px;
+    font-family: @f-1;
+    font-weight: 500;
+    color: #2d2d38;
+    display: inline-block;
+    width: 100%;
+
+    -webkit-box-shadow: inset 0 0 0 50px #fff;
+    //-webkit-text-fill-color: #000;
+}
+
+.input::-webkit-input-placeholder{
+    color: #7b7b7b;
+}
+.input:-moz-placeholder { 
+    color: #7b7b7b;
+}
+.input::-moz-placeholder { 
+    color: #7b7b7b;
+}
+.input:-ms-input-placeholder {
+    color: #7b7b7b;
+}
+.input:focus::-webkit-input-placeholder{
+    text-indent: -9999px;
+}
+.input:focus:-moz-placeholder { 
+    text-indent: -9999px;
+}
+.input:focus::-moz-placeholder { 
+    text-indent: -9999px;
+}
+.input:focus:-ms-input-placeholder {
+    text-indent: -9999px;
+}
+
+.button {
+    font-family: @f-2;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+
+    &:hover {
+
+    }
+
+    &:active {
+    	position: relative;
+    	top: 3px;
+    }
+}
+
+.button_green {
+    color: #ffffff;
+    background: #34a462;
+    box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.35);
+
+    &:hover {
+        background: @c-2;
+        box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.40);
+
+        &:active {
+            background: @cl-2;
+        }
+    }
+}
+
+.button_transparent {
+    color: #2d2d38;
+    background: transparent;
+    border: 2px solid @color-green;
+
+    &:hover {
+        color: #ffffff;
+        border: 2px solid #6F59DE;
+        background: #6F59DE;
+    }
+
+    &:active {
+        background: #6652CB;
+    }
+}
+
+.button_arrow {
+
+    &:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        background: url(../images/button_arrow.png) no-repeat;
+    }
+}
+
+.button_scaleout {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+
+        top: 50%;
+        right: 10px;
+        margin-top: -20px;
+
+        background: #6f59de;
+        opacity: 0;
+        border-radius: 100%;
+        -webkit-animation: scaleout 8s infinite ease-in-out;
+        animation: scaleout 8s infinite ease-in-out;
+    }
+}
+
+
+.content-form-box {
+    margin-top: 60px;
+    width: 60%;
+}
+.content-form {
+
+}
+
+
+@media ( max-width: 1199px ) {
+    .form-box {
+        max-width: 400px;
+    }
+    .content-form-box {
+        width: 70%;
+    }
+}
+
+@media ( max-width: 991px ) {
+    .form-box {
+        padding: 25px 30px;
+    }
+    .form-box__body {
+        min-height: 250px;
+    }
+    .form-box__footer {
+        br {
+            display: none;
+        }
+    }
+    .form-row_button {
+        margin-top: 27px;
+    }
+
+    .button {
+        height: 42px;
+        line-height: 42px;
+    }
+    .button_arrow:after {
+        top: 16px;
+    }
+    .info-box {
+        padding: 120px 0;
+    }
+
+    .content-form-box {
+        width: 80%;
+    }
+}
+
+
+// MUI Variables
+@mui-dark: #2d2d38;
+@mui-green: #34a462;
+@mui-red: rgb(213,0,0);
+
+
+/* Material UI TEXT FIELD ------------------------------- */
+.mui-input-group {
+    position: relative; 
+    width: 100%;
+    display: inline-block;
+
+    .mui-input {
+        padding: 8px 12px 4px 12px;
+        display: block;
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid rgba(179,180,185,0.5);
+        background: transparent;
+        font-size: 20px;
+        color: @mui-dark;
+
+        &:focus {
+            outline: none;
+        }
+    }
+    textarea.mui-input {
+        height: 108px;
+    }
+
+    /* LABEL ======================================= */
+    .mui-label {
+        .transition(0.2s ease all); 
+        position: absolute;
+        pointer-events: none;
+        left: 12px;
+        top: 10px;
+        color: @color-gray;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    /* active state */
+    .mui-input:valid ~ .mui-label,
+    .mui-input:focus ~ .mui-label {
+        top: -16px;
+        font-size: 15px;
+        color: @mui-green;
+    }
+
+    /* BOTTOM BARS ================================= */
+    .mui-bar { 
+        position: relative;
+        display: block;
+        //width: 300px;
+
+        &::before, 
+        &::after {
+            content: '';
+            height: 2px; 
+            width: 0;
+            bottom: 0px; 
+            position: absolute;
+            background: @mui-green; 
+            .transition(0.2s ease all); 
+        }
+
+        &::before {
+            left: 50%;
+        } 
+        &::after {
+            right: 50%; 
+        }
+    }
+
+    /* ERROR MESSAGE ================================= */
+    .mui-error {
+        color: @mui-red;
+        position: absolute;
+        font-size: 12px;
+        margin-top: 3px;
+        visibility: hidden;
+        display: block;
+    }
+
+    /* active state */
+    .mui-input:focus ~ .mui-bar:before,
+    .mui-input:focus ~ .mui-bar:after {
+        width: 50%;
+    }
+
+    /* HIGHLIGHTER ================================== */
+    .mui-highlight {
+        position: absolute;
+        height: 60%; 
+        width: 100px; 
+        top: 25%; 
+        left: 0;
+        pointer-events: none;
+        opacity: 0.5;
+    }
+
+    /* active state */
+    .mui-input:focus ~ .mui-highlight {
+        -webkit-animation: inputHighlighter 0.3s ease;
+        -moz-animation: inputHighlighter 0.3s ease;
+        animation: inputHighlighter 0.3s ease;
+    }
+}
+
+.mui-input-group.error {
+    .mui-error {
+        visibility: visible;
+    }
+
+    .mui-input:focus ~ .mui-label,
+    .mui-input:valid ~ .mui-label {
+        color: @mui-red;
+    }
+
+    .mui-bar { 
+        &::before, 
+        &::after {
+            position: absolute;
+            background: @mui-red; 
+        }
+    }
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from { background: @mui-green; }
+    to   { width: 0; background: transparent; }
+}
+@-moz-keyframes inputHighlighter {
+    from { background: @mui-green; }
+    to   { width: 0; background: transparent; }
+}
+@keyframes inputHighlighter {
+    from { background: @mui-green; }
+    to   { width: 0; background: transparent; }
+}

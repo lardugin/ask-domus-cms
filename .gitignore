@@ -1,0 +1,22 @@
+# phpStorm
+.idea
+
+yii16
+
+# Yii
+assets/*
+!assets/git-gitkeep
+protected/runtime/*
+!protected/runtime/git-gitkeep
+
+!*assets
+# Css
+css/client.css
+
+# Eclipse
+/.settings/
+.buildpath
+.project
+
+# local
+local.index.php
