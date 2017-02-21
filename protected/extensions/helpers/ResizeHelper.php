@@ -12,7 +12,7 @@ class ResizeHelper
      * @param $resize bool
      * @return mixed
      */
-    public static function resize($fullPath, $width, $height, $top = false, $resize = false)
+    public static function resize($fullPath, $width, $height = false, $top = false, $resize = false)
     {
         if (!$fullPath) {
             return $fullPath;

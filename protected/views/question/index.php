@@ -68,7 +68,7 @@ CHtml::$errorContainerTag = 'span';
         </div>
         <div class="form-row">
             <div class="mui-input-group">
-                <?php echo $form->textArea($model,'question',array('maxlength'=>255, 'class' => 'js-input mui-input')); ?>
+                <?php echo $form->textArea($model,'question',array('class' => 'js-input mui-input')); ?>
                 <span class="mui-highlight"></span>
                 <span class="mui-bar"></span>
                 <?php echo $form->labelEx($model,'question', ['class' => 'mui-label']); ?>

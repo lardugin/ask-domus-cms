@@ -26,6 +26,8 @@ class DAliasRule extends CBaseUrlRule
 		'Sale'=>array('url'=>'sale/view', 'replaceUrl'=>'sale', 'module'=>'sale'),
 		'Blog'=>array('url'=>'site/blog'),
 		'Page'=>array('url'=>'site/page'),
+		'Advice'=>array('url'=>'sovety/advice'),
+		'AdviceCategory'=>array('url'=>'sovety/category'),
 		'\reviews\models\Review'=>array('url'=>'reviews/default/view', 'replaceUrl'=>'review', 'module'=>'reviews'),
 	);
 	

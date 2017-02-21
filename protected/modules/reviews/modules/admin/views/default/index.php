@@ -25,7 +25,14 @@ $tbtn=Y::ct('CommonModule.btn', 'common');
     	'enableHistory'=>true,
     	'columns'=>[
         	'id',   
-        	'author',
+        	[
+        		'name' => 'author',
+				'header' => 'Имя/Email',
+				'type' => 'raw',
+				'value' => function($data) {
+					return $data->author . '<br>' . $data->email;
+				}
+			],
 			'preview_text',
 			[
 				'name'=>'published', 

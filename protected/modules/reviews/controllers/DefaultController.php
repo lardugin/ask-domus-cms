@@ -59,8 +59,10 @@ class DefaultController extends \Controller
 			->hasDetailTextColumn()
 			->listingColumns()
 			->actived()
-			->byPublishDateDesc()
-			->getDataProvider();
+			->byCreateDateDesc()
+			->getDataProvider(null, [
+			    'pageSize' => 5,
+            ]);
 		
 		if(Y::request()->isAjaxRequest) {
 			$this->renderPartial('_reviews_listview', compact('dataProvider'), false, true);

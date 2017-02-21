@@ -24,7 +24,13 @@
 				if(tryCount-- > 0) {
 		            $.post($(form).attr('action'), $(form).serialize(), function(data) {
 		                if (data.success) {
-							$form.parent().html(t("w_nrf_mgs_success"));
+							var message = '<h2 class="text-center">Ваш отзыв отправлен</h2>';
+
+							$('.content-form-box').remove();
+
+							$.fancybox.open({
+								content: message
+							});
 		                }
 		                else {
 		                	Kontur.DataJs.get("result-errors", $form).html(t("w_nrf_mgs_error")).show();

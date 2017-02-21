@@ -1,23 +1,18 @@
 <?php
 /** @var \reviews\widgets\NewReviewForm $this */
 /** @var \reviews\models\Review $model */
+/**
+ * @var $form CActiveForm
+ */
  
-use common\components\helpers\HYii as Y;
 use common\components\helpers\HArray as A;
 
-$t=Y::ct('ReviewsModule.widgets/new_review_form', 'new_review_form');
-$tbtn=Y::ct('CommonModule.btn', 'common');
 ?>
-<? if($this->popup): ?>
-<span class="reviews__add-wrapper">
-    <a href="javascript:;" data-js="add-review"><?= $t('btn.add'); ?></a>
-</span>
-<? endif; ?>
 
-<div id="fancybox-review-add-form" class="form reviews__add-form<?= Y::c($this->popup, 'reviews__add-form-popup'); ?>">
-	<h2><?= $t('form.add.title'); ?></h2>
+<div class="content-form-box">
+	<div class="heading-min">Оставьте свой отзыв, ваше мнение для нас очень важно.</div>
 
-	<? $form=$this->beginWidget('\CActiveForm', [
+	<?php $form=$this->beginWidget('\CActiveForm', [
 		'id'=>'review-add-form',
 		'action'=>$this->actionUrl,
 		'enableClientValidation'=>true,
@@ -25,16 +20,56 @@ $tbtn=Y::ct('CommonModule.btn', 'common');
 			'validateOnSubmit'=>true,
 			'validateOnChange'=>false,
 			'afterValidate'=>'js:Kontur.Reviews.NewReviewFormWidget.submitAddForm'
+		],
+		'htmlOptions' => [
+			'class' => 'content-form',
 		]
-    ]); ?>
+	]); ?>
 
-	<? $this->widget('\common\widgets\form\TextField', A::m(compact('form', 'model'), ['attribute'=>'author'])); ?>
-	<? $this->widget('\common\widgets\form\TextAreaField', A::m(compact('form', 'model'), ['attribute'=>'detail_text'])); ?>
-	
-    <div class="row buttons" data-js="buttons">
-		<?= CHtml::submitButton($tbtn('send')); ?>
-		<div class="error__result" data-js="result-errors"></div>
-	</div>
-	
-    <? $this->endWidget(); ?>
+		<div class="form-row">
+			<div class="mui-input-group">
+				<?php echo $form->textField($model,'author',array('maxlength'=>255, 'class' => 'js-input mui-input')); ?>
+				<span class="mui-highlight"></span>
+				<span class="mui-bar"></span>
+				<?php echo $form->labelEx($model,'author', ['class' => 'mui-label']); ?>
+				<?php echo $form->error($model,'author', ['class' => 'mui-error']); ?>
+			</div>
+		</div>
+
+		<div class="form-row">
+			<div class="mui-input-group">
+				<?php echo $form->textField($model,'email',array('maxlength'=>255, 'class' => 'js-input mui-input')); ?>
+				<span class="mui-highlight"></span>
+				<span class="mui-bar"></span>
+				<?php echo $form->labelEx($model,'email', ['class' => 'mui-label']); ?>
+				<?php echo $form->error($model,'email', ['class' => 'mui-error']); ?>
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="mui-input-group">
+				<?php echo $form->textArea($model,'detail_text',array('class' => 'js-input mui-input')); ?>
+				<span class="mui-highlight"></span>
+				<span class="mui-bar"></span>
+				<?php echo $form->labelEx($model,'detail_text', ['class' => 'mui-label']); ?>
+				<?php echo $form->error($model,'detail_text', ['class' => 'mui-error']); ?>
+			</div>
+		</div>
+		<div class="form-row_button">
+			<button type="submit" class="button button_green button_arrow">Отправить</button>
+		</div>
+	<? $this->endWidget(); ?>
 </div>
+
+<script>
+	function submitReviewForm(form, hasError) {
+		/*if (!hasError) {
+			var message = '<h2 class="text-center">Ваш отзыв отправлен</h2>';
+
+			$('.content-form-box').remove();
+
+			$.fancybox.open({
+				content: message
+			});
+		}*/
+	}
+</script>

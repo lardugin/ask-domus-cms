@@ -1,30 +1,58 @@
 <?php
-/** @var \reviews\controllers\DefaultController $this */
-/** @var \CActiveDataProvider[\reviews\models\Review] $dataProvider */
+
 use common\components\helpers\HYii as Y;
 
-$t=Y::ct('ReviewsModule.controllers/default');
-$tcl=Y::ct('CommonModule.labels', 'common');
+/** @var \reviews\controllers\DefaultController $this */
+/** @var \CActiveDataProvider $dataProvider */
 
 $this->widget('\common\widgets\listing\SizerListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_reviews_item',
 	'enableHistory'=>true,
-	'sorterHeader'=>$tcl('sort').':',
-	'pagerCssClass'=>'pagination',
+	'sorterHeader'=>'',
+	'pagerCssClass'=>'page-pager',
  	'pager'=>array(
  		'class' => 'DLinkPager',
- 		'maxButtonCount'=>'5',
- 		'header'=>''
+		'header' => '',
+		'pages' => $pages,
+		'internalPageCssClass' => '',
+		'firstPageCssClass' => 'hidden',
+		'lastPageCssClass' => 'hidden',
+		'nextPageLabel' => '',
+		'prevPageLabel' => '',
+		'nextPageCssClass' => 'page-pager__next',
+		'previousPageCssClass' => 'page-pager__prev',
+		'selectedPageCssClass' => 'active',
+		'hiddenPageCssClass' => 'disabled',
+		'cssFile' => false,
+		'htmlOptions' => array('class'=>'page-pager')
  	),
 	'loadingCssClass'=>'loading-content',
-	'itemsTagName'=>'ul',
-	'emptyText' => $t('list.emptyText'),
-	'itemsCssClass'=>'list__reviews',
+	'itemsTagName'=>'div',
+	'emptyText' => '',
+	'itemsCssClass'=>'reviews-list',
 	'sortableAttributes'=>false,
 	'id'=>'ajaxListView',
-	'sizerHeader'=>$tcl('showAt').': ',
+	'sizerHeader'=>'',
 	'sizerVariants'=>[15, 30, 60, 120],
-	'template'=>'{items}{pager}' // {sizer}{sorter}
+	'template'=>'{items}{pager}'
 ));
 ?>
+
+<div class="reviews-video-list">
+	<div class="reviews-video-list__item">
+		<div class="video">
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_CQwhbOfCPk" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="reviews-video-list__item">
+		<div class="video">
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/E6li_4Oqpog" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="reviews-video-list__item">
+		<div class="video">
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cII2E6lP7Cw" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>

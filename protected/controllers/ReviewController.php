@@ -6,7 +6,7 @@
  * Time: 15:51
  */
 
-class ReviewController extends Controller 
+class ReviewController extends Controller
 {
 	/**
 	 * (non-PHPdoc)
@@ -18,8 +18,8 @@ class ReviewController extends Controller
 			array('DModuleFilter', 'name'=>'shop')
 		));
 	}
-	
-    public function actionIndex() 
+
+    public function actionIndex()
     {
         $model = new ProductReview();
 

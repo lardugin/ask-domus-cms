@@ -59,7 +59,8 @@ class Review extends \DActiveRecord
 			['author, detail_text', 'required', 'on'=>'frontend_insert'],
 			['preview_text', 'required', 'except'=>'frontend_insert'],
 			['author', 'length', 'max'=>255],
-			['detail_text, publish_date, comment', 'safe']
+			['detail_text, publish_date, comment, email', 'safe'],
+            ['email', 'email'],
 		]);
 	}
 	
@@ -74,7 +75,7 @@ class Review extends \DActiveRecord
 				'select'=>'IF(LENGTH(`t`.`detail_text`) > 0, 1, 0) AS `has_detail_text`'
 			],
 			'listingColumns'=>[
-				'select'=>'`t`.*, NULL AS `detail_text`'
+				'select'=>'`t`.*'
 			],
 			'byCreateDateDesc'=>[
 				'order'=>'`create_time` DESC'
@@ -99,6 +100,7 @@ class Review extends \DActiveRecord
 			'publish_date'=>$t('label.publish_date'),
 			'create_time'=>$t('label.create_time'),
 			'comment'=>$t('label.comment'),
+            'email' => 'Ваш e-mail',
 		]);
 	}
 
