@@ -3,6 +3,9 @@
 
 yii16
 
+layout
+bitrix
+
 # Yii
 assets/*
 !assets/git-gitkeep

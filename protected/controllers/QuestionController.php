@@ -36,7 +36,7 @@ class QuestionController extends Controller
 
         $list = Question::model()->published()->findAll(array('order'=>'created DESC'));
 
-        $this->prepareSeo('Вопрос-ответ');
+        $this->prepareSeo('Вопрос - Ответ');
         
         $this->breadcrumbs->addByCmsMenu(new Question(), array(), true);
 

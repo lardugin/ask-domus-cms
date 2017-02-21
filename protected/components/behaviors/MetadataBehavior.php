@@ -90,7 +90,7 @@ class MetadataBehavior extends \CBehavior
 	
 	public function afterFind()
 	{
-		if($meta=$this->owner->getRelated('meta')) {
+		if($meta = $this->owner->getRelated('meta')) {
 			$this->meta_h1=$meta->meta_h1;
 			$this->meta_title=$meta->meta_title;
 			$this->meta_key=$meta->meta_key;
@@ -107,7 +107,8 @@ class MetadataBehavior extends \CBehavior
 	
 	public function afterSave()
 	{
-		$meta=$this->owner->getRelated('meta');
+		$meta = $this->owner->getRelated('meta');
+
 		if (!$meta) {
 			$this->owner->meta = new Metadata();
 			$this->owner->meta->owner_name = $this->_getOwnerName();

@@ -7,9 +7,9 @@ class Breadcrumb
 	
 	/**
 	 * 
-	 * @param unknown $title
+	 * @param string $title
 	 * @param string $url
-	 * @param unknown $htmlOptions 
+	 * @param array $htmlOptions
 	 * дополнительные параметры 
 	 * 	'linkOptions' - дополнительные аттрибуты для ссылки array(attribute=>value) 
 	 */

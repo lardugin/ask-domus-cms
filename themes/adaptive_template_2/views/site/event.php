@@ -1,3 +1,7 @@
 <h1><?=$event->title?></h1>
-<?=$event->text?>
+
+<div><?=$event->text?></div>
+
+<div class="clearfix"></div>
+<br>
 <?=HtmlHelper::linkBack('Назад', '/news', '/news')?>

@@ -80,6 +80,8 @@ $(document).ready(function(){
 			self.parent('.have-sub').toggleClass('active');
 			self.next('.sub-menu__1').stop().slideToggle();
 			$('.left-menu .have-sub > a').not(self).parent('.have-sub').removeClass('active');
+
+			return false;
 		})
 	}
 

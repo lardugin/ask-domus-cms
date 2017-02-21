@@ -28,7 +28,7 @@ $(document).ready(function() {
 		});
 	})(".is_read_more"); // это селектор элементов для которых навешивать обрезку текста.
 
-    var fancyboxImages = $('a.image-full'); 
+    var fancyboxImages = $('a.image-full, .fancymaterials');
     if (fancyboxImages.length) {
         $(fancyboxImages).fancybox({
             overlayColor: '#333',

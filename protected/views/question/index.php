@@ -6,10 +6,9 @@
  */
 
 CHtml::$errorContainerTag = 'span';
-
 ?>
 
-<h1 class="heading">Вопрос-ответ</h1>
+<h1 class="heading">Вопрос - Ответ</h1>
 
 <div class="faq-page">
     <div class="heading-min">Частые вопросы:</div>

@@ -153,8 +153,8 @@ $baseUrl = $this->module->assetsUrl;
                     'htmlOptions'=>array('class'=>'dropdown-menu')
                   ));
                 ?>
-
               </li>
+              <li class="<?=HtmlHelper::getActiveClass('advice')?>"><a href="/cp/advice">Советы</a></li>
             </ul>
             <? #endif?>
             <ul class="nav navbar-nav navbar-right">

@@ -46,7 +46,7 @@ $currentYear = Yii::app()->request->getQuery('year', 0);
                                 <a href="<?= $link ?>"><?=$event->title?></a>
                             </div>
                             <div class="news-item__text">
-                                <p><?php echo $event->intro; ?></p>
+                                <div><?php echo $event->intro; ?></div>
                                 <a href="<?= $link ?>" class="news-item__button">Подробнее</a>
                             </div>
                         </div>

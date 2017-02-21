@@ -1,4 +1,5 @@
 <?php
+use YiiHelper as Y;
 
 /**
  * This is the model class for table "Event".
@@ -8,10 +9,12 @@
  * @property string $title
  * @property string $text
  * @property string $created
+ * @property string $intro
+ * @property string $alias
+ * @property string $preview
  * @property integer $publish
+ * @property integer $enable_preview
  */
-use YiiHelper as Y;
-
 class Event extends DActiveRecord
 {
     public $image;

@@ -1,7 +1,7 @@
 <?
-    $this->breadcrumbs = array('Вопрос-ответ'=>array('question/index'));
+    $this->breadcrumbs = array('Вопрос - Ответ'=>array('question/index'));
 ?>
-<h1>Вопрос-ответ</h1>
+<h1>Вопрос - Ответ</h1>
 
 <?php if (count($list)): ?>
 <script type="text/javascript">

@@ -30,6 +30,7 @@ return array(
     'sitemap'=>'site/sitemap',
 
     'search/index' => 'search/index',
+    'sovety' => 'sovety/index',
 
     array('class'=>'application.components.rules.DAliasRule'),
 //	['class'=>'\reviews\components\rules\ReviewsRule'],

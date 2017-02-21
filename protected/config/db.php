@@ -5,5 +5,5 @@
 return array(
 	'connectionString'=>'mysql:host=localhost;dbname=ask-domus',
     'username'=>'root',
-    'password'=>'',
+    'password'=>'159753',
 );
