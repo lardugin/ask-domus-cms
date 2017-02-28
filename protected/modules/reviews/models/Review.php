@@ -94,12 +94,12 @@ class Review extends \DActiveRecord
 	{
 		$t=Y::ct('ReviewsModule.models/review');
 		return parent::attributeLabels([
-			'author'=>$t('label.author'),
-			'preview_text'=>$t('label.preview_text'),
-			'detail_text'=>$t('label.detail_text'),
-			'publish_date'=>$t('label.publish_date'),
-			'create_time'=>$t('label.create_time'),
-			'comment'=>$t('label.comment'),
+			'author' => 'Ваше имя',
+			'preview_text' => $t('label.preview_text'),
+			'detail_text' => 'Ваш отзыв',
+			'publish_date' => $t('label.publish_date'),
+			'create_time' => $t('label.create_time'),
+			'comment' => $t('label.comment'),
             'email' => 'Ваш e-mail',
 		]);
 	}

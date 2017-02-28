@@ -19,6 +19,8 @@ class NewReviewForm extends \CWidget
 	 * @var boolean режим всплывающего окна
 	 */
 	public $popup=true;
+
+    public $view = 'new_review_form';
 	
 	/**
 	 * (non-PHPdoc)
@@ -54,6 +56,6 @@ class NewReviewForm extends \CWidget
 	{
 		$model=new Review('frontend_insert');
 		
-		$this->render('new_review_form', compact('model'));
+		$this->render($this->view, compact('model'));
 	}
 }

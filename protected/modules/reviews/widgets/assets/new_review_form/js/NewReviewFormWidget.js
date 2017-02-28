@@ -28,16 +28,18 @@
 
 							$('.content-form-box').remove();
 
-							$.fancybox.open({
-								content: message
-							});
-		                }
-		                else {
+							if ($('.js-review-form-body').length) {
+								$('.js-review-form-body').html(message);
+							} else {
+								$.fancybox.open({
+									content: message
+								});
+							}
+		                } else {
 		                	Kontur.DataJs.get("result-errors", $form).html(t("w_nrf_mgs_error")).show();
 		            	}
 		            }, "json");
-				}
-				else {
+				} else {
 					Kontur.DataJs.get("buttons", $form).html(t("w_nrf_mgs_error_max_try")).show();
 				}
 	        }
