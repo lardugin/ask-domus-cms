@@ -1,4 +1,12 @@
 $(document).ready(function(){
+	$('[data-tariff-title]').click(function () {
+		var tariff = $(this).data('tariff-title');
+
+		$('[name="feedback_models_FeedbackModel[tariff]"]').val(tariff);
+
+		$('.js-tariff-title').text(tariff);
+	});
+
 	$('.js-input').bind("change keyup input click", function() {
 		var el = $(this);
 

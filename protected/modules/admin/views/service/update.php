@@ -3,7 +3,7 @@
 /* @var $model Service */
 
 $this->breadcrumbs=array(
-	'Услуги на главной'=>array('index'),
+	'Услуги'=>array('index'),
 	$model->title . ' - Обновление',
 );
 

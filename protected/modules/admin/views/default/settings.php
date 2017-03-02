@@ -24,6 +24,7 @@
     <?php 
     $tabs = array(
         'Общие'=>array('content'=>$this->renderPartial('settings_general', compact('model', 'form'), true), 'id'=>'tab-general'),
+//        'Цены'=>array('content'=>$this->renderPartial('settings_prices', compact('model', 'form'), true), 'id'=>'tab-price'),
         'Блог' =>array('content'=>$this->renderPartial('settings_blog'   , compact('model', 'form'), true), 'id'=>'tab-blog'),
         'Seo'  =>array('content'=>$this->renderPartial('settings_seo'    , compact('model', 'form'), true), 'id'=>'tab-seo'),
     );

@@ -7,7 +7,8 @@
  * @property integer $id
  * @property string $title
  * @property string $preview
- * @property string $link
+ * @property string $alias
+ * @property string $description
  * @property integer $sort
  */
 class Service extends DActiveRecord
@@ -23,6 +24,7 @@ class Service extends DActiveRecord
 	public function behaviors()
     {
         return [
+            'metaBehavior'=>array('class'=>'MetadataBehavior'),
             'imageBehavior'=>[
                 'class'=>'\common\ext\file\behaviors\FileBehavior',
                 'attribute'=>'preview',
@@ -42,13 +44,14 @@ class Service extends DActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return parent::rules(array(
-            array('title, link', 'required'),
-            ['preview', 'safe'],
+            array('title', 'required'),
+            ['preview, alias, description', 'safe'],
             array('sort', 'numerical', 'integerOnly'=>true),
-            array('title, preview, link', 'length', 'max'=>255),
+            array('title, preview, alias', 'length', 'max'=>255),
             // The following rule is used by search().
             // @todo Please remove those attributes that should not be searched.
-            array('id, title, preview, link, sort', 'safe', 'on'=>'search'),
+            array('id, title, preview, alias, sort', 'safe', 'on'=>'search'),
+            ['price_sale_date, price1, price2, price3, price1_old, price2_old, price3_old', 'safe'],
         ));
 	}
 
@@ -61,8 +64,19 @@ class Service extends DActiveRecord
             'id' => 'ID',
             'title' => 'Заголовок',
             'preview' => 'Изображение',
-            'link' => 'Ссылка',
+            'alias' => 'URL',
             'sort' => 'Порядок сортировки',
+            'description' => 'Текст',
+
+            'price_sale_date' => 'Действие скидки',
+
+            'price1' => 'Цена - 1 тариф',
+            'price2' => 'Цена - 2 тариф',
+            'price3' => 'Цена - 3 тариф',
+
+            'price1_old' => 'Старая цена - 1 тариф',
+            'price2_old' => 'Старая цена - 2 тариф',
+            'price3_old' => 'Старая цена - 3 тариф',
         ));
 	}
 
@@ -87,7 +101,7 @@ class Service extends DActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('preview',$this->preview,true);
-		$criteria->compare('link',$this->link,true);
+		$criteria->compare('alias',$this->alias,true);
 		$criteria->compare('sort',$this->sort);
 
 		return new CActiveDataProvider($this, array(

@@ -69,7 +69,7 @@ $baseUrl = $this->module->assetsUrl;
 	        'url'=>array('slider/index'), 
 	        'visible'=>D::yd()->isActive('slider'), 
 	        'active' => Yii::app()->controller->getId() == 'slider'),
-        array('label'=>'Услуги на главной',
+        array('label'=>'Услуги',
             'url'=>array('service/index'),
             'active' => Yii::app()->controller->getId() == 'service'),
         array('label'=>'Наша команда',

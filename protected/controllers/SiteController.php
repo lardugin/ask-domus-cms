@@ -168,6 +168,28 @@ class SiteController extends Controller
         
         $this->render('blog', compact('blog', 'posts', 'pages'));
     }
+
+    public function actionService($id)
+    {
+        $this->layout = 'other';
+
+        $service = Service::model()->findByPk($id);
+
+        if (!$service) {
+            throw new CHttpException('404', 'Страница не найдена');
+        }
+
+        $this->prepareSeo($service->title);
+        $this->seoTags($service);
+        ContentDecorator::decorate($service, 'description');
+
+        $this->breadcrumbs->add('Услуги', ['/services'], true);
+        $this->breadcrumbs->add($service->title, array(), true);
+
+        $this->render('service', [
+            'model' => $service
+        ]);
+    }
     
     public function getEventHomeTitle()
     {

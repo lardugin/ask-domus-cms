@@ -6,7 +6,9 @@ return array(
 	'admin/settings/<id:\w+>'=>'admin/settings/index',
 	'cp/settings/<id:\w+>'=>'admin/settings/index',
 
+    array('class'=>'application.components.rules.DAdviceRule'),
     array('class'=>'application.components.rules.DShopRule'),
+
     // Admin
     'cp'=>'admin/default/index',
     'cp/<controller>/<action:\w+>/<id:\d+>'=>'admin/<controller>/<action>',

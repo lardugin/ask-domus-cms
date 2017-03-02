@@ -10,9 +10,11 @@ use common\components\helpers\HYii as Y;
  * @property string $code
  * @property string $title
  * @property string $description
+ * @property string $subtitle
  * @property integer $price
  * @property boolean $notexist
  * @property boolean $new
+ * @property boolean $service_page
  * @property integer $ordering
  * @property CUploadedFile $mainImg
  * @property CUploadedFile $moreImg
@@ -83,8 +85,8 @@ class Product extends DActiveRecord
             array('title, link_title', 'length', 'max'=>255),
             array('alt_title', 'length', 'max'=>500),
             array('mainImg', 'file', 'allowEmpty'=>true, 'types'=>'jpg, jpeg, gif, png'),
-            array('notexist, sale, new, hit, in_carousel, on_shop_index', 'boolean'),
-            array('description, moreImg, price, code, hidden, brand_id', 'safe')
+            array('notexist, on_shop_index', 'boolean'),
+            array('description, moreImg, price, code, hidden, brand_id, service_page, subtitle', 'safe')
         ));
     }
 
@@ -109,7 +111,7 @@ class Product extends DActiveRecord
                 'order'=>'id DESC',
                 'limit'=>1,
             ),
-        	'cardColumns'=>array('select'=>'`t`.`id`, `t`.`category_id`, title, code, price, sale, new, hit, alt_title, link_title, notexist'),
+        	'cardColumns'=>array('select'=>'`t`.`id`, `t`.`category_id`, title, code, price, alt_title, link_title, notexist'),
         	'defaultOrder'=>array('order'=>'IF(ordering>0,0,1), ordering ASC, created'),
         	'visibled'=>array('condition'=>'((`t`.`hidden` <> 1) OR ISNULL(`t`.`hidden`))'),
         	'hitOnTop'=>D::cms('shop_enable_hit_on_top') ? ['order'=>'IF(`t`.`sale`, 0, IF(`t`.`hit`, 1, IF(`t`.`new`, 2, 3)))'] : [],
@@ -263,7 +265,9 @@ class Product extends DActiveRecord
             'in_carousel'=>'Отображать на главной странице',
             'hidden'=>'Скрыть на сайте',
             'on_shop_index'=>'Отображать на главной странице',
-            'brand_id'=>'Бренд'
+            'service_page'=>'Отображать в услугах',
+            'brand_id'=>'Бренд',
+            'subtitle' => 'Подзаголовок',
         ));
     }
 

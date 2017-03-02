@@ -36,18 +36,24 @@ class UrlHelper extends \CComponent
 						break;
 					case 'page':
 						$id = A::get($model->options, 'id');
+
 						if($adminMode) {
 							$url = '/cp/page/update' . ($id ? "/{$id}" : '');
 						}
 						elseif($id) {
 							$page = \Page::model()->find(array('select'=>'id, title, alias', 'condition'=>'id=:id', 'params'=>array(':id'=>$id)));
-							if($page) {
+							if ($page) {
 								// @hook for index page
-								if(strtolower($page->alias) == 'index') return \Yii::app()->homeUrl;
-								else
-									$url = ($page->alias) ? "/{$page->alias}" : "/page/{$id}";
+								if (strtolower($page->alias) == 'index') {
+                                    return \Yii::app()->homeUrl;
+                                } else {
+//                                    $url = ($page->alias) ? "/{$page->alias}" : "/page/{$id}";
+                                    $url = "/site/page";
+                                    $params['id'] = $id;
+                                }
 							}
 						}
+
 						break;
 					case 'blog':
 						$id = A::get($model->options, 'id');

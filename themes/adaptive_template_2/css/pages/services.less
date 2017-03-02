@@ -1,0 +1,190 @@
+/* Services Page
+----------------------------------------------------------*/
+.services-page {
+}
+
+.servise-box {
+	background: @color-white;
+
+	.container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+.servise-list {
+	.clearfix;
+    margin-top: -8px;
+	margin-right: -8px;
+	margin-bottom: 36px;
+    margin-left: -8px;
+}
+.servise__item {
+	float: left;
+	width: 33.3%;
+	padding: 8px;
+}
+.servise__front {
+	position: relative;
+	font-size: 0;
+	display: block;
+	.box-shadow;
+
+	img {
+		max-width: 100%;
+		display: block;
+	}
+
+	&:hover {
+		.servise-mask {
+			background: rgba(111, 89, 222, 0.9);
+
+			.number {
+				opacity: 0.2;
+			}
+		}
+		.servise-mask__heading {
+			background: #6B61D3;
+
+			&:after {
+				opacity: 1;
+			}
+		}
+	}
+	&:active {
+		.servise-mask {
+			background: rgba(111, 89, 222, 0.7);
+		}
+		.servise-mask__heading {
+			opacity: 0.7;
+		}
+	}
+}
+.servise-mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+	&,
+	* {
+		.transition (.2s linear);
+	}
+
+	.number {
+        .transform(translateY(-50%));
+		color: @color-white;
+		font-size: 80px;
+		font-family: @f-2;
+		opacity: 0;
+		text-align: center;
+		width: 100%;
+		position: absolute;
+    	top: 50%;
+		left: 0;
+	}
+
+	.mask__inner {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+}
+
+.servise-mask__heading {
+	font-size: 18px;
+	color: #f7f7f9;
+	padding: 0px 31px;
+	height: 60px;
+	text-transform: uppercase;
+	background: rgba(52, 164, 98, 0.9);
+	position: relative;
+
+	span {
+		height: 60px;
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+	}
+
+	&:after {
+		content: '';
+		.transform(translateY(-50%));
+		width: 20px;
+		height: 20px;
+		background: url(../images/servise-arrow.png) no-repeat;
+		position: absolute;
+		top: 50%;
+		right: 30px;
+		opacity: 0;
+	}
+}
+
+.steps-list {
+
+}
+.steps__item {
+	margin-bottom: 12px;
+}
+.steps__number {
+	.box-shadow;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin-right: 8px;
+	line-height: 60px;
+	border-radius: 50px;
+	background: @c-2;
+	color: @color-white;
+	text-align: center;
+	font-size: 24px;
+}
+
+.services-page__portfolio {
+	margin-bottom: 36px;
+}
+
+.services-page__steps {
+	margin-bottom: 36px;
+}
+
+@media ( max-width: 1199px ) {
+	.servise-mask__heading {
+		height: 52px;
+		padding: 0 12px;
+		font-size: 17px;
+
+		span {
+	    	padding-right: 32px;
+			height: 52px;
+		}
+	}
+
+	.servise-mask__heading::after {
+		right: 12px;
+	}
+}
+
+@media ( max-width: 991px ) {
+	.servise__item {
+		width: 50%;
+	}
+	.servise-mask__heading {
+		&:after {
+			opacity: 1;
+		}
+	}
+	.servise-mask {
+
+		.number {
+			display: none;
+		}
+	}
+}
+
+@media ( max-width: 767px ) {
+
+}

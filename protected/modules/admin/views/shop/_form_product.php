@@ -21,6 +21,12 @@
     </div>
 
     <div class="row">
+        <?php echo $form->labelEx($model, 'subtitle'); ?>
+        <?php echo $form->textField($model, 'subtitle', array('class'=>'form-control')); ?>
+        <?php echo $form->error($model, 'subtitle'); ?>
+    </div>
+
+    <div class="row">
         <?php echo $form->labelEx($model,'description'); ?>
         <?php 
             $this->widget('admin.widget.EditWidget.TinyMCE', array(
@@ -61,6 +67,12 @@
         <?php /*echo $form->labelEx($model, 'hit', array('class'=>'inline')); */?>
         <?php /*echo $form->error($model, 'hit'); */?>
     </div>-->
+
+    <div class="row">
+        <?php echo $form->checkBox($model, 'service_page'); ?>
+        <?php echo $form->labelEx($model, 'service_page', array('class'=>'inline')); ?>
+        <?php echo $form->error($model, 'service_page'); ?>
+    </div>
 
     <div class="row">
         <?php echo $form->checkBox($model, 'on_shop_index'); ?>

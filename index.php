@@ -1,4 +1,6 @@
 <?php
+$start = microtime(true);
+
 defined('D_MODE_LOCAL') or define('D_MODE_LOCAL', (strpos($_SERVER['SERVER_NAME'], 'local') !== false));
 
 $debugMode = false;
@@ -39,3 +41,5 @@ $config = dirname(__FILE__).'/protected/config/main.php';
 require_once($yii);
 
 Yii::createWebApplication($config)->run();
+
+//echo microtime(true) - $start;

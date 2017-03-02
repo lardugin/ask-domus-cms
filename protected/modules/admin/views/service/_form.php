@@ -12,32 +12,17 @@
 	'htmlOptions'=>['enctype'=>'multipart/form-data'],
 )); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'title'); ?>
-		<?php echo $form->textField($model,'title',array('class'=>'form-control')); ?>
-		<?php echo $form->error($model,'title'); ?>
-	</div>
+	<?php
+	$tabs = array(
+		'Основное'=>array('content'=>$this->renderPartial('_form_general', compact('model', 'form'), true), 'id'=>'tab-general'),
+		'Seo'=>array('content'=>$this->renderPartial('_form_seo', compact('model', 'form'), true), 'id'=>'tab-seo'),
+		'Цены'=>array('content'=>$this->renderPartial('_form_price', compact('model', 'form'), true), 'id'=>'tab-price'),
+	);
 
-	<? $this->widget('\common\ext\file\widgets\UploadFile', [
-		'behavior'=>$model->imageBehavior,
-		'form'=>$form,
-		'actionDelete'=>$this->createAction('removeImage'),
-		'tmbWidth'=>200,
-		'tmbHeight'=>200,
-		'view'=>'panel_upload_image'
-	]); ?>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'link'); ?>
-		<?php echo $form->textField($model,'link',array('class'=>'form-control')); ?>
-		<?php echo $form->error($model,'link'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'sort'); ?>
-		<?php echo $form->textField($model,'sort',array('class'=>'form-control')); ?>
-		<?php echo $form->error($model,'sort'); ?>
-	</div>
+	$this->widget('zii.widgets.jui.CJuiTabs', array(
+		'tabs' => $tabs,
+		'options' => [],
+	)); ?>
 
 	<div class="row buttons">
 		<div class="left">

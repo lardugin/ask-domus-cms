@@ -69,6 +69,17 @@ class SettingsForm extends CFormModel
     public $sale_meta_key;
     public $sale_meta_desc;
 
+    public $price_sale_date;
+
+    public $price1_old;
+    public $price1;
+
+    public $price2_old;
+    public $price2;
+
+    public $price3_old;
+    public $price3;
+
     // Social
     public $fb;
     public $in;
@@ -114,13 +125,16 @@ class SettingsForm extends CFormModel
             array('events_title, events_link_all_text', 'safe'),
             ['vk, in, fb, houzz, my_home', 'safe'],
             ['tg, wt, vb', 'safe'],
+            ['price_sale_date, price1, price2, price3, price1_old, price2_old, price3_old', 'safe'],
         );
-    	if(D::yd()->isActive('gallery') && D::role('sadmin')) {
+
+    	if (D::yd()->isActive('gallery') && D::role('sadmin')) {
     		$rules = \CMap::mergeArray($rules, array(
             	array('gallery_title', 'safe')
     		));
     	}
-        if(D::yd()->isActive('slider') && D::role('sadmin')) {
+
+        if (D::yd()->isActive('slider') && D::role('sadmin')) {
         	$rules = \CMap::mergeArray($rules, array(
             	array('slider_slider_width, slider_slider_height', 'validateRequiredBy', 'attribute'=>'slider_slider_active'),
             	array('slider_carousel_width, slider_carousel_height', 'validateRequiredBy', 'attribute'=>'slider_carousel_active'),
@@ -133,25 +147,29 @@ class SettingsForm extends CFormModel
             	array('slider_banner_active, slider_banner_width, slider_banner_height', 'safe'),
         	));
         }
-        if(D::yd()->isActive('treemenu') && D::role('sadmin')) {
+
+        if (D::yd()->isActive('treemenu') && D::role('sadmin')) {
             $rules = \CMap::mergeArray($rules, array(
             	array('treemenu_fixed_id', 'match', 'pattern'=>'/^[0-9,]+$/', 'message'=>'Разрешены только цифры и запятая'),
             	array('treemenu_fixed_id, treemenu_show_id, treemenu_show_breadcrumbs, treemenu_depth', 'safe')
         	));
         }
-        if(D::yd()->isActive('question') && D::role('sadmin')) {
+
+        if (D::yd()->isActive('question') && D::role('sadmin')) {
             $rules = \CMap::mergeArray($rules, array(
             	array('question_collapsed', 'safe')
         	));
         }
-        if(D::yd()->isActive('shop') && D::role('sadmin')) {
+
+        if (D::yd()->isActive('shop') && D::role('sadmin')) {
             $rules = \CMap::mergeArray($rules, array(
             	array('shop_title', 'required'),
             	array('shop_category_descendants_level', 'numerical', 'integerOnly'=>true),
             	array('shop_title, shop_enable_hit_on_top, shop_pos_description, shop_enable_attributes, shop_enable_reviews, shop_enable_carousel', 'safe')
         	));
         }
-        if(D::yd()->isActive('sale') && D::role('sadmin')) {
+
+        if (D::yd()->isActive('sale') && D::role('sadmin')) {
             $rules = \CMap::mergeArray($rules, array(
             	array('sale_title, sale_link_all_text, sale_preview_width, sale_preview_height', 'safe'),
             	array('sale_meta_h1, sale_meta_title, sale_meta_key, sale_meta_desc', 'safe')
@@ -243,6 +261,16 @@ class SettingsForm extends CFormModel
             'tg' => 'Telegram',
             'wt' => 'Whatsapp',
             'vb' => 'Viber',
+
+            'price_sale_date' => 'Действие скидки',
+
+            'price1' => 'Цена «Эскизный»',
+            'price2' => 'Цена «Рабочий»',
+            'price3' => 'Цена «Полный»',
+
+            'price1_old' => 'Старая цена «Эскизный»',
+            'price2_old' => 'Старая цена «Рабочий»',
+            'price3_old' => 'Старая цена «Полный»',
         );
     }
 

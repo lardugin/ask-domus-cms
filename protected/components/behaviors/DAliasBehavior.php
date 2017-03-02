@@ -9,22 +9,25 @@ class DAliasBehavior extends \CBehavior
 	 * @var string имя атрибута ЧПУ внешней модели
 	 */
 	public $attribute='alias';
-	
+
 	/**
 	 * @var boolean уникальный или нет.
 	 */
 	public $unique=true;
-	
+
 	/**
 	 * @var array массив моделей array(className=>attributeName) по которым также проверяется уникальность.
 	 */
 	public $uniqueWith=array(
 		'Blog'=>'alias',
-		'Page'=>'alias', 
-		'Category'=>'alias',
-		'Product'=>'alias', 
-		'Event'=>'alias', 
+		'Page'=>'alias',
+        'Advice'=>'alias',
+        'AdviceCategory'=>'alias',
+        'Category'=>'alias',
+		'Product'=>'alias',
+		'Event'=>'alias',
 		'Sale'=>'alias',
+		'Service'=>'alias',
 		'\reviews\models\Review'=>'alias',
 	);
 

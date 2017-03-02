@@ -26,10 +26,21 @@ class DAliasRule extends CBaseUrlRule
 		'Sale'=>array('url'=>'sale/view', 'replaceUrl'=>'sale', 'module'=>'sale'),
 		'Blog'=>array('url'=>'site/blog'),
 		'Page'=>array('url'=>'site/page'),
+		'Service'=>array('url'=>'site/service'),
 		'Advice'=>array('url'=>'sovety/advice'),
 		'AdviceCategory'=>array('url'=>'sovety/category'),
 		'\reviews\models\Review'=>array('url'=>'reviews/default/view', 'replaceUrl'=>'review', 'module'=>'reviews'),
 	);
+
+    /**
+     * Дополнительная директория для URL
+     *
+     * @var array
+     */
+    public $modelDirs = [
+        'Service' => 'service/',
+        'Event' => 'news/',
+    ];
 	
 	/**
 	 * (non-PHPdoc)
@@ -42,8 +53,9 @@ class DAliasRule extends CBaseUrlRule
 	  			if($module=A::get($cfg, 'module')) {
 	  				if(!\Yii::app()->d->isActive($module)) continue;
 	  			}
+
 	   			$id=$params['id'];
-	   			$alias=$this->_getAliasById($className, $id);
+	   			$alias = $this->_getAliasById($className, $id);
 	   			
 	   			unset($params['id']);
 				$url=empty($alias) ? sprintf(A::get($cfg, 'replaceUrl', $cfg['url']).'/%d', $id) : sprintf('%s', $alias);
@@ -64,12 +76,16 @@ class DAliasRule extends CBaseUrlRule
 	 */
 	public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
 	{
-		if(preg_match('/^catalog|shop\//i', $pathInfo)) {
+		if (preg_match('/^portfolio|catalog|shop\//i', $pathInfo)) {
 			return false;
 		}
+
 		elseif($pathInfo != 'index') {
-		   $pathInfo=preg_replace('/^.*?([^\/]+)$/', '$1', $pathInfo);    
-		   if($pathInfo == 'index') return false;
+		    $pathInfo = preg_replace('/^.*?([^\/]+)$/', '$1', $pathInfo);
+
+		    if ($pathInfo == 'index') {
+                return false;
+            }
 		}
 
 		foreach($this->config as $className=>$cfg) {
@@ -127,11 +143,12 @@ class DAliasRule extends CBaseUrlRule
 			->queryScalar();
 	}
 
-	/**
-	 * Получение алиаса модели по id
-	 * @param string $className имя класса модели
-	 * @param integer $id id модели.
-	 */
+    /**
+     * Получение алиаса модели по id
+     * @param string $className имя класса модели
+     * @param integer $id id модели.
+     * @return null|string
+     */
 	private function _getAliasById($className, $id)
 	{
 		$fQuery=function($className, $id, $select, $method='queryScalar') {
@@ -141,19 +158,83 @@ class DAliasRule extends CBaseUrlRule
 				->where($this->_getAttributeId($className).'=:id', array(':id'=>$id))
 				->$method();
 		};
-		if($className == 'Page') {
-			if($data=$fQuery($className, $id, 'alias, blog_id', 'queryRow')) {
+
+		if ($className == 'Page') {
+            if($data=$fQuery($className, $id, 'alias, blog_id', 'queryRow')) {
 				if(!empty($data['blog_id'])) {
 					if($blogAlias=$fQuery('Blog', $data['blog_id'], 'alias')) {
 						return $blogAlias.'/'.$data['alias'];
 					}
-				}
-				return $data['alias'];
+				} else {
+				    return $this->getPageUrl($id);
+                }
+
+                return $data['alias'];
 			}
-		}
-		else {
+		} elseif(isset($this->modelDirs[$className])) {
+            return $this->modelDirs[$className] . $fQuery($className, $id, $this->_getAttributeAlias($className));
+        } else {
 			return $fQuery($className, $id, $this->_getAttributeAlias($className));
 		}
 		return null;
 	}
+
+	public function getPageUrl($id)
+    {
+        $url = Yii::app()->cache->get('page_url_' . $id);
+
+        if (!$url) {
+            $url = $this->createPageUrl($id);
+
+            Yii::app()->cache->set('page_url_' . $id, $url);
+        }
+
+        return $url;
+    }
+
+    public function createPageUrl($id)
+    {
+        $page = Page::model()->findByPk($id);
+
+        $options = '{"model":"page"';
+        $options .= ',"id":"' . $id. '"';
+        $options .= '}';
+
+        $path = [];
+
+        if ($item = \Menu::model()->findByAttributes(['options'=>$options])) {
+            $path = $this->getMenuTree($item->id);
+        }
+
+        if ($path) {
+            return implode('/', array_reverse($path));
+        } else {
+            return $page->alias;
+        }
+    }
+
+    public function getMenuTree($id, $path = [])
+    {
+        if (!$id) {
+            return $path;
+        }
+
+        $menu = Menu::model()->findByPk($id);
+
+        if ($menu->options['model'] == 'page') {
+            $alias = \Yii::app()->db->createCommand()
+                ->select('alias')
+                ->from(Page::model()->tableName())
+                ->where('id = :id', [
+                    ':id' => $menu->options['id'],
+                ])
+                ->queryScalar();
+
+            $path[] = $alias;
+        }
+
+        $path = $this->getMenuTree($menu->parent_id, $path);
+
+        return $path;
+    }
 }

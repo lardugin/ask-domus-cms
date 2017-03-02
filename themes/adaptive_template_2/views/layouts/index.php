@@ -7,7 +7,7 @@
 				<?php $i = 1; foreach (Service::model()->findAll(['order' => 'sort']) as $service): ?>
 					<?php $number = $i < 10 ? '0' . $i : $i; ?>
 					<div class="servise__item">
-						<a href="<?= $service->link ?>" class="servise__front">
+						<a href="<?= Yii::app()->createUrl('/site/service', ['id' => $service->id]) ?>" class="servise__front">
 							<img src="<?= $service->imageBehavior->getSrc() ?>" alt="<?= $service->title ?>">
 							<div class="servise-mask">
 								<span class="number"><?= $number ?></span>
@@ -34,9 +34,9 @@
 			<div class="heading">Наши работы</div>
 			<div class="work">
 				<div class="work__cont-list">
-					<div class="work__cont-item active">   <!-- Однокомнатные квартиры -->
+					<div class="work__cont-item active">
 						<div class="portfolio">
-							<?php foreach (Product::model()->onShopIndex()->scopeSort('shop_category')->findAll() as $product): ?>
+							<?php foreach (Product::model()->visibled()->onShopIndex()->scopeSort('shop_category')->findAll() as $product): ?>
 								<?/** @var $product Product */?>
 								<div class="portfolio__item">
 									<a href="<?= $product->getFullImg() ?>" class="fancybox" rel="product-<?= $product->id ?>">
@@ -44,8 +44,7 @@
 										<div class="portfolio-mask">
 											<div class="mask__inner">
 												<div class="portfolio-mask__heading"><?= $product->title ?></div>
-												<div class="portfolio-mask__square">Квартира - 80 м<sup>2</sup></div>
-												<!--											<div class="portfolio-mask__price">м<sup>2</sup></div>-->
+												<div class="portfolio-mask__square"><?= $product->subtitle ?> м<sup>2</sup></div>
 											</div>
 										</div>
 									</a>

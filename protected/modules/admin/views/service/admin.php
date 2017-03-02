@@ -3,7 +3,7 @@
 /* @var $model Service */
 
 $this->breadcrumbs=array(
-	'Услуги на главной'=>array('index'),
+	'Услуги'=>array('index'),
 	'Управление',
 );
 ?>
@@ -19,9 +19,10 @@ $this->breadcrumbs=array(
 	'columns'=>array(
 		'id',
 		'title',
-		'preview',
-		'link',
+		'alias',
+//		'preview',
 		'sort',
+
         array(            // display a column with "view", "update" and "delete" buttons
             'class'=>'CButtonColumn',
             'template'=>'{update}{delete}',

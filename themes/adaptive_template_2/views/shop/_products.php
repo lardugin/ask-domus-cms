@@ -1,21 +1,9 @@
 <? if($this->beginCache('shop__product_card', ['varyByParam'=>[$data->id]])): // cache begin ?>
 <?#=D::c(($index % 3 == 0), '<div>')?>
 <figure class="adaptive-product__item">
-	<div class="product adaptive-product<?=HtmlHelper::getMarkCssClass($data, array('sale','new','hit'))?>">
+	<div class="product adaptive-product">
 		<div class="product_img">
 		<?=CHtml::link(CHtml::image($data->mainImg, $data->alt_title?:$data->title, array('title'=>$data->alt_title?:$data->title)), Yii::app()->createUrl('shop/product', array('id'=>$data->id))); ?>
-		<?if(D::role('admin')): 
-			$this->widget('application.widget.imgCroper.imgCroper', array(
-				'params'=>array(
-			        'id'=>$data->id,
-			        'img'=>$data->getFullImg(true, false, '_s'),
-			        'model'=>'product',
-			        'modificator'=>'_s',
-			        'maxSize_h'=>false,
-			        'maxSize_w'=>false,
-			        'ratio'=>263.545/200
-			))); 
-		endif?>
 		</div>
     	<div class="product_name">
       	<figcaption>

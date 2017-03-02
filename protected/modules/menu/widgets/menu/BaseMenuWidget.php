@@ -102,6 +102,7 @@ abstract class BaseMenuWidget extends \CWidget
 		    $shop = $item['model']->options['model'] == 'shop';
 
 			if((!$level && $this->rootLimit) && ($i++ >=$this->rootLimit)) break;
+
 			$url = UrlHelper::createUrl($item['model'], $this->adminMode);
 
 			$html .= '<li';
@@ -129,6 +130,18 @@ abstract class BaseMenuWidget extends \CWidget
 			if(!empty($item['childs'])) {
 				$html .= $this->renderItems($item['childs'], ($level + 1), true);
 			}
+
+            if ($url == '/services') {
+                $html .= '<ul class="submenu">';
+
+                foreach (\Service::model()->findAll(['order' => 'sort']) as $service) {
+                    $html .= '<li>';
+                    $html .= \CHtml::link($service->title, ['site/service', 'id' => $service->id]);
+                    $html .= '</li>';
+                }
+
+                $html .= '</ul>';
+            }
 
 			if ($shop) {
 			    $html .= '<ul class="submenu">';
