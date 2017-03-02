@@ -5,7 +5,7 @@
   <div class="options">
     <div class="images">
 		<?$fMark=function($attrs) use (&$product, &$fMark) { return ($attr=array_shift($attrs)) ? ($product->$attr ? " {$attr}" : $fMark($attrs)) : ''; };?>
-        <div class="main-img<?=$fMark(array('sale','new','hit'))?>">
+        <div class="main-img">
             <?if($product->getFullImg(true)):?>
             	<?=CHtml::link(
             		CHtml::image($product->bigMainImg, $product->alt_title?:$product->title, array('title'=>$product->alt_title?:$product->title)), 

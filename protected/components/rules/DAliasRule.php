@@ -38,7 +38,7 @@ class DAliasRule extends CBaseUrlRule
      * @var array
      */
     public $modelDirs = [
-        'Service' => 'service/',
+        'Service' => 'services/',
         'Event' => 'news/',
     ];
 	
