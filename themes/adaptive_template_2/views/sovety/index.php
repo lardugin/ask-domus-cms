@@ -1,6 +1,7 @@
 <?php
 /**
  * @var $page Page
+ * @var $this SiteController
  */
 ?>
 
@@ -10,9 +11,12 @@
     <div class="left-col">
         <div class="left-menu-box">
             <div class="left-menu__heading">Делимся опытом</div>
+            <?php if($this->beginCache('advice_list')): ?>
             <?php $this->widget('widget.nested.MenuWidget'); ?>
+            <?php $this->endCache(); endif; ?>
         </div>
     </div>
+
     <div class="right-col">
         <div class="content">
             <p>В т.ч. выдачу ЭП, подбор закупок, анализ аукционной и конкурсной документации, подготовку первых и вторых частей заявок, оказываем юридическое сопровождение и предоставляем интересы в органах надзора, а также содействуем в финансовом обеспечении на всех этапах.</p>

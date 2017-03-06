@@ -28,14 +28,14 @@ function renderMenuItems($items, $level = 0) {
     foreach ($items as $item) {
         $htmlOptions = [];
 
-        if ($item['items']) {
+        if (!empty($item['items'])) {
             $htmlOptions['class'] = 'have-sub';
         }
 
         $html .= CHtml::openTag('li', $htmlOptions);
         $html .= CHtml::link($item['label'], $item['url'], $item['linkOptions']);
 
-        if ($item['items']) {
+        if (!empty($item['items'])) {
             $html .= renderMenuItems($item['items'], $level + 1);
         }
 

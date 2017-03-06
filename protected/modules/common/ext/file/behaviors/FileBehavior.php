@@ -332,16 +332,16 @@ class FileBehavior extends \CBehavior
 	{
 		return \Yii::getPathOfAlias('webroot') . Y::DS . $this->filePath;
 	}
-	
-	/**
-	 * Получить ссылку на файл
-	 * @param boolean $absolute возвратить абсолютный путь. 
-	 * По умолчанию (FALSE) возвращается относительный путь.
-	 * @param string $schema schema to use (e.g. http, https). If empty, the schema used for the current request will be used.
-	 * Требуется при создании абсолютного пути.
-	 * @return Ambigous <string, NULL> 
-	 * Если файла не существует, будет возвращено NULL.
-	 */
+
+    /**
+     * Получить ссылку на файл
+     * @param boolean $absolute возвратить абсолютный путь.
+     * По умолчанию (FALSE) возвращается относительный путь.
+     * @param string $schema schema to use (e.g. http, https). If empty, the schema used for the current request will be used.
+     * Требуется при создании абсолютного пути.
+     * @return null|string <string, NULL>
+     * Если файла не существует, будет возвращено NULL.
+     */
 	public function getSrc($absolute=false, $schema='')
 	{
 		if(is_file($this->getFilename(true))) {
