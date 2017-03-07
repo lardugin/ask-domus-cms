@@ -1,3 +1,13 @@
+<?php
+$services = '';
+
+foreach (Service::model()->findAll(['order' => 'sort']) as $service) {
+    $services .= CHtml::openTag('li');
+    $services .= CHtml::link($service->title, ['site/service', 'id' => $service->id]);
+    $services .= CHtml::closeTag('li');
+}
+?>
+
 <footer class="footer">
     <section class="container">
         <div class="row">
@@ -44,23 +54,17 @@
                     <div class="email-bottom"><a href="mailto:<?= D::cms('emailPublic') ?>"><?= D::cms('emailPublic') ?></a></div>
                 </div>
                 <div class="bottom-servise-menu">
-                    <?php
-                    $this->widget('\menu\widgets\menu\MenuWidget', array(
-                        'rootId' => 8,
-                        'cssClass' => 'servise-menu'
-                    ));
-                    ?>
+                    <ul class="servise-menu">
+                        <?= $services ?>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <?php
-                $this->widget('\menu\widgets\menu\MenuWidget', array(
-                    'rootId' => 8,
-                    'cssClass' => 'bottom-menu nav nav-justified'
-                ));
-                ?>
+                <ul class="bottom-menu nav nav-justified">
+                    <?= $services ?>
+                </ul>
             </div>
         </div>
     </section>

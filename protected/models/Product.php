@@ -15,6 +15,7 @@ use common\components\helpers\HYii as Y;
  * @property boolean $notexist
  * @property boolean $new
  * @property boolean $service_page
+ * @property boolean $inner_page
  * @property integer $ordering
  * @property CUploadedFile $mainImg
  * @property CUploadedFile $moreImg
@@ -86,7 +87,7 @@ class Product extends DActiveRecord
             array('alt_title', 'length', 'max'=>500),
             array('mainImg', 'file', 'allowEmpty'=>true, 'types'=>'jpg, jpeg, gif, png'),
             array('notexist, on_shop_index', 'boolean'),
-            array('description, moreImg, price, code, hidden, brand_id, service_page, subtitle', 'safe')
+            array('description, moreImg, price, code, hidden, brand_id, service_page, subtitle, inner_page', 'safe')
         ));
     }
 
@@ -268,6 +269,7 @@ class Product extends DActiveRecord
             'service_page'=>'Отображать в услугах',
             'brand_id'=>'Бренд',
             'subtitle' => 'Подзаголовок',
+            'inner_page' => 'Переходить на внутреннюю страницу',
         ));
     }
 
@@ -281,14 +283,20 @@ class Product extends DActiveRecord
         return $categories;
     }
 
-    public function search()
+    public function search($returnCriteria = false, $category_id = false, $index = null)
     {
         $criteria=new CDbCriteria;
+        $criteria->index = $index;
         $criteria->with=array('productAttributes');
         $price_from = Yii::app()->getRequest()->getQuery('price_from');
         $price_to = Yii::app()->getRequest()->getQuery('price_to');
         $ftitle = Yii::app()->getRequest()->getQuery('f_title');
         $cat_id = Yii::app()->getRequest()->getQuery('id');
+
+        if ($category_id) {
+            $cat_id = $category_id;
+        }
+
         $data_json = Yii::app()->getRequest()->getQuery('data');
         $brandId=Y::request()->getQuery('brand_id');
 
@@ -327,7 +335,7 @@ class Product extends DActiveRecord
         }
 
         $categoryIDs=[];
-        $category = Category::model()->findByPK($cat_id);
+        $category = Category::model()->findByPk($cat_id);
         $descendantsLevel=(int)D::cms('shop_category_descendants_level');
         if($category && $descendantsLevel) {
         	$descendants=$category->descendants($descendantsLevel)->findAll(['index'=>'id', 'select'=>'id']);
@@ -341,7 +349,7 @@ class Product extends DActiveRecord
         
         // обязательно после mergeWith(OR), иначе выборка будет не верной.
         if(!empty($brandId)) {
-        	$criteria->AddColumnCondition(['brand_id'=>$brandId]);
+        	$criteria->addColumnCondition(['brand_id'=>$brandId]);
         }
 
         $criteria->compare('id',$this->id);
@@ -355,8 +363,13 @@ class Product extends DActiveRecord
         $criteria->mergeWith($modelProduct->scopeSort('shop_category', $cat_id)->getDbCriteria());
         $modelProduct=new Product;
         $criteria->mergeWith($modelProduct->hitOnTop()->getDbCriteria());
-        $order=$criteria->order;
-        $criteria->order=null;
+        $order = $criteria->order;
+        $criteria->order = '';
+
+        if ($returnCriteria) {
+            return $criteria;
+        }
+
         return new CActiveDataProvider($this, array(
             'criteria'=>$criteria,
             'pagination'=>array(
@@ -509,14 +522,6 @@ class Product extends DActiveRecord
     public function getFullImg($bool = false, $withTime = true)
     {
         $image = $this->id .'.' .$this->ext;
-        /*if (!$withTime){
-            if (is_file($this->path .DS. $image)){
-            return $this->id .'.' .$this->ext;
-            }
-            else{
-                return false;
-            }
-        }*/
         if (is_file($this->path .DS. $image)) {
             if ($bool) {
                 return true;

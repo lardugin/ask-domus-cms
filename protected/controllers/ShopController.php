@@ -19,51 +19,56 @@ class ShopController extends Controller
     {
         $settings = \Yii::app()->settings->get('ShopSettings');
 
-    	$this->seoTags(array(
+        $this->seoTags(array(
 			'meta_h1' => $settings['meta_h1'] ? : $this->getHomeTitle(),
 			'meta_title' => $settings['meta_title'] ? : $this->getHomeTitle(),
 			'meta_key' => $settings['meta_key'],
 			'meta_desc' => $settings['meta_desc'],
 		));
-        
-        $dataProvider=Product::model()
-        	->onShopIndex()
-        	->visibled()
-        	->cardColumns()
-        	->scopeSort('shop_category')
-        	->getDataProvider([], ['pageSize' => 15, 'pageVar'=>'p']);
-        
+
+        $criteria = new CDbCriteria();
+        $criteria->addCondition('((`t`.`hidden` <> 1) OR ISNULL(`t`.`hidden`))');
+        $criteria->select = '`t`.`id`, `t`.`category_id`, title, code, price, alt_title, link_title, notexist, `t`.`subtitle`';
+        $criteria->order = '`t`.`ordering`';
+
+        $count = Product::model()->count($criteria);
+
+        $pages = new CPagination($count);
+        $pages->pageSize = 12;
+        $pages->applyLimit($criteria);
+
+        $products = Product::model()->findAll($criteria);
+
        	$this->breadcrumbs->add($this->getHomeTitle());
-        $this->render('shop', compact('dataProvider', 'settings'));
+        $this->render('shop', compact('products', 'settings', 'pages'));
     }
 
     public function actionCategory($id)
     {
         $category = $this->loadModel('Category', $id);
-        
-        $model = new Product('search');
-        $model->unsetAttributes();  // clear any default values
-        if(isset($_GET['Product']))
-        	$model->attributes=$_GET['Product'];
-        
-        if(\Yii::app()->request->isAjaxRequest) {
-        	$this->renderPartial('_products_listview', compact('model', 'category'), false, true);
-        }
-        else {
-        	$brand=null;
-        	if($brandId=Y::request()->getQuery('brand_id')) {
-        		$brand=Brand::model()->actived()->previewColumns()->findByPk($brandId);
-        	}
 
-        	$this->prepareSeo($category->title);
-	        $this->seoTags($category);
-	        ContentDecorator::decorate($category, 'description');
+        $criteria = Product::model()->search(true);
 
-	        $this->breadcrumbs->add($this->getHomeTitle(), '/shop');
-	        $this->breadcrumbs->addByNestedSet($category, '/shop/category');
-	        $this->breadcrumbs->add($category->title);
-	        
-	        $this->render('category', compact('model', 'category', 'brand') );
+        $count = Product::model()->count($criteria);
+
+        $pages = new CPagination($count);
+        $pages->pageSize = 12;
+        $pages->applyLimit($criteria);
+
+        $products = Product::model()->findAll($criteria);
+
+        $this->prepareSeo($category->title);
+        $this->seoTags($category);
+        ContentDecorator::decorate($category, 'description');
+
+        $this->breadcrumbs->add($this->getHomeTitle(), '/shop');
+        $this->breadcrumbs->addByNestedSet($category, '/shop/category');
+        $this->breadcrumbs->add($category->title);
+
+        if (\Yii::app()->request->isAjaxRequest) {
+            $this->renderPartial('ajax_category', compact('products', 'category', 'pages') );
+        } else {
+            $this->render('category', compact('products', 'category', 'pages') );
         }
     }
 

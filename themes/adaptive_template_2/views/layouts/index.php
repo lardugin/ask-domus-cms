@@ -38,22 +38,11 @@
 						<div class="portfolio">
 							<?php foreach (Product::model()->visibled()->onShopIndex()->scopeSort('shop_category')->findAll() as $product): ?>
 								<?/** @var $product Product */?>
-								<div class="portfolio__item">
-									<a href="<?= $product->getFullImg() ?>" class="fancybox" rel="product-<?= $product->id ?>">
-										<img src="<?= ResizeHelper::resize($product->getFullImg(false, false), 368, 260) ?>" alt="<?= $product->title ?>">
-										<div class="portfolio-mask">
-											<div class="mask__inner">
-												<div class="portfolio-mask__heading"><?= $product->title ?></div>
-												<div class="portfolio-mask__square"><?= $product->subtitle ?> м<sup>2</sup></div>
-											</div>
-										</div>
-									</a>
-									<div class="hidden">
-										<?php foreach ($product->getMoreImages() as $moreImage): ?>
-											<a href="<?= $moreImage->getUrl() ?>" rel="product-<?= $product->id ?>" class="fancybox"></a>
-										<?php endforeach; ?>
-									</div>
-								</div>
+								<?php
+								$this->renderPartial('//shop/_products', [
+									'data' => $product,
+								]);
+								?>
 							<?php endforeach; ?>
 						</div>
 					</div>

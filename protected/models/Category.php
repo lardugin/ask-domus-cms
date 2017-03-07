@@ -1,4 +1,5 @@
 <?php
+use common\components\helpers\HDb;
 
 /**
  * This is the model class for table "category".
@@ -9,8 +10,6 @@
  * @property string $description
  * @property integer $ordering
  */
-use common\components\helpers\HDb;
-
 class Category extends DActiveRecord
 {
     public function behaviors()

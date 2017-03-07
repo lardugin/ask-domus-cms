@@ -151,6 +151,17 @@ $(document).ready(function(){
 		});
 	}
 
+	// Слайдер проектов на главной странице.
+	if ($('#object-slider').length){
+		$('#object-slider').bxSlider({
+			auto: false,
+			autoHover: true,
+			// adaptiveHeight: true,
+			prevSelector  : ".object-slider_control",
+			nextSelector : ".object-slider_control",
+			useCSS: false
+		});
+	}
 
 	// Вопрос - Ответ.
 	if ($('.fag-accordion').length) {

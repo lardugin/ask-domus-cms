@@ -48,8 +48,12 @@
     }
 }
 
-.page-pager__prev,
-.page-pager__next {
+.page-pager .page-pager__prev,
+.page-pager .page-pager__next {
+    position: relative;
+    top: 1px;
+    font-size: 12px;
+
     a {
         position: relative;
         top: 1px;
@@ -57,7 +61,7 @@
         font-family: 'Glyphicons Halflings';
         font-style: normal;
         font-weight: normal;
-        line-height: 1;
+        line-height: 40px;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }

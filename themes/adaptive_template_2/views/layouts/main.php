@@ -73,9 +73,6 @@
 									?>
 								</div>
 							</nav>
-							<!--<div class="top-hiden__phone-button">
-								<a href="tel:+7 (495) 220-38-44" class="button">+7 (495) 220-38-44</a>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -120,6 +117,12 @@ $this->renderPartial('//site/partial/_footer');
 <script src="/js/jquery.fancybox.pack.js"></script>
 <script src="/js/jquery.bxslider.min.js"></script>
 <script src="/js/scripts.js"></script>
+
+<script src="/js/jquery.pjax.js"></script>
+
+<script>
+	$(document).pjax('.pjax-links a', '#page-inner-content')
+</script>
 
 <?= D::cms('counter') ?>
 

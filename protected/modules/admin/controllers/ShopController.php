@@ -37,7 +37,7 @@ class ShopController extends AdminController
     public function actionIndex()
     {
         $categories = $this->getCategories();
-        $products   = Product::model()->onShopIndex()->scopeSort('shop_category')->findAll();
+        $products   = Product::model()->scopeSort('shop_category')->findAll();
         $this->render('index', compact('categories', 'products'));
     }
 

@@ -1,33 +1,60 @@
 <?php
 /**
- * @var $settings array
+ * @var $products Product[]
+ * @var $pages CPagination
  */
+
+use settings\components\helpers\HSettings;
+$settings = HSettings::getById('shop');
 ?>
 
-<h1 class="heading"><?= $settings['meta_h1'] ? : D::shop('meta_h1', D::cms('shop_title',Yii::t('shop','shop_title')))?></h1>
+<h1 class="heading"><?= $settings->meta_h1 ?: D::cms('shop_title',Yii::t('shop','shop_title')) ?></h1>
 
 <div class="inner-page">
     <div class="portfolio-page">
-        <div class="work" id="work">
-            <div class="work__tab-list">
-                <div class="work__tab-item active"><a href="javascript:;">Квартиры</a></div>
-                <div class="work__tab-item"><a href="javascript:;">Загородные дома</a></div>
-                <div class="work__tab-item"><a href="javascript:;">Кухни</a></div>
-                <div class="work__tab-item"><a href="javascript:;">Кабинеты</a></div>
-                <div class="work__tab-item"><a href="javascript:;">Гостиные</a></div>
-                <div class="work__tab-item"><a href="javascript:;">Спальни</a></div>
-                <div class="work__tab-item"><a href="javascript:;">Прихожии</a></div>
-                <div class="work__tab-item"><a href="javascript:;">Детские</a></div>
-                <div class="work__tab-item"><a href="javascript:;">Ванные и санузлы</a></div>
-            </div>
+        <div class="work" id="work-disabled">
+            <?php
+            $this->renderPartial('//shop/_category_list', [
+                'checkActive' => false,
+            ]);
+            ?>
             <div class="work__cont-list">
-                <?php #include "work/rooms.php"; ?> <!-- Квартиры -->
-                <?php #nclude "work/house.php"; ?> <!-- Загородные дома -->
+                <div class="clearfix">
+                    <?php foreach ($products as $product): ?>
+                        <?php
+                        $this->renderPartial('//shop/_products', [
+                            'data' => $product,
+                        ]);
+                        ?>
+                    <?php endforeach; ?>
+                </div>
             </div>
         </div>
+
+        <?php $this->widget('DLinkPager', array(
+            'header' => '',
+            'pages' => $pages,
+            'internalPageCssClass' => '',
+            'firstPageCssClass' => 'hidden',
+            'lastPageCssClass' => 'hidden',
+            'nextPageLabel' => '',
+            'prevPageLabel' => '',
+            'nextPageCssClass' => 'page-pager__next',
+            'previousPageCssClass' => 'page-pager__prev',
+            'selectedPageCssClass' => 'active',
+            'hiddenPageCssClass' => 'disabled',
+            'cssFile' => false,
+            'htmlOptions' => array('class'=>'page-pager')
+        )); ?>
     </div>
 
     <div class="content">
-        <?= $settings['main_text'] ?>
+        <?php if($settings->main_text): ?>
+            <div id="category-description" class="category-description"><?=$settings->main_text?></div>
+        <?php endif; ?>
     </div>
 </div>
+
+
+
+
