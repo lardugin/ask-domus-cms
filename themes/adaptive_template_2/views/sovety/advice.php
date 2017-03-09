@@ -1,6 +1,7 @@
 <?php
 /**
  * @var $model Advice
+ * @var $this SovetyController
  */
 ?>
 
@@ -10,9 +11,11 @@
 	<div class="left-col">
 		<div class="left-menu-box">
 			<div class="left-menu__heading">Делимся опытом</div>
-			<?php if($this->beginCache('advice_list')): ?>
-				<?php $this->widget('widget.nested.MenuWidget'); ?>
-				<?php $this->endCache(); endif; ?>
+			<?php if($this->beginCache('advice_list_item', ['id' => $model->id])): ?>
+				<?php $this->widget('widget.nested.MenuWidget', [
+					'activeCategory' => $model->category_id,
+				]); ?>
+			<?php $this->endCache(); endif; ?>
 		</div>
 	</div>
 

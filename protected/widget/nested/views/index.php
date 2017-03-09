@@ -27,10 +27,16 @@ function renderMenuItems($items, $level = 0, $menuClass = '') {
     $html .= CHtml::openTag('ul', $ulOptions);
 
     foreach ($items as $item) {
-        $htmlOptions = [];
+        $htmlOptions = [
+            'class' => '',
+        ];
 
         if (!empty($item['items'])) {
             $htmlOptions['class'] = 'have-sub';
+        }
+
+        if (isset($item['itemOptions']['class'])) {
+            $htmlOptions['class'] = $htmlOptions['class'] . ' ' . $item['itemOptions']['class'];
         }
 
         $html .= CHtml::openTag('li', $htmlOptions);

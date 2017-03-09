@@ -9,6 +9,7 @@
  * @property string $alias
  * @property string $description
  * @property integer $category_id
+ * @property AdviceCategory $category
  */
 class Advice extends DActiveRecord
 {

@@ -69,7 +69,9 @@ class SovetyController extends Controller
 
         $this->breadcrumbs->add('Советы', '/sovety');
         $this->breadcrumbs->addByNestedSet($category, '/sovety/category');
-        $this->breadcrumbs->add($model->title, array('/sovety/category', 'id' => $category->id));
+        $this->breadcrumbs->add($model->category->title, [
+            '/sovety/category', 'id' => $category->id,
+        ]);
         $this->breadcrumbs->add($model->title);
 
         $this->render('advice', [
