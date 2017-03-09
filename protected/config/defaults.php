@@ -152,6 +152,7 @@ return array(
 	),
 
 	'params'=>array(
+	    'localauth' => true,
 		'clientCombineScriptFiles'=>false,
 		'uploadSettingsPath' => '/files/settings/',
 		'adaptiveTemplate'=>true,

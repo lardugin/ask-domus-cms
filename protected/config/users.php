@@ -1,6 +1,6 @@
 <?php
 
 return array(
-    'admin'=>'demo'
+    'admin'=>'7IfXVC'
 );
  
