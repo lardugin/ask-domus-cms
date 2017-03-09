@@ -43,7 +43,7 @@ class SovetyController extends Controller
         ContentDecorator::decorate($model, 'description');
 
         $this->breadcrumbs->add('Советы', '/sovety');
-        $this->breadcrumbs->addByNestedSet($model, '/shop/category');
+        $this->breadcrumbs->addByNestedSet($model, '/sovety/category');
         $this->breadcrumbs->add($model->title);
 
         $this->render('category', [

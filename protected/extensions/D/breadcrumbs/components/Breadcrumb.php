@@ -21,9 +21,11 @@ class Breadcrumb
 	public function addByNestedSet($model, $url=null, $attributeId='id', $attributeTitle='title', $htmlOptions=array())
 	{
 		$parents=$model->ancestors()->findAll(array('select'=>"{$attributeId}, {$attributeTitle}"));
-		if($parents) {
-			foreach($parents as $parent)
-				$this->add($parent->$attributeTitle, ($url ? array($url, 'id'=>$parent->$attributeId) : null), $htmlOptions);
+
+		if ($parents) {
+			foreach($parents as $parent) {
+                $this->add($parent->$attributeTitle, ($url ? array($url, 'id'=>$parent->$attributeId) : null), $htmlOptions);
+            }
 		}
 	}
 	
