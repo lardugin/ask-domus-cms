@@ -16,7 +16,7 @@ Y::js('feedback'.$this->getHash(),
 		'enableAjaxValidation' => true,
 		'clientOptions' => array(
 			'validateOnSubmit' => true,
-			'validateOnChange' => false,
+			'validateOnChange' => true,
 			'afterValidate' => 'js:feedback' . $this->getHash() . '.afterValidate',
             'errorMessageCssClass' => 'mui-error',
         ),
