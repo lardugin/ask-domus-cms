@@ -325,7 +325,7 @@ class DApi extends \CComponent
 	 */
 	private function _installDb()
 	{
-        if (!Yii::app()->db->schema->getTable('settings')) {
+        /*if (!Yii::app()->db->schema->getTable('settings')) {
             $db_schema = Yii::getPathOfAlias('application.data').DS.'install.sql';
 
             if (!is_file($db_schema)) {
@@ -333,7 +333,7 @@ class DApi extends \CComponent
             }
 
             Yii::app()->db->createCommand(file_get_contents($db_schema))->execute();
-        }
+        }*/
 		
         // накатываем миграции
         // @todo add cache
