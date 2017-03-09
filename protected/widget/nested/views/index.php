@@ -6,9 +6,10 @@
 /**
  * @param $items array
  * @param $level int
+ * @param $menuClass string
  * @return string
  */
-function renderMenuItems($items, $level = 0) {
+function renderMenuItems($items, $level = 0, $menuClass = '') {
     $html = '';
 
     $ulOptions = [];
@@ -16,7 +17,7 @@ function renderMenuItems($items, $level = 0) {
     if ($level) {
         $ulOptions['class'] = 'sub-menu__' . $level;
     } else {
-        $ulOptions['class'] = 'left-menu';
+        $ulOptions['class'] = $menuClass;
     }
 
     if ($level > 1) {
@@ -52,4 +53,4 @@ function renderMenuItems($items, $level = 0) {
 }
 ?>
 
-<?php echo renderMenuItems($items); ?>
+<?php echo renderMenuItems($items, 0, $this->menuClass); ?>

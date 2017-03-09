@@ -18,6 +18,11 @@ class SiteController extends Controller
 	}
 
     public function actionSitemap() {
+        $title = 'Карта сайта';
+
+        $this->prepareSeo($title);
+        $this->breadcrumbs->add($title);
+
         $this->render('sitemap');
     }
 

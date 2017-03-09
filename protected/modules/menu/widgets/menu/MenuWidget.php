@@ -23,6 +23,8 @@ class MenuWidget extends BaseMenuWidget
 	 */
 	public $rootId = null;
 
+    public $sovety = false;
+
 	/**
 	 * Plugin options
 	 * @var array

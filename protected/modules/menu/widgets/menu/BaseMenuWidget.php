@@ -119,7 +119,6 @@ abstract class BaseMenuWidget extends \CWidget
 				$class .= ' active';
 			}
 
-
 			if($class) {
                 $html .= ' class="' . $class . '"';
             }
@@ -131,7 +130,7 @@ abstract class BaseMenuWidget extends \CWidget
 				$html .= $this->renderItems($item['childs'], ($level + 1), true);
 			}
 
-            if ($url == '/services') {
+            if ($url == '/uslugi') {
                 $html .= '<ul class="submenu">';
 
                 foreach (\Service::model()->findAll(['order' => 'sort']) as $service) {
@@ -141,6 +140,12 @@ abstract class BaseMenuWidget extends \CWidget
                 }
 
                 $html .= '</ul>';
+            }
+
+            if ($this->sovety && $url == '/sovety') {
+                $html .= $this->widget('widget.nested.MenuWidget', [
+                    'menuClass' => '',
+                ], true);
             }
 
 			if ($shop) {

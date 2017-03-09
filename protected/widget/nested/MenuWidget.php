@@ -3,6 +3,8 @@
 
 class MenuWidget extends CWidget
 {
+    public $menuClass = 'left-menu';
+
     private $_items;
 
     public function run()
