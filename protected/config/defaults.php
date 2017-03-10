@@ -45,7 +45,7 @@ return array(
 				]
 			]
 		],
-        'gii'=>array(
+        /*'gii'=>array(
              'class'=>'system.gii.GiiModule',
              'password'=>'1',
              'generatorPaths'=>array(
@@ -54,7 +54,7 @@ return array(
               'ipFilters'=>false,
              // 'newFileMode'=>0666,
              // 'newDirMode'=>0777,
-         ),
+         ),*/
 	),
 
 	// application components
