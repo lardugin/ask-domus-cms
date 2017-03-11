@@ -188,7 +188,7 @@ class SiteController extends Controller
         $this->seoTags($service);
         ContentDecorator::decorate($service, 'description');
 
-        $this->breadcrumbs->add('Услуги', ['/services'], true);
+        $this->breadcrumbs->add('Услуги', ['/uslugi'], true);
         $this->breadcrumbs->add($service->title, array(), true);
 
         $this->render('service', [

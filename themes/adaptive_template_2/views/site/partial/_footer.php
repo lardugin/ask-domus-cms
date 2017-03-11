@@ -30,7 +30,7 @@ foreach (Service::model()->findAll(['order' => 'sort']) as $service) {
                     Все права защищены.
                 </div>
                 <div class="site-map">
-                    <a href="javascript:;">Карта сайта</a>
+                    <a href="/sitemap">Карта сайта</a>
                 </div>
             </div>
             <div class="col-sm-4">
