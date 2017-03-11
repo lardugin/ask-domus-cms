@@ -9,6 +9,7 @@ return array(
 		'widget'=>'application.widget',
 		'widgets'=>'application.widget',
  		'reviews'=>'application.modules.reviews',
+ 		'feedback'=>'application.modules.feedback',
 	),
 
 	'import'=>array(
