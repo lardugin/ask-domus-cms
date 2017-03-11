@@ -4,4 +4,4 @@
 
 <div class="clearfix"></div>
 <br>
-<?=HtmlHelper::linkBack('Назад', '/news', '/news')?>
+<?=HtmlHelper::linkBack('Назад', '/novosti', '/novosti')?>

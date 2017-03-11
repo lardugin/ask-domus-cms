@@ -36,8 +36,8 @@ return array(
 
     array('class'=>'application.components.rules.DAliasRule'),
 //	['class'=>'\reviews\components\rules\ReviewsRule'],
-    'news/<id:\d+>'=>'site/event',
-    'news'=>'site/events',
+    'novosti/<id:\d+>'=>'site/event',
+    'novosti'=>'site/events',
 	'sale'=>'sale/list',
 	'sale/index'=>'sale/list',
 	'sale/<id:\d+>'=>'sale/view',

@@ -31,7 +31,7 @@ class UrlHelper extends \CComponent
 							}
 							$url = 'cp/' . $optionModel;
 						} else {
-							return '/news';
+							return '/novosti';
 						}
 						break;
 					case 'page':

@@ -102,7 +102,7 @@ class SiteController extends Controller
         $this->prepareSeo($event->title);
         ContentDecorator::decorate($event);
         
-        $this->breadcrumbs->add($this->getEventHomeTitle(), '/news');
+        $this->breadcrumbs->add($this->getEventHomeTitle(), '/novosti');
         $this->breadcrumbs->add($event->title);
         
         $this->render('event', compact('event'));
