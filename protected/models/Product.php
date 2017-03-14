@@ -33,7 +33,7 @@ class Product extends DActiveRecord
     protected $sizes = array(
         'full'=>array(
             'suffix'=>'',
-            'size'=>1000,
+            'size'=>1400,
             'masterSize'=>4
         ),
         'big'=>array(

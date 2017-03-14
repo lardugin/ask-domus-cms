@@ -189,7 +189,7 @@
 					</div>
 				</div>
 				<div class="price__action-text">
-					<p>Скидка дейсвует в период с 5.02.17 по 31.03.17</p>
+					<p>Скидка дейсвтует в период с 5.02.17 по 31.03.17</p>
 				</div>
 				<div class="button-more-center">
 					<a href="<?= Yii::app()->createUrl('site/page', ['id' => 2]) ?>" class="button button_green button_arrow">Подробнее о ценах</a>
