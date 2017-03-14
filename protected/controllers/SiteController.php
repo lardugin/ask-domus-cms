@@ -314,8 +314,131 @@ class SiteController extends Controller
         }
     }
 
+    public function actionSovetyCsv()
+    {
+        die;
+        set_time_limit(600); // 10 minutes
+
+        function check404url($url)
+        {
+            $handle = curl_init($url);
+            curl_setopt($handle,  CURLOPT_RETURNTRANSFER, TRUE);
+
+            $response = curl_exec($handle);
+
+            $httpCode = curl_getinfo($handle, CURLINFO_HTTP_CODE);
+
+            curl_close($handle);
+
+            return $httpCode == 404;
+        }
+
+        $file = $_SERVER['DOCUMENT_ROOT'] . '/bitrix/export_file_901383.csv';
+
+        $file_name = 'sovety_url.csv';
+
+        header('Content-Type: text/csv; charset=utf-8');
+        header("Content-disposition: attachment; filename=\"".$file_name."\"");
+
+        // create a file pointer connected to the output stream
+        $output = fopen('php://output', 'w');
+
+        // output the column headings
+        $labels = [
+            0 => 'Название',
+            1 => 'Старый URI',
+            2 => 'Новый URI',
+            3 => 'Ошибка (требует ручной настройки)',
+        ];
+
+        foreach ($labels as &$label) {
+            $label = $this->toWindows1251($label);
+        }
+
+        unset($label);
+
+        fputcsv($output, $labels, ';');
+
+        if (($handle = fopen($file, "r")) !== false) {
+            $i = 0;
+
+            while (($row = fgetcsv($handle, 10000, ";")) !== false) {
+                if (!$i++) {
+                    continue;
+                }
+
+                $rowCSV = [];
+                $error = 0;
+
+                $alias = $row[12];
+
+                $categoryID = $this->findAdviceCategory([$row[22], $row[23], $row[24]], true);
+
+                $criteria = new CDbCriteria();
+
+                $criteria->addCondition('category_id = ' . $categoryID);
+
+                if (!$categoryID) {
+                    $rowCSV[] = [
+                        $row[1] . ' (' . $row[1] . ')',
+                        '',
+                        '',
+                        $error
+                    ];
+                } else {
+                    $criteria->compare('alias', $alias, true);
+
+                    $advice = Advice::model()->findAll($criteria);
+
+                    if (count($advice) != 1) {
+                        $criteria = new CDbCriteria();
+
+                        $criteria->addCondition('category_id = ' . $categoryID);
+                        $criteria->compare('alias', $alias);
+
+                        $advice = Advice::model()->findAll($criteria);
+
+                        if (count($advice) != 1) {
+                            $rowCSV[] = [
+                                $row[1] . ' (' . $row[1] . ')',
+                                '',
+                                '',
+                                $error
+                            ];
+                        }
+                    }
+
+                    $advice = $advice[0];
+
+                    $urlBefore = '/sovety/' . $advice->category->alias . '/' . $advice->alias . '.html';
+                    $urlAfter = Yii::app()->createUrl('sovety/advice', ['id' => $advice->id]);
+
+                    if (check404url('http://ask-domus.ru' . $urlBefore)) {
+                        $error = 1;
+                    }
+
+                    $rowCSV = [
+                        $advice->title,
+                        $urlBefore,
+                        $urlAfter,
+                        $error,
+                    ];
+
+                    foreach ($rowCSV as &$rowEl) {
+                        $rowEl = $this->toWindows1251($rowEl);
+                    }
+
+                    unset($rowEl);
+
+                    fputcsv($output, $rowCSV, ';');
+                }
+            }
+        }
+    }
+
     public function actionImportSovety()
     {
+        die;
         /*
         [0] => IE_XML_ID
         [1] => IE_NAME
@@ -360,7 +483,7 @@ class SiteController extends Controller
                     continue;
                 }
 
-                $categoryID = $this->findAdviceCategory([$row[22], $row[23], $row[24]]);
+                $categoryID = $this->findAdviceCategory([$row[22], $row[23], $row[24]], false);
 
                 if (!$categoryID) {
                     print_r($row[1]);
@@ -394,7 +517,7 @@ class SiteController extends Controller
         fclose($handle);
     }
 
-    protected function findAdviceCategory($categories)
+    protected function findAdviceCategory($categories, $checkExist = false)
     {
         $category_id = false;
         $root = false;
@@ -415,6 +538,10 @@ class SiteController extends Controller
                 }
 
                 $category = AdviceCategory::model()->find($criteria);
+
+                if ($checkExist && !$category) {
+                    return false;
+                }
 
                 if (!$category) {
                     $category = new AdviceCategory();
