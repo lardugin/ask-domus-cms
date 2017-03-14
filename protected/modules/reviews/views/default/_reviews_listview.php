@@ -14,7 +14,6 @@ $this->widget('\common\widgets\listing\SizerListView', array(
  	'pager'=>array(
  		'class' => 'DLinkPager',
 		'header' => '',
-		'pages' => $pages,
 		'internalPageCssClass' => '',
 		'firstPageCssClass' => 'hidden',
 		'lastPageCssClass' => 'hidden',

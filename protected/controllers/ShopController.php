@@ -28,7 +28,7 @@ class ShopController extends Controller
 
         $criteria = new CDbCriteria();
         $criteria->addCondition('((`t`.`hidden` <> 1) OR ISNULL(`t`.`hidden`))');
-        $criteria->select = '`t`.`id`, `t`.`category_id`, title, code, price, alt_title, link_title, notexist, `t`.`subtitle`';
+        $criteria->select = '`t`.`id`, `t`.`category_id`, title, code, price, alt_title, link_title, notexist, `t`.`subtitle`, `t`.`inner_page`';
         $criteria->order = '`t`.`ordering`';
 
         $count = Product::model()->count($criteria);

@@ -449,9 +449,14 @@ class HYii
 		if(!is_array($files)) $files = array($files);
 			
 		$cs = \Yii::app()->clientScript;
-		foreach ($files as $file)
-			if(!empty($file)) $cs->$method($file);
-	
+		foreach ($files as $file) {
+		    if ($method == 'registerScriptFile') {
+                if(!empty($file)) $cs->$method($file, \CClientScript::POS_END);
+            } else {
+                if(!empty($file)) $cs->$method($file);
+            }
+        }
+
 		return;
 	}
 	

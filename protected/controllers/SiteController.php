@@ -456,6 +456,90 @@ class SiteController extends Controller
         return $category_id;
     }
 
+    public function actionSaveReviews()
+    {
+        die;
+
+        function getHtmlFromUrl($base) {
+            $curl = curl_init();
+
+            curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+            curl_setopt($curl, CURLOPT_HEADER, false);
+            curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
+            curl_setopt($curl, CURLOPT_URL, $base);
+            curl_setopt($curl, CURLOPT_REFERER, $base);
+            curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
+            $str = curl_exec($curl);
+            curl_close($curl);
+
+            return $str;
+
+        }
+
+        $months = [
+            'Января'    => '-1-',
+            'Февраля'   => '-2-',
+            'Марта'     => '-3-',
+            'Апреля'    => '-4-',
+            'Мая'       => '-5-',
+            'Июня'      => '-6-',
+            'Июля'      => '-7-',
+            'Августа'   => '-8-',
+            'Сентября'  => '-9-',
+            'Октября'   => '-10-',
+            'Ноября'    => '-11-',
+            'Декабря'   => '-12-',
+        ];
+
+        require($_SERVER['DOCUMENT_ROOT'] . '/simple_html_dom.php');
+
+        $str = getHtmlFromUrl('http://ask-domus.ru/about/otzyvy.html');
+
+        $html_base = new simple_html_dom();
+
+        $html_base->load($str);
+
+        $reviews = [];
+
+        foreach ($html_base->find('.reviews-post-table') as $reviewTable) {
+            $review = [];
+
+            $review['title'] = $reviewTable->find('.authorname', 0)->plaintext;
+            $review['date'] = $reviewTable->find('.message-post-date', 0)->plaintext;
+            $review['text'] = $reviewTable->find('.reviews-text', 0)->plaintext;
+
+            $review['date'] = strtr($review['date'], $months);
+
+            $review['date'] = preg_replace('/\s+/', '', $review['date']);
+
+            $review['date'] = explode('-', $review['date']);
+
+            array_walk($review['date'], function(&$item) {
+                if ($item < 10) {
+                    $item = '0' . $item;
+                }
+            });
+
+            $review['date'] = implode('-', array_reverse($review['date']));
+
+            $review['date'] = $review['date'] . ' 00:00:00';
+
+            $reviews[] = $review;
+        }
+
+        foreach (array_reverse($reviews) as $review) {
+            $reviewModel = new \reviews\models\Review('frontend_insert');
+
+            $reviewModel->author = $review['title'];
+            $reviewModel->detail_text = $review['text'];
+            $reviewModel->create_time = $review['date'];
+
+            $reviewModel->published = 1;
+
+            $reviewModel->save();
+        }
+    }
+
     /**
      * @param $string string
      * @return string

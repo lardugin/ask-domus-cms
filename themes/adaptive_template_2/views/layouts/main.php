@@ -6,8 +6,6 @@
 	<?= Y::getHeadScripts(); ?>
 	<?php
 		CmsHtml::head();
-
-		Y::runLoader();
 	?>
 	
 	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
@@ -105,6 +103,10 @@
 
 <?php
 $this->renderPartial('//site/partial/_footer');
+?>
+
+<?php
+Y::runLoader();
 ?>
 
 <script src="/js/bootstrap.min.js"></script>

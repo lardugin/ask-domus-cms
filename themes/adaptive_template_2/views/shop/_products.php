@@ -7,7 +7,12 @@ $innerPage = $data->inner_page;
 ?>
 
 <div class="portfolio__item">
-    <a href="<?= $innerPage ? Yii::app()->createUrl('shop/product', ['id' => $data->id]) : $data->getFullImg() ?>" class="<?= $innerPage ? 'fancybox-disabled' : 'fancybox' ?>" rel="product-<?= $data->id ?>">
+    <a
+        href="<?= $innerPage ? Yii::app()->createUrl('shop/product', ['id' => $data->id]) : $data->getFullImg() ?>"
+        title="<?= $data->title ?>"
+        class="<?= $innerPage ? 'fancybox-disabled' : 'fancybox' ?>"
+        rel="product-<?= $data->id ?>"
+    >
         <img src="<?= ResizeHelper::resize($data->getFullImg(false, false), 368, 260) ?>" alt="<?= $data->title ?>">
         <div class="portfolio-mask">
             <div class="mask__inner">
@@ -20,7 +25,7 @@ $innerPage = $data->inner_page;
     <?php if (!$innerPage): ?>
     <div class="hidden">
         <?php foreach ($data->getMoreImages() as $moreImage): ?>
-            <a href="<?= $moreImage->getUrl() ?>" rel="product-<?= $data->id ?>" class="fancybox"></a>
+            <a href="<?= $moreImage->getUrl() ?>" rel="product-<?= $data->id ?>" title="<?= $moreImage->description ?>" class="fancybox"></a>
         <?php endforeach; ?>
     </div>
     <?php endif; ?>

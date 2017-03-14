@@ -156,6 +156,7 @@ class AdviceCategory extends DActiveRecord
 
         $criteria->addInCondition('`t`.`category_id`', $categoryIDs);
         $criteria->select = '`t`.`id`, `t`.`id`, `t`.`title`';
+        $criteria->order = 'title';
 
         return Advice::model()->findAll($criteria);
     }
