@@ -82,6 +82,7 @@
 		<div class="info-box">
 			<section class="container">
 				<h1 class="info__heading"><?= strip_tags(D::cms('slogan'), '<br><br/>') ?></h1>
+                <div class="info__heading info__heading_strip">квартир и загородных домов</div>
 				<div class="info__heading_min">От идеи до реализации</div>
 				<div class="info__form">
 					<?php

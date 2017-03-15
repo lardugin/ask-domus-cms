@@ -310,10 +310,10 @@
 				<div class="col-sm-6">
 					<div class="form-box">
 						<div class="form-box__headline">
-							<div class="form-box__title">
-								Закажите <br>
-								дизайн проект
-							</div>
+							<h2 class="form-box__title">
+								Заказать <br>
+                                дизайн проект
+							</h2>
 						</div>
 						<div class="form-box__body">
 							<?php

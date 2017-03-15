@@ -23,3 +23,6 @@ css/client.css
 
 # local
 local.index.php
+/index.php
+protected/config/db.php
+protected/config/defaults.php
