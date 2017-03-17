@@ -332,12 +332,12 @@ class SiteController extends Controller
             return $httpCode == 404;
         }
 
-        $file = $_SERVER['DOCUMENT_ROOT'] . '/bitrix/export_file_901383.csv';
+        $file = $_SERVER['DOCUMENT_ROOT'] . '/bitrix/export_file_526078.csv';
 
-        $file_name = 'sovety_url.csv';
+        $file_name = 'news_url.csv';
 
-//        header('Content-Type: text/csv; charset=utf-8');
-//        header("Content-disposition: attachment; filename=\"".$file_name."\"");
+        header('Content-Type: text/csv; charset=utf-8');
+        header("Content-disposition: attachment; filename=\"".$file_name."\"");
 
         // create a file pointer connected to the output stream
         $output = fopen('php://output', 'w');
@@ -366,9 +366,42 @@ class SiteController extends Controller
                     continue;
                 }
 
-                $rowCSV = [];
+                $error = 0;
 
-                print_r($row);
+                $criteria = new CDbCriteria();
+                $criteria->addCondition('alias = :alias');
+                $criteria->params = [
+                    ':alias' => $row[12],
+                ];
+
+                $event = Event::model()->find($criteria);
+
+                if (!$event) {
+                    $urlBefore = $urlAfter = '';
+                    $error = 1;
+                } else {
+                    $urlBefore = '/about/news/' . $event->alias . '.html';
+                    $urlAfter = Yii::app()->createUrl('site/event', ['id' => $event->id]);
+
+                    if (check404url('http://ask-domus.ru' . $urlBefore)) {
+                        $error = 1;
+                    }
+                }
+
+                $rowCSV = [
+                    $event->title,
+                    $urlBefore,
+                    $urlAfter,
+                    $error,
+                ];
+
+                foreach ($rowCSV as &$rowEl) {
+                    $rowEl = $this->toWindows1251($rowEl);
+                }
+
+                unset($rowEl);
+
+                fputcsv($output, $rowCSV, ';');
             }
         }
     }
