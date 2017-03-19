@@ -108,7 +108,7 @@
 		position: relative;
 
 		&:hover {
-			.sub-menu__area {
+			> .sub-menu__area {
 				display: block;
 			}
 		}
@@ -173,6 +173,69 @@
 	font-size: 13px;
 	.box-shadow;
 	
+	> li {
+		position: relative;
+
+		&:hover {
+			.sub-menu__area {
+				display: block;
+			}
+		}
+
+		&.have-sub {
+			> a {
+				&::before {
+					font-family: 'Glyphicons Halflings';
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+
+					content: "\e080";
+					font-size: 8px;
+					color: @color-dark;
+					position: absolute;
+					top: 50%;
+					margin-top: -4px;
+					right: 12px;
+				}
+			}
+		}
+
+		> a {
+			color: @color-dark;
+			font-size: 14px;
+			text-decoration: none;
+			display: block;
+			position: relative;
+			padding: 4px 0;
+
+			padding-right: 8px;
+		}
+
+		&.active > a,
+		> a:hover {
+			color: @color-link;
+			text-decoration: underline;
+
+			&:after {
+				color: @color-link !important;
+			}
+		}
+	}
+
+	.sub-menu__area {
+		left: 294px;
+	}
+}
+
+.left-menu .sub-menu__3  {
+	width: 320px;
+	padding: 8px 0;
+	background: @color-white;
+	list-style-type: disc;
+	padding-left: 26px;
+	font-size: 13px;
+	.box-shadow;
+
 	> li {
 		> a {
 			color: @color-dark;

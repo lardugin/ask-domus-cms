@@ -165,7 +165,7 @@ return array(
         'hide_news'             => false,
         'tmb_height'            => 380,
         'tmb_width'             => 350,
-        'max_image_width'       => 1000,
+        'max_image_width'       => 1400,
         'dev_year'              => 2016,
         'subcategories'         => true,
 	),
