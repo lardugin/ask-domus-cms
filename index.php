@@ -22,7 +22,7 @@ mb_internal_encoding('utf-8');
 
 define('DS', DIRECTORY_SEPARATOR);
 
-$yii = '../yii/framework/yiilite.php';
+$yii = '../yii1116/framework/yiilite.php';
 
 if (!is_file($yii)) {
     $yii = dirname(__FILE__).'/../yii/yiilite.php';

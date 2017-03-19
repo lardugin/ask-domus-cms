@@ -4,6 +4,6 @@
  */
 return array(
 	'connectionString'=>'mysql:host=localhost;dbname=ask-domus',
-    'username'=>'root',
-    'password'=>'159753',
+    'username'=>'ask-domus',
+    'password'=>'I7p6Y9e6',
 );
