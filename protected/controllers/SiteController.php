@@ -314,6 +314,98 @@ class SiteController extends Controller
         }
     }
 
+    public function actionNewsCsv()
+    {
+        set_time_limit(600); // 10 minutes
+
+        function check404url($url)
+        {
+            $handle = curl_init($url);
+            curl_setopt($handle,  CURLOPT_RETURNTRANSFER, TRUE);
+
+            $response = curl_exec($handle);
+
+            $httpCode = curl_getinfo($handle, CURLINFO_HTTP_CODE);
+
+            curl_close($handle);
+
+            return $httpCode == 404;
+        }
+
+        $file = $_SERVER['DOCUMENT_ROOT'] . '/bitrix/export_file_526078.csv';
+
+        $file_name = 'news_url.csv';
+
+        header('Content-Type: text/csv; charset=utf-8');
+        header("Content-disposition: attachment; filename=\"".$file_name."\"");
+
+        // create a file pointer connected to the output stream
+        $output = fopen('php://output', 'w');
+
+        // output the column headings
+        $labels = [
+            0 => 'Название',
+            1 => 'Старый URI',
+            2 => 'Новый URI',
+            3 => 'Ошибка (требует ручной настройки)',
+        ];
+
+        foreach ($labels as &$label) {
+            $label = $this->toWindows1251($label);
+        }
+
+        unset($label);
+
+        fputcsv($output, $labels, ';');
+
+        if (($handle = fopen($file, "r")) !== false) {
+            $i = 0;
+
+            while (($row = fgetcsv($handle, 10000, ";")) !== false) {
+                if (!$i++) {
+                    continue;
+                }
+
+                $error = 0;
+
+                $criteria = new CDbCriteria();
+                $criteria->addCondition('alias = :alias');
+                $criteria->params = [
+                    ':alias' => $row[12],
+                ];
+
+                $event = Event::model()->find($criteria);
+
+                if (!$event) {
+                    $urlBefore = $urlAfter = '';
+                    $error = 1;
+                } else {
+                    $urlBefore = '/about/news/' . $event->alias . '.html';
+                    $urlAfter = Yii::app()->createUrl('site/event', ['id' => $event->id]);
+
+                    if (check404url('http://ask-domus.ru' . $urlBefore)) {
+                        $error = 1;
+                    }
+                }
+
+                $rowCSV = [
+                    $event->title,
+                    $urlBefore,
+                    $urlAfter,
+                    $error,
+                ];
+
+                foreach ($rowCSV as &$rowEl) {
+                    $rowEl = $this->toWindows1251($rowEl);
+                }
+
+                unset($rowEl);
+
+                fputcsv($output, $rowCSV, ';');
+            }
+        }
+    }
+
     public function actionSovetyCsv()
     {
         die;
