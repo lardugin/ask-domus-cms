@@ -46,11 +46,6 @@ $this->widget('\common\widgets\listing\SizerListView', array(
 	</div>
 	<div class="reviews-video-list__item">
 		<div class="video">
-			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/E6li_4Oqpog" frameborder="0" allowfullscreen></iframe>
-		</div>
-	</div>
-	<div class="reviews-video-list__item">
-		<div class="video">
 			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cII2E6lP7Cw" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>

@@ -11,7 +11,7 @@ $innerPage = $data->inner_page;
         href="<?= $innerPage ? Yii::app()->createUrl('shop/product', ['id' => $data->id]) : $data->getFullImg() ?>"
         title="<?= $data->title ?>"
         class="<?= $innerPage ? 'fancybox-disabled' : 'fancybox' ?>"
-        rel="product-<?= $data->id ?>"
+        rel="product-image"
     >
         <img src="<?= ResizeHelper::resize($data->getFullImg(false, false), 368, 260) ?>" alt="<?= $data->title ?>">
         <div class="portfolio-mask">
