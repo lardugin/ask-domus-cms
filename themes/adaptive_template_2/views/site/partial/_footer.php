@@ -51,7 +51,7 @@ foreach (Service::model()->findAll(['order' => 'sort']) as $service) {
             <div class="col-sm-4">
                 <div class="bottom-communication">
                     <div class="phone-bottom"><?= D::cms('phone') ?></div>
-                    <div class="email-bottom"><a href="mailto:<?= D::cms('emailPublic') ?>"><?= D::cms('emailPublic') ?></a></div>
+                    <div class="phone-bottom"><?= D::cms('phone2') ?></div>
                 </div>
                 <div class="bottom-servise-menu">
                     <ul class="servise-menu">
