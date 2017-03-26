@@ -344,3 +344,9 @@
   <priority>0.8</priority>
   <lastmod>2017-02-21</lastmod>
  </url>
+ <url>
+  <loc>http://ask-domus-cms.local/novosti/my-obnovili-sajjt</loc>
+  <priority>0.8</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2017-03-27</lastmod>
+ </url>
