@@ -1,6 +1,6 @@
 <h1><?=$event->title?></h1>
 
-<div><?=$event->text?></div>
+<div class="content"><?=$event->text?></div>
 
 <div class="clearfix"></div>
 <br>

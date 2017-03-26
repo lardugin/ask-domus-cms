@@ -14,3 +14,5 @@ config/default.php max_image_width там 1000 поставил
 models/Product.php protected $sizes там тоже 1000
 
 4) Глючит pJax в портфолио
+
+5) Не работает валидация у форм на внутряках
