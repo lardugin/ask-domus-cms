@@ -20,3 +20,5 @@ Disallow: /themes
 Disallow: /shop
 Disallow: /*?s
 Disallow: index.php
+
+Sitemap: http://ask-domus.ru/sitemap.xml

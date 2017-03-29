@@ -1,4 +1,4 @@
-<?php $this->beginContent('//layouts/main'); ?>
+<?php $this->beginContent('//layouts/main');$service = Service::model()->findByPk(1);?>
 
 	<div class="servise-box">
 		<section class="container">
@@ -53,7 +53,11 @@
 			</div>
 		</section>
 	</div>
-
+    
+    <?php
+        $service = Service::model()->findByPk(1);
+    ?>
+    
 	<div class="price-box">
 		<section class="container">
 			<div class="heading">Цены на дизайн проект</div>
@@ -71,10 +75,10 @@
 										<img src="/images/price/icon-1.png" alt="Эскизный">
 									</div>
 									<div class="price-card__price price-card__price_old">
-										1200<span>₽</span> м<sup>2</sup>
+										<?= $service['price1_old'] ?><span>₽</span> м<sup>2</sup>
 									</div>
 									<div class="price-card__price">
-										900<span>₽</span> м<sup>2</sup>
+										<?= $service['price1'] ?><span>₽</span> м<sup>2</sup>
 									</div>
 									<div class="price-card__button">
 										<a href="javascript:;" class="button button_green button_arrow button_scaleout" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIN')">Подробнее</a>
@@ -84,7 +88,7 @@
 							<div class="price-card_back flipper__area_back flipper__area">
 								<div class="price-card__headline">
 									<span>Эскизный</span>
-									<div class="price-card__price_min">900<span>₽</span> м<sup>2</sup></div>
+									<div class="price-card__price_min"><?= $service['price1'] ?><span>₽</span> м<sup>2</sup></div>
 									<a href="javascript:;" class="price-card-arrow price-card-arrow_back"></a>
 								</div>
 								<div class="price-card__text">
@@ -116,10 +120,10 @@
 										<img src="/images/price/icon-2.png" alt="Рабочий">
 									</div>
 									<div class="price-card__price price-card__price_old">
-										1700<span>₽</span> м<sup>2</sup>
+										<?= $service['price2_old'] ?><span>₽</span> м<sup>2</sup>
 									</div>
 									<div class="price-card__price">
-										1 300<span>₽</span> м<sup>2</sup>
+										<?= $service['price2'] ?><span>₽</span> м<sup>2</sup>
 									</div>
 									<div class="price-card__button">
 										<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIDDLE')">Подробнее</a>
@@ -129,7 +133,7 @@
 							<div class="price-card_back flipper__area_back flipper__area">
 								<div class="price-card__headline">
 									<span>Рабочий</span>
-									<div class="price-card__price_min">1 300<span>₽</span> м<sup>2</sup></div>
+									<div class="price-card__price_min"><?= $service['price2'] ?><span>₽</span> м<sup>2</sup></div>
 									<a href="javascript:;" class="price-card-arrow price-card-arrow_back"></a>
 								</div>
 								<div class="price-card__text">
@@ -158,10 +162,10 @@
 										<img src="/images/price/icon-3.png" alt="Полный">
 									</div>
 									<div class="price-card__price price-card__price_old">
-										2000<span>₽</span> м<sup>2</sup>
+										<?= $service['price3_old'] ?><span>₽</span> м<sup>2</sup>
 									</div>
 									<div class="price-card__price">
-										1 500<span>₽</span> м<sup>2</sup>
+										<?= $service['price3'] ?><span>₽</span> м<sup>2</sup>
 									</div>
 									<div class="price-card__button">
 										<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MAX')">Подробнее</a>
@@ -171,7 +175,7 @@
 							<div class="price-card_back flipper__area_back flipper__area">
 								<div class="price-card__headline">
 									<span>Полный</span>
-									<div class="price-card__price_min">1 500<span>₽</span> м<sup>2</sup></div>
+									<div class="price-card__price_min"><?= $service['price3'] ?><span>₽</span> м<sup>2</sup></div>
 									<a href="javascript:;" class="price-card-arrow price-card-arrow_back"></a>
 								</div>
 								<div class="price-card__text">
@@ -189,7 +193,7 @@
 					</div>
 				</div>
 				<div class="price__action-text">
-                    <p>Скидка действует в период с 5.02.17 по 31.03.17</p>
+                    <p><?= $service['price_sale_date'] ?></p>
 				</div>
 				<div class="button-more-center">
 					<a href="<?= Yii::app()->createUrl('site/page', ['id' => 2]) ?>" class="button button_green button_arrow">Подробнее о ценах</a>

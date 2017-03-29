@@ -240,19 +240,19 @@ $modelReview = new Review('frontend_insert');
 
 <script type="text/javascript">
 	function submitForm(form, hasError) {
-		$.post($(form).attr('action'), $(form).serialize(), function(data) {
-			var message = '';
-
-			if (data == 'ok') {
-				message = '<h2 class="text-center">Ваш вопрос отправлен</h2>';
-				$('.content-form-box').hide();
-			} else {
-				message = '<h2 class="text-center">При отправке вопроса возникла ошибка</h2>';
-			}
-
-			$('.js-question-form-body').html(message);
-		});
 		if (!hasError) {
+			$.post($(form).attr('action'), $(form).serialize(), function(data) {
+				var message = '';
+	
+				if (data == 'ok') {
+					message = '<h2 class="text-center">Ваш вопрос отправлен</h2>';
+					$('.content-form-box').hide();
+				} else {
+					message = '<h2 class="text-center">При отправке вопроса возникла ошибка</h2>';
+				}
+	
+				$('.js-question-form-body').html(message);
+			});
 		}
 	}
 </script>

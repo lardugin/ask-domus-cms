@@ -124,7 +124,9 @@ Y::runLoader();
 <script src="/js/jquery.pjax.js"></script>
 
 <script>
-	$(document).pjax('.pjax-links a', '#page-inner-content')
+	$(document).pjax('.pjax-links a', '#page-inner-content', {
+		timeout: 1300
+	});
 </script>
 
 <?= D::cms('counter') ?>
