@@ -1,2504 +1,2504 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <!--  created with www.mysitemapgenerator.com -->
-    <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://ask-domus.ru/</loc>
-  <lastmod>2017-03-29T22:35:53+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/</loc>
+	<lastmod>2017-03-30T16:03:04+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/o-kompanii</loc>
-  <lastmod>2017-03-29T22:35:54+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/o-kompanii</loc>
+	<lastmod>2017-03-30T16:03:05+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti</loc>
-  <lastmod>2017-03-29T22:35:56+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/novosti</loc>
+	<lastmod>2017-03-30T16:03:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/o-kompanii/nasha-komanda</loc>
-  <lastmod>2017-03-29T22:35:56+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/o-kompanii/nasha-komanda</loc>
+	<lastmod>2017-03-30T16:03:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/o-kompanii/diplomy-i-gramoty</loc>
-  <lastmod>2017-03-29T22:35:56+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/o-kompanii/diplomy-i-gramoty</loc>
+	<lastmod>2017-03-30T16:03:07+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/vopros-otvet</loc>
-  <lastmod>2017-03-29T22:35:57+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/vopros-otvet</loc>
+	<lastmod>2017-03-30T16:03:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/otzyvy</loc>
-  <lastmod>2017-03-29T22:35:57+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/otzyvy</loc>
+	<lastmod>2017-03-30T16:03:07+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/uslugi</loc>
-  <lastmod>2017-03-29T22:35:57+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/portfolio/kvartiry/ljublinskaja-2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kvartiry/ljublinskaja-2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio/kvartiry/garibaldi-2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kvartiry/garibaldi-2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio/kvartiry/sviblovo</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kvartiry/sviblovo</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio/kvartiry/pjatnickoe-shosse-2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kvartiry/pjatnickoe-shosse-2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio/zagorodnye-doma/malaja-dubna</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/zagorodnye-doma/malaja-dubna</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio/zagorodnye-doma/bristol-2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/zagorodnye-doma/bristol-2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio/zagorodnye-doma/ignatovo</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/zagorodnye-doma/ignatovo</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio/zagorodnye-doma/shishkin-les-2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/zagorodnye-doma/shishkin-les-2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/doc/Lyubercy.pdf</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/doc/Lyubercy.pdf</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/2.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/2.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/3.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/3.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/4.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/4.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/5.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/5.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/6.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/6.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/7.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/7.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/8.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/8.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/1-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/1-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/2-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/2-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/3-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/3-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/4-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/4-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/5-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/5-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/6-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/6-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/7-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/7-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/8-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/8-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/9-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/9-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/10-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/10-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/11-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/11-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/12-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/12-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/13-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/13-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/14-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/14-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/15-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/15-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/16-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/16-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/project/luberci/17-1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/project/luberci/17-1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/sitemap</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sitemap</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/o-kompanii/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/o-kompanii/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?year=2017</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?year=2017</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?year=2016</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?year=2016</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?year=2015</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?year=2015</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?year=2014</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?year=2014</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?year=2013</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?year=2013</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?year=2012</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?year=2012</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?year=2011</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?year=2011</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti/my-obnovili-sajjt</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti/my-obnovili-sajjt</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/novosti/pridumany-okna-prevrashchayushchiesya-v-nebolshoy-balkon</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti/pridumany-okna-prevrashchayushchiesya-v-nebolshoy-balkon</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/novosti/danfoss-link-pozvolit-sekonomit-na-otoplenii-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti/danfoss-link-pozvolit-sekonomit-na-otoplenii-doma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/novosti/mammafotogramma-razrabotala-elastichnuyu-faneru</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti/mammafotogramma-razrabotala-elastichnuyu-faneru</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/novosti/perspektivy-v-sfere-dizayna-otkryl-novyy-material-fluidsolids</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti/perspektivy-v-sfere-dizayna-otkryl-novyy-material-fluidsolids</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/novosti?page=2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?page=3</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=3</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?page=4</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=4</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?page=5</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=5</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?page=6</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=6</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?page=7</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=7</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?page=8</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=8</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?page=9</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=9</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?page=10</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=10</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/novosti?page=14</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/novosti?page=14</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/o-kompanii/nasha-komanda/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/o-kompanii/nasha-komanda/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/o-kompanii/diplomy-i-gramoty/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/o-kompanii/diplomy-i-gramoty/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/diplom/13_859307d57659.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/13_859307d57659.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/12_b7eb576f55df.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/12_b7eb576f55df.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/14_5e6b0e2c1798.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/14_5e6b0e2c1798.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/1_77e05ffdb697.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/1_77e05ffdb697.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/2_3cd9e0bc1afe.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/2_3cd9e0bc1afe.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/3_e317f02cb815.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/3_e317f02cb815.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/4_c2614f907484.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/4_c2614f907484.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/6_b8e419d8f308.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/6_b8e419d8f308.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/7_3b19e6565957.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/7_3b19e6565957.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/8_c1cccc0a8b25.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/8_c1cccc0a8b25.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/9_0fdcebfd1e77.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/9_0fdcebfd1e77.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/10_7be51e414f27.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/10_7be51e414f27.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/diplom/11_153c45ef420b.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/diplom/11_153c45ef420b.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/vopros-otvet/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/vopros-otvet/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/otzyvy/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/otzyvy/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/reviews/site/service/1</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/uslugi/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/reviews/site/service/2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/site/service/1</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/site/service/3</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/site/service/2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/site/service/4</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/site/service/3</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/site/service/5</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/site/service/4</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/site/service/6</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/site/service/5</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/uslugi/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/site/service/6</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/shop/category/1</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/shop/category/1</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/shop/category/2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/shop/category/2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/shop/category/3</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/shop/category/3</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/shop/category/4</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/shop/category/4</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/shop/category/5</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/shop/category/5</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/shop/category/6</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/shop/category/6</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/shop/category/9</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/shop/category/9</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/reviews/shop/category/10</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/reviews/shop/category/10</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/1_05b7338fdba8.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/1_05b7338fdba8.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/2_77a66cf1b216.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/2_77a66cf1b216.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/3_31b28aab52ff.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/3_31b28aab52ff.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/4_d34ba23aa494.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/4_d34ba23aa494.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/5_c0bca96e97e9.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/5_c0bca96e97e9.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/6_b6e9d2f4bb8f.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/6_b6e9d2f4bb8f.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/7_9d8f751b6a7c.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/7_9d8f751b6a7c.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/8_931d32c73793.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/8_931d32c73793.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/9_6940850e7952.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/9_6940850e7952.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/10_1a70d754ac9c.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/10_1a70d754ac9c.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/11_fca445637bc0.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/11_fca445637bc0.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/12_c98a95cd2879.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/12_c98a95cd2879.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/13_3e36a6a93770.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/13_3e36a6a93770.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/14_268b14d15142.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/14_268b14d15142.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/15_361451e31acf.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/15_361451e31acf.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/16_fdc936aa9bee.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/16_fdc936aa9bee.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/reviewimage/17_25c200637a26.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/reviewimage/17_25c200637a26.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/otzyvy?reviews_models_Review_page=2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/otzyvy?reviews_models_Review_page=2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/otzyvy?reviews_models_Review_page=3</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/otzyvy?reviews_models_Review_page=3</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/otzyvy?reviews_models_Review_page=4</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/otzyvy?reviews_models_Review_page=4</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/otzyvy?reviews_models_Review_page=5</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/otzyvy?reviews_models_Review_page=5</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/otzyvy?reviews_models_Review_page=6</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/otzyvy?reviews_models_Review_page=6</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/otzyvy?reviews_models_Review_page=7</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/otzyvy?reviews_models_Review_page=7</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/otzyvy?reviews_models_Review_page=8</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/otzyvy?reviews_models_Review_page=8</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/uslugi/dizajn-interera/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/uslugi/dizajn-interera/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/uslugi/remont-i-otdelka/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/uslugi/remont-i-otdelka/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/uslugi/avtorskij-nadzor/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/uslugi/avtorskij-nadzor/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/uslugi/komplektaciya-obektov/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/uslugi/komplektaciya-obektov/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/uslugi/dekorirovanie/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/uslugi/dekorirovanie/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/uslugi/proektirovanie/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/uslugi/proektirovanie/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/prajs/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/prajs/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/images/product/3.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/3.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/e2CtnX6R.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/e2CtnX6R.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/5.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/5.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/6.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/6.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/ymnUljby.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/ymnUljby.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/VYIazJ5Z.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/VYIazJ5Z.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/7.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/7.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/9ENIZ06B.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/9ENIZ06B.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/8.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/8.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/y3BgbbPY.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/y3BgbbPY.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/9.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/9.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/ATC5bdao.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/ATC5bdao.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/10.jpg?1490550608</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/10.jpg?1490550608</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/YLbjoEVG.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/YLbjoEVG.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/11.jpg?1490550608</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/11.jpg?1490550608</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/5nkLpYzn.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/5nkLpYzn.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/12.jpg?1490550608</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/12.jpg?1490550608</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/hXfJZPv4.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/hXfJZPv4.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/kvartiry/balashikha-2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kvartiry/balashikha-2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio?page=2</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio?page=2</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio?page=3</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio?page=3</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio?page=4</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio?page=4</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio?page=5</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio?page=5</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio?page=6</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio?page=6</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/portfolio/kvartiry/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kvartiry/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/portfolio/kvartiry/leninskijj-prospekt</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kvartiry/leninskijj-prospekt</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/kvartiry/ljalin-pereulok</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kvartiry/ljalin-pereulok</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/kvartiry/peredelkino</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kvartiry/peredelkino</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/zagorodnye-doma/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/zagorodnye-doma/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/portfolio/zagorodnye-doma/konakovo</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/zagorodnye-doma/konakovo</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/zagorodnye-doma/nagatino</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/zagorodnye-doma/nagatino</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/kukhni/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kukhni/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/portfolio/kabinety/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/kabinety/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/product/27.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/27.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/lJMYBU8c.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/lJMYBU8c.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/HGDdJicZ.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/HGDdJicZ.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/jsbXxmn8.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/jsbXxmn8.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/YLcVHSpm.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/YLcVHSpm.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/28.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/28.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/29.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/29.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/F1iykap6.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/F1iykap6.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/30.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/30.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/31.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/31.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/AC6npUDR.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/AC6npUDR.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/32.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/32.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/f21ZzZmA.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/f21ZzZmA.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/gostinye/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/gostinye/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/product/33.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/33.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/i2zfily1.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/i2zfily1.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/34.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/34.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/2PZ6pkrF.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/2PZ6pkrF.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/NvLoPIro.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/NvLoPIro.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/LLpfi4c3.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/LLpfi4c3.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/35.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/35.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/FmHlz7rj.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/FmHlz7rj.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/e5lunCU2.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/e5lunCU2.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/36.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/36.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/vmoIf1HD.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/vmoIf1HD.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/37.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/37.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/knPpHJRG.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/knPpHJRG.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/38.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/38.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/BPLtLJBS.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/BPLtLJBS.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/u2ETZyS9.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/u2ETZyS9.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/39.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/39.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/XEKHBbfa.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/XEKHBbfa.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/40.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/40.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/GuREopvJ.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/GuREopvJ.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/41.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/41.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/3Czx0ZzF.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/3Czx0ZzF.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/spalni/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/spalni/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/product/42.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/42.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/pjXjGBhd.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/pjXjGBhd.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/ggIy4jN5.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/ggIy4jN5.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/43.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/43.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/44.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/44.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/45.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/45.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/7P32zECp.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/7P32zECp.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/46.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/46.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/gNBUo0Y5.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/gNBUo0Y5.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/47.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/47.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/48.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/48.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/f0tUnD3D.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/f0tUnD3D.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/A3hu30d7.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/A3hu30d7.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/49.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/49.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/ipt2Yrx9.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/ipt2Yrx9.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/tCfgk4Sg.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/tCfgk4Sg.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/50.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/50.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/detskie/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/detskie/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/product/51.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/51.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/skju7tyj.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/skju7tyj.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/52.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/52.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/vk7usz9K.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/vk7usz9K.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/53.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/53.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/54.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/54.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/ESlDkoJ5.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/ESlDkoJ5.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/55.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/55.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/56.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/56.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/0jJo5I6j.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/0jJo5I6j.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/57.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/57.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/Tm9GvFy6.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/Tm9GvFy6.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/58.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/58.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/akVNVhsI.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/akVNVhsI.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/59.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/59.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/portfolio/vannye-i-sanuzly/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/portfolio/vannye-i-sanuzly/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/images/product/60.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/60.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/XAomm2I9.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/XAomm2I9.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/61.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/61.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/62.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/62.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/yfVsFb2Y.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/yfVsFb2Y.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/r9pH9Xah.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/r9pH9Xah.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/63.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/63.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/oZGPv4XU.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/oZGPv4XU.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/64.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/64.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/axpCBe6y.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/axpCBe6y.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/65.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/65.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/kdEX2UPY.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/kdEX2UPY.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/66.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/66.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/67.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/67.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/mTshh99E.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/mTshh99E.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/68.jpg?1490550609</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/68.jpg?1490550609</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/images/product/86XhFHsU.jpg</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/images/product/86XhFHsU.jpg</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/sotrudnichestvo/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sotrudnichestvo/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/sotrudnichestvo/nashi-partnery/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sotrudnichestvo/nashi-partnery/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/sotrudnichestvo/postovshchikam/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sotrudnichestvo/postovshchikam/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/sovety/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/kontakty/</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/kontakty/</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>1.0</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.8</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/vip-dizayn-i-dekor-iz-bisera</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/vip-dizayn-i-dekor-iz-bisera</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/avangardnye-konforki-interesnye-elementy-interera</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/avangardnye-konforki-interesnye-elementy-interera</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/aksessuary-dlya-stilnoy-prikhozhey</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/aksessuary-dlya-stilnoy-prikhozhey</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/arki-v-domashnem-interere</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/arki-v-domashnem-interere</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/arki-v-interere-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/arki-v-interere-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/gobeleny</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/gobeleny</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/detali-interera-yarkie-elementy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/detali-interera-yarkie-elementy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/dizayn-interera-kukhni-s-balkonom</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/dizayn-interera-kukhni-s-balkonom</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/dizayn-potolkov-v-kvartire-nastoyashchee-pole-dlya-tvorchestva</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/dizayn-potolkov-v-kvartire-nastoyashchee-pole-dlya-tvorchestva</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/zerkala-</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/zerkala-</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/zerkala-i-interer-vashego-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/zerkala-i-interer-vashego-doma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/kamin-ukrashenie-vashego-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/kamin-ukrashenie-vashego-doma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/kovry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/kovry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/originalnyy-dizayn-shtor-v-kvartire-sozdast-nepovtorimyy-obraz</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/originalnyy-dizayn-shtor-v-kvartire-sozdast-nepovtorimyy-obraz</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/predmety-sovremennogo-interera-stil-delayut-melochi</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/predmety-sovremennogo-interera-stil-delayut-melochi</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/prirodnye-materialy-kamen-v-sovremennom-interere</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/prirodnye-materialy-kamen-v-sovremennom-interere</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/proizvedeniya-iskusstva-v-vashem-interere</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/proizvedeniya-iskusstva-v-vashem-interere</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/s-chego-nachinaetsya-v-dome-uyut-s-okna-dlya-kotorogo-shtory-shyut</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/s-chego-nachinaetsya-v-dome-uyut-s-okna-dlya-kotorogo-shtory-shyut</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/smelaya-mebel-dlya-smelykh-lyudey</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/smelaya-mebel-dlya-smelykh-lyudey</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/steny</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/steny</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/unikalnyy-element-dekora-tsvety-v-interere-kvartiry-i-ofisa</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/predmety-inter-era-dekor/unikalnyy-element-dekora-tsvety-v-interere-kvartiry-i-ofisa</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/avangard-neprekrashchayushchiesya-eksperimenty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/avangard-neprekrashchayushchiesya-eksperimenty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/ampir-v-interere</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/ampir-v-interere</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/art-tekhno-shag-navstrechu-budushchemu</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/art-tekhno-shag-navstrechu-budushchemu</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/art-deko-elegantnoe-sovershenstvo</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/art-deko-elegantnoe-sovershenstvo</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/vash-dom-dvorets-ili-interer-v-stile-rokoko</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/vash-dom-dvorets-ili-interer-v-stile-rokoko</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/klassicheskiy-interer</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/klassicheskiy-interer</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/goticheskiy-stil-v-interere</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/goticheskiy-stil-v-interere</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/goticheskiy-stil-dlya-sovremennykh-intererov</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/goticheskiy-stil-dlya-sovremennykh-intererov</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-v-stile-art-nuvo</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-v-stile-art-nuvo</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-vannoy-komnaty-i-drugikh-pomeshcheniy-v-romanskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-vannoy-komnaty-i-drugikh-pomeshcheniy-v-romanskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-zagorodnogo-doma-v-klassicheskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-zagorodnogo-doma-v-klassicheskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-zagorodnogo-doma-v-stile-kantri</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-zagorodnogo-doma-v-stile-kantri</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-zagorodnogo-doma-v-stile-minimalizm</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-zagorodnogo-doma-v-stile-minimalizm</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-doma-v-stile-loft</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-doma-v-stile-loft</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-doma-v-stile-modern</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-doma-v-stile-modern</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-zagorodnogo-doma-v-stile-khay-tek</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-zagorodnogo-doma-v-stile-khay-tek</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-kvartiry-v-stile-art-deko</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-kvartiry-v-stile-art-deko</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-kvartiry-studii-v-stile-khaytek</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-interera-kvartiry-studii-v-stile-khaytek</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-intererov-kvartir-v-klassicheskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-intererov-kvartir-v-klassicheskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartir-v-stile-barokko</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartir-v-stile-barokko</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartiry-v-stile-loft</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartiry-v-stile-loft</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartiry-v-stile-minimalizm</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartiry-v-stile-minimalizm</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartiry-v-stile-modern</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartiry-v-stile-modern</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartiry-studii-v-klassicheskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartiry-studii-v-klassicheskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-pomeshcheniya-v-stile-romantizm</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-pomeshcheniya-v-stile-romantizm</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartir-art-deko</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/dizayn-kvartir-art-deko</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/interer-v-stile-neoklassitsizma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/interer-v-stile-neoklassitsizma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/interer-kvartiry-v-belom-tsvete</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/interer-kvartiry-v-belom-tsvete</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kak-sochetat-funktsionalnost-i-minimalizm-v-dizayne-zhilogo-pomeshcheniya</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kak-sochetat-funktsionalnost-i-minimalizm-v-dizayne-zhilogo-pomeshcheniya</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kitch-kvintessentsiya-individualnosti</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kitch-kvintessentsiya-individualnosti</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/klassitsizm-v-sovremennom-interere</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/klassitsizm-v-sovremennom-interere</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kolonialnyy-stil-i-ego-osobennosti</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kolonialnyy-stil-i-ego-osobennosti</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/konstruktivizm-prostota-dovedennaya-do-predela-</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/konstruktivizm-prostota-dovedennaya-do-predela-</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kontemporari-sovremennaya-funktsionalnost-i-estetika</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kontemporari-sovremennaya-funktsionalnost-i-estetika</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kreativnyy-i-funktsionalnyy-modernizm</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kreativnyy-i-funktsionalnyy-modernizm</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kurortnoe-nastroenie-s-morskim-stilem-interera</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kurortnoe-nastroenie-s-morskim-stilem-interera</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/loftistichnyy-interer-bogemnost-i-utonchennaya-roskosh</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/loftistichnyy-interer-bogemnost-i-utonchennaya-roskosh</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/manga-yarkaya-dekoratsiya-dlya-yaponskikh-komiksov-</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/manga-yarkaya-dekoratsiya-dlya-yaponskikh-komiksov-</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/manerizm-slozhnyy-kharakter-roskoshi</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/manerizm-slozhnyy-kharakter-roskoshi</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kvartira-v-stile-loft</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/kvartira-v-stile-loft</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/minimalizm-v-interere</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/minimalizm-v-interere</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/modern-v-dizayne-intererov</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/modern-v-dizayne-intererov</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/postmodernizm-v-interere-vashego-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/postmodernizm-v-interere-vashego-doma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/prichudlivyy-i-kapriznyy-stil-folli</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/prichudlivyy-i-kapriznyy-stil-folli</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/remont-kvartir-v-stile-modern</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/remont-kvartir-v-stile-modern</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/renessans-v-vashem-dome</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/renessans-v-vashem-dome</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/retro-sovremennaya-starina</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/retro-sovremennaya-starina</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/smelaya-stilistika-pop-arta</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/smelaya-stilistika-pop-arta</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/sozdaem-antichnyy-interer</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/sozdaem-antichnyy-interer</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/stil-vintazh-ozhivshaya-starina</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/stil-vintazh-ozhivshaya-starina</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/stil-kantri-protivostoyanie-urbanizatsii</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/stil-kantri-protivostoyanie-urbanizatsii</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/stil-modern-iz-xix-veka-v-sovremennost</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/stil-modern-iz-xix-veka-v-sovremennost</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/stil-fyuzhen-izyskannyy-miks</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/stil-fyuzhen-izyskannyy-miks</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/temy-ekologii-v-organicheskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/temy-ekologii-v-organicheskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/familnyy-dom-vybiraem-stil-granzh</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/familnyy-dom-vybiraem-stil-granzh</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/fen-shuy-dizayn-na-osnove-kitayskoy-filosofii</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/fen-shuy-dizayn-na-osnove-kitayskoy-filosofii</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/funktsionalizm-samodostatochnoe-zhiznennoe-prostranstvo</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/funktsionalizm-samodostatochnoe-zhiznennoe-prostranstvo</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/khay-tek-vysokie-tekhnologii-v-zhilykh-pomeshcheniyakh</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/khay-tek-vysokie-tekhnologii-v-zhilykh-pomeshcheniyakh</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/shebbi-shik-podcherkivaya-starinu</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/shebbi-shik-podcherkivaya-starinu</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/eklektika-v-sovremennoy-kvartire</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/eklektika-v-sovremennoy-kvartire</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/eko-stil-krasivyy-interer-dlya-komfortnoy-zhizni</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/eko-stil-krasivyy-interer-dlya-komfortnoy-zhizni</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/elegantnost-minimalizma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/napravlencheskie-stili/elegantnost-minimalizma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/angliyskiy-stil-poistine-korolevskaya-roskosh</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/angliyskiy-stil-poistine-korolevskaya-roskosh</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/voploshchenie-romantiki-v-italyanskom-stile-interera</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/voploshchenie-romantiki-v-italyanskom-stile-interera</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/garmoniya-sredizemnomorya</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/garmoniya-sredizemnomorya</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/grecheskiy-stil</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/grecheskiy-stil</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-v-vostochnom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-v-vostochnom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-gorodskoy-kvartiry-v-stile-shale</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-gorodskoy-kvartiry-v-stile-shale</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-doma-kvartiry-v-angliyskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-doma-kvartiry-v-angliyskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-zagorodnogo-doma-v-stile-provans</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-zagorodnogo-doma-v-stile-provans</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-zagorodnogo-doma-v-stile-shale</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-zagorodnogo-doma-v-stile-shale</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-khrushchevki-v-stile-provans</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-khrushchevki-v-stile-provans</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-frantsuzskiy-stil</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-frantsuzskiy-stil</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-intererov-v-afrikanskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-intererov-v-afrikanskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-kvartiry-v-stile-provans</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-kvartiry-v-stile-provans</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-kvartiry-doma-v-amerikanskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-kvartiry-doma-v-amerikanskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-kvartiry-studii-v-yaponskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-kvartiry-studii-v-yaponskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/zamkovaya-roskosh-v-gorodskoy-kvartire-interer-v-rimskom-stile-</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/zamkovaya-roskosh-v-gorodskoy-kvartire-interer-v-rimskom-stile-</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/indiyskiy-stil-v-dizayne-interera</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/indiyskiy-stil-v-dizayne-interera</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/nemetskiy-interer-sochetanie-pedantizma-i-krasoty-</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/nemetskiy-interer-sochetanie-pedantizma-i-krasoty-</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-v-provanskom-stile</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-v-provanskom-stile</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-v-stile-provans</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/dizayn-interera-v-stile-provans</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/russkiy-ampir</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/russkiy-ampir</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/skandinavskiy-stil-v-dizayne-interera</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/skandinavskiy-stil-v-dizayne-interera</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/utonchennyy-i-izyashchnyy-frantsuzskiy-dizayn-interera-kvartir-i-domov</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/utonchennyy-i-izyashchnyy-frantsuzskiy-dizayn-interera-kvartir-i-domov</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/frantsuzskiy-ampir-torzhestvo-roskoshi</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/frantsuzskiy-ampir-torzhestvo-roskoshi</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/shale-shveytsarskiy-domik</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/shale-shveytsarskiy-domik</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/ekzotika-i-utonchennost-kitayskikh-intererov</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/ekzotika-i-utonchennost-kitayskikh-intererov</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/remont-v-kvartire-v-yaponskom-stile-novoe-reshenie-i-lakonichnyy-stil</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/remont-v-kvartire-v-yaponskom-stile-novoe-reshenie-i-lakonichnyy-stil</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/yarkie-kraski-zhizni-meksikanskiy-stil-v-interere</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/stili-inter-era/etnicheskie-stili/yarkie-kraski-zhizni-meksikanskiy-stil-v-interere</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.2</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/fen-shuy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/fen-shuy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/fen-shuy/legko-sozdat-iinterer-kvartiry-po-fen-shuy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/fen-shuy/legko-sozdat-iinterer-kvartiry-po-fen-shuy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/fen-shuy/fen-shuy-vannoy-komnaty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/fen-shuy/fen-shuy-vannoy-komnaty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/fen-shuy/chto-takoe-fen-shuy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/fen-shuy/chto-takoe-fen-shuy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/vannaya-sovremennyy-dizayn</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/vannaya-sovremennyy-dizayn</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/gostinaya-kak-vybrat-dizayn</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/gostinaya-kak-vybrat-dizayn</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-1-komnatnoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-1-komnatnoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-dvukhkomnatnoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-dvukhkomnatnoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-dvukhkomnatnoy-kvartiry-p-46</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-dvukhkomnatnoy-kvartiry-p-46</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-dvukhurovnevoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-dvukhurovnevoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-zala-v-nebolshoy-kvartire</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-zala-v-nebolshoy-kvartire</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-zala-sovety-spetsialistov</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-zala-sovety-spetsialistov</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-bilyardnoy-komnaty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-bilyardnoy-komnaty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-gostinykh-komnat</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-gostinykh-komnat</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-dvukhkomnatnoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-dvukhkomnatnoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-dvukhkomnatnoy-kvartiry-64-kv-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-dvukhkomnatnoy-kvartiry-64-kv-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-detskoy-komnaty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-detskoy-komnaty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-domov-i-kottedzhey</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-domov-i-kottedzhey</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-kvartir-ekonom-klassa</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-kvartir-ekonom-klassa</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-malenkikh-kvartir</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-malenkikh-kvartir</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-spalen-dolzhen-uchityvat-kharakter-svoikh-obitateley</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-spalen-dolzhen-uchityvat-kharakter-svoikh-obitateley</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-trekhkomnatnoy-kvartiry-v-panelnom-dome</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-trekhkomnatnoy-kvartiry-v-panelnom-dome</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-brezhnevki</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-interera-brezhnevki</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartir-121-serii</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartir-121-serii</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartir-v-panelnykh-domakh</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartir-v-panelnykh-domakh</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-18-kv-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-18-kv-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-28-m-uvelichivaem-prostranstvo</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-28-m-uvelichivaem-prostranstvo</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-45-kv-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-45-kv-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-56-kv-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-56-kv-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-60-kv-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-60-kv-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-70-kv-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-kvartiry-70-kv-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-nebolshikh-gostinykh</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-nebolshikh-gostinykh</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-nebolshoy-gostinoy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-nebolshoy-gostinoy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-odnokomnatnoy-kvartiry-40-kv-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-odnokomnatnoy-kvartiry-40-kv-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-odnokomnatnoy-kvartiry-ip-46s</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-odnokomnatnoy-kvartiry-ip-46s</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-odnokomnatnoy-kvartiry-p-44k</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-odnokomnatnoy-kvartiry-p-44k</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-derevyannogo-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-derevyannogo-doma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-interera-kottedzha</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-interera-kottedzha</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-sovmeshchennogo-sanuzla</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-sovmeshchennogo-sanuzla</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-spalnoy-komnaty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-spalnoy-komnaty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-chastnogo-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekt-chastnogo-doma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-tryekhkomnatnoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-tryekhkomnatnoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-chetyryekhkomnatnoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-chetyryekhkomnatnoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-elegantnoy-mansardy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-elegantnoy-mansardy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekty-intererov-i-ikh-voploshchenie-v-zhizn</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizayn-proekty-intererov-i-ikh-voploshchenie-v-zhizn</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizaynerskie-khitrosti-v-malometrazhnoy-kvartire</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/dizaynerskie-khitrosti-v-malometrazhnoy-kvartire</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/zonirovanie-pomeshcheniya-kak-sdelat-dizayn-idealnym</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/zonirovanie-pomeshcheniya-kak-sdelat-dizayn-idealnym</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/idei-dlya-dizayna-interera-odnokomnatnoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/idei-dlya-dizayna-interera-odnokomnatnoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/idei-dlya-remonta-balkona</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/idei-dlya-remonta-balkona</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/izyskannyy-dizayn-kvartir-p-111-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/izyskannyy-dizayn-kvartir-p-111-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interesnyy-dizayn-vannoy-komnaty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interesnyy-dizayn-vannoy-komnaty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-balkona-v-kvartire</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-balkona-v-kvartire</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-zala-v-dvukhkomnatnoy-kvartire</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-zala-v-dvukhkomnatnoy-kvartire</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-kabineta-rabotayte-s-komfortom</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-kabineta-rabotayte-s-komfortom</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-odnokomnatnoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-odnokomnatnoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-tualeta-v-kvartire-malenkikh-gabaritov-eto-prosto-i-vozmozhno</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interer-tualeta-v-kvartire-malenkikh-gabaritov-eto-prosto-i-vozmozhno</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interery-vannykh-komnat-v-kvartire</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/interery-vannykh-komnat-v-kvartire</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kabinet-na-balkone-ili-lodzhii</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kabinet-na-balkone-ili-lodzhii</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-vybrat-dizayn-interera-komnaty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-vybrat-dizayn-interera-komnaty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-vybrat-dizayn-interera-nebolshoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-vybrat-dizayn-interera-nebolshoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-oformit-prostranstvo-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-oformit-prostranstvo-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-planirovat-kukhnyu</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-planirovat-kukhnyu</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-pravilno-ispolzovat-koridor</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-pravilno-ispolzovat-koridor</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-sekonomit-na-dizayn-proekte</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kak-sekonomit-na-dizayn-proekte</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/koridor-vashey-mechty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/koridor-vashey-mechty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kukhnya-gostinaya-sovremennoe-dizaynerskoe-reshenie</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/kukhnya-gostinaya-sovremennoe-dizaynerskoe-reshenie</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/modelirovanie-interera-v-kvartire</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/modelirovanie-interera-v-kvartire</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/obustroystvo-kvartiry-97-serii</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/obustroystvo-kvartiry-97-serii</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/obustroystvo-sovmeshchennogo-sanuzla</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/obustroystvo-sovmeshchennogo-sanuzla</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/obustroystvo-spalnoy-komnaty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/obustroystvo-spalnoy-komnaty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/osnovy-dizayna-interera-nekotorye-pravila</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/osnovy-dizayna-interera-nekotorye-pravila</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/osobennosti-dizayn-interera-chastnogo-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/osobennosti-dizayn-interera-chastnogo-doma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/osobennosti-dizayn-proekta-interera-zagorodnogo-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/osobennosti-dizayn-proekta-interera-zagorodnogo-doma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/osobennosti-razrabotki-dizayna-interera-v-khrushchevke</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/osobennosti-razrabotki-dizayna-interera-v-khrushchevke</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pereplanirovka-kvartiry-35-kv-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pereplanirovka-kvartiry-35-kv-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pereplanirovka-odnokomnatnoy-kvartiry-33-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pereplanirovka-odnokomnatnoy-kvartiry-33-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/podbiraem-dlya-vannoy-komnaty-interesnyy-dizayn</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/podbiraem-dlya-vannoy-komnaty-interesnyy-dizayn</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/podkhodyashchie-stili-otdelki-kvartir-a-takzhe-vozmozhnost-ikh-sovmeshcheniya</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/podkhodyashchie-stili-otdelki-kvartir-a-takzhe-vozmozhnost-ikh-sovmeshcheniya</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/poslednie-tendentsii-v-dizayne-interera-kvartir-i-veyaniya-mody</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/poslednie-tendentsii-v-dizayne-interera-kvartir-i-veyaniya-mody</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pravilnoe-zonirovanie-prostranstva-kukhni</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pravilnoe-zonirovanie-prostranstva-kukhni</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pravilnyy-dizayn-interera-komnaty-rebenka</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pravilnyy-dizayn-interera-komnaty-rebenka</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/protsess-sozdaniya-dizayna-vannoy-komnaty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/protsess-sozdaniya-dizayna-vannoy-komnaty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pyatdesyat-kvadratnykh-metrov-mesto-dlya-dizaynerskogo-razbega</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/pyatdesyat-kvadratnykh-metrov-mesto-dlya-dizaynerskogo-razbega</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/remont-kvartir-137-serii-stanovitsya-prazdnikom</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/remont-kvartir-137-serii-stanovitsya-prazdnikom</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/remont-po-planu</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/remont-po-planu</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sekrety-dizayn-proektov-odnokomnatnykh-kvartir</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sekrety-dizayn-proektov-odnokomnatnykh-kvartir</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sekrety-dizayna-malometrazhnoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sekrety-dizayna-malometrazhnoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sovremennyy-dizayn-priobretaet-kvartira-studiya-30-m</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sovremennyy-dizayn-priobretaet-kvartira-studiya-30-m</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sovremennyy-dizayn-interera-gostinoy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sovremennyy-dizayn-interera-gostinoy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sovremennyy-interer-chetyrekhkomnatnoy-kvartiry</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sovremennyy-interer-chetyrekhkomnatnoy-kvartiry</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sozdayem-udobnoe-prostranstvo-v-kvartire-studii</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sozdayem-udobnoe-prostranstvo-v-kvartire-studii</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sozdanie-dizayna-detskoy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sozdanie-dizayna-detskoy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sostavlenie-dizayn-proekta-interera</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/sostavlenie-dizayn-proekta-interera</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/studiynaya-planirovka-kvartiry-varianty-resheniya</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/studiynaya-planirovka-kvartiry-varianty-resheniya</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/tvorcheskiy-dizayn-kvartir-i-155-tvorit-chudesa</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/tvorcheskiy-dizayn-kvartir-i-155-tvorit-chudesa</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/transformatsiya-zhilogo-prostranstva</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/transformatsiya-zhilogo-prostranstva</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/udobstvo-i-komfort-obespechit-praktichnyy-dizayn-proekt-stolovoy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/udobstvo-i-komfort-obespechit-praktichnyy-dizayn-proekt-stolovoy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/uluchshenie-planirovki-s-pomoshchyu-peregorodok</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/uluchshenie-planirovki-s-pomoshchyu-peregorodok</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/uyutnyy-i-stilnyy-dizayn-interera-kholla</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/uyutnyy-i-stilnyy-dizayn-interera-kholla</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/eksklyuzivnye-interery-podkhod-i-priznaki</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/eksklyuzivnye-interery-podkhod-i-priznaki</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/etapy-sozdaniya-dizayna-zala-v-kvartire</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/proektirovanie-inter-era/etapy-sozdaniya-dizayna-zala-v-kvartire</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/varianty-dizayna-kabineta</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/varianty-dizayna-kabineta</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-dlya-produktovogo-magazina</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-dlya-produktovogo-magazina</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-interera-kabineta-rukovoditelya</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-interera-kabineta-rukovoditelya</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-interera-sport-bara</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-interera-sport-bara</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-proekt-detskogo-magazina</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-proekt-detskogo-magazina</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-fasada-ofisa</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/dizayn-fasada-ofisa</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/interer-kluba-sozdaem-nuzhnuyu-atmosferu-s-pomoshchyu-dizayna</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/interer-kluba-sozdaem-nuzhnuyu-atmosferu-s-pomoshchyu-dizayna</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/legkaya-rabota-v-novom-ofise</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/legkaya-rabota-v-novom-ofise</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/otdykh-kak-glavnyy-istochnik-dokhoda-vybiraem-dizayn-kafe</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/otdykh-kak-glavnyy-istochnik-dokhoda-vybiraem-dizayn-kafe</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/privlekatelnyy-dizayn-kafe-i-restorana-vazhnyy-faktor-uspeshnoy-raboty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/privlekatelnyy-dizayn-kafe-i-restorana-vazhnyy-faktor-uspeshnoy-raboty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/sozdanie-dizayna-interera-magazina</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/sozdanie-dizayna-interera-magazina</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/tolkovyy-dizayn-magazina-odezhdy</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/tolkovyy-dizayn-magazina-odezhdy</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/udachnyy-dizayn-proekt-svadebnogo-salona-polovina-uspekha</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/korporativnyy-dizayn/udachnyy-dizayn-proekt-svadebnogo-salona-polovina-uspekha</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/garmonichnyy-interer</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/garmonichnyy-interer</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/domashniy-ugolok-spa</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/domashniy-ugolok-spa</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/kak-smotritsya-so-storony-interer-pomeshcheniya</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/kak-smotritsya-so-storony-interer-pomeshcheniya</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/osveshchenie-spalni-v-nogu-s-sovremennymi-tendentsiyami</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/osveshchenie-spalni-v-nogu-s-sovremennymi-tendentsiyami</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/svetodizayn-v-prikhozhey</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/svetodizayn-v-prikhozhey</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/svetodizayn-igra-so-svetom</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/svetodizayn-igra-so-svetom</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/sekrety-osveshcheniya-detskoy-komnaty</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/cveto--i-svetodizayn/sekrety-osveshcheniya-detskoy-komnaty</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/landshaftnyy-dizayn-fitodizayn</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/landshaftnyy-dizayn-fitodizayn</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.6</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/landshaftnyy-dizayn-fitodizayn/zelenaya-dorozhka-ili-nyuansy-landshaftnogo-dizayna</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/landshaftnyy-dizayn-fitodizayn/zelenaya-dorozhka-ili-nyuansy-landshaftnogo-dizayna</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/landshaftnyy-dizayn-fitodizayn/landshaftnyy-dizayn-idealnoe-okruzhenie-vashego-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://ask-domus.ru/sovety/dizayn-i-arhitektura/landshaftnyy-dizayn-fitodizayn/landshaftnyy-dizayn-idealnoe-okruzhenie-vashego-doma</loc>
-  <lastmod>2017-03-29T22:36:15+01:00</lastmod>
-  <priority>0.4</priority>
+	<loc>https://ask-domus.ru/sovety/dizayn-i-arhitektura/landshaftnyy-dizayn-fitodizayn/landshaftnyy-dizayn-neizgladimoe-vpechatlenie-ot-vashego-doma</loc>
+	<lastmod>2017-03-30T16:03:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 </urlset>
