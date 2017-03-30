@@ -23,10 +23,10 @@ $innerPage = $data->inner_page;
     </a>
 
     <?php if (!$innerPage): ?>
-    <div class="hidden">
-        <?php foreach ($data->getMoreImages() as $moreImage): ?>
-            <a href="<?= $moreImage->getUrl() ?>" rel="product-<?= $data->id ?>" title="<?= $moreImage->description ?>" class="fancybox"></a>
-        <?php endforeach; ?>
-    </div>
+        <div class="hidden">
+            <?php foreach ($data->getMoreImages() as $moreImage): ?>
+                <a href="<?= $moreImage->getUrl() ?>" rel="product-image" title="<?= $data->title ?>" class="fancybox"></a>
+            <?php endforeach; ?>
+        </div>
     <?php endif; ?>
 </div>

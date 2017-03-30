@@ -164,20 +164,17 @@
 <div class="white-popup mfp-hide" id="request-popup-draft">
     <div class="popup">
         <div class="popup__header">
-            <h5 class="popup__title">
-                Заявка на дизайн-проект
-                <span class="js-tariff-title"></span>
-            </h5>
+            <h2 class="popup__title">Заказать дизайн проект <span class="js-tariff-title"></span></h2>
         </div>
         <div class="popup__body">
             <?php
-            $this->widget('\feedback\widgets\FeedbackWidget', array(
-                'id' => 'callback5',
-                'view' => '//feedback/price',
-                'formHtmlOptions' => [
-                    'class' => 'form ajaxform'
-                ],
-            ));
+                $this->widget('\feedback\widgets\FeedbackWidget', array(
+                    'id' => 'callback5',
+                    'view' => '//feedback/price',
+                    'formHtmlOptions' => [
+                        'class' => 'form ajaxform'
+                    ],
+                ));
             ?>
         </div>
         <div class="popup__footer">
