@@ -27,6 +27,6 @@ CHtml::$errorContainerTag = 'span';
     </div>
 
     <div class="form-row_button">
-        <button type="submit" class="button button_green button_arrow">Отправить</button>
+        <button type="submit" class="button button_green button_arrow" onclick="yaCounter38644505.reachGoal('PRICE')">Отправить</button>
     </div>
 </div>

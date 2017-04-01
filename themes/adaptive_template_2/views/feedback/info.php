@@ -16,5 +16,5 @@ CHtml::$errorContainerTag = 'span';
         <?php $factory->getModelFactory()->getAttributes()['phone']->getModel()->widget($factory, $form, $params); ?>
     </div>
 
-    <button type="submit" class="button button_green button_arrow">Обсудить проект</button>
+    <button type="submit" class="button button_green button_arrow" onclick="yaCounter38644505.reachGoal('CALLBACK')">Обсудить проект</button>
 </div>

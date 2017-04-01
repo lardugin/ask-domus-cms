@@ -13,10 +13,10 @@ $service = Service::model()->findByPk(1);
 		<tr>
 			<th><span class="price-table__heading">Эскизный</span></th>
 			<th>
-						<span class="price-table__heading">
-							Рабочий
-							<sup>рекомендуем</sup>
-						</span>
+                <span class="price-table__heading">
+                    Рабочий
+<!--                    <sup>рекомендуем</sup>-->
+                </span>
 			</th>
 			<th><span class="price-table__heading">Полный</span></th>
 		</tr>

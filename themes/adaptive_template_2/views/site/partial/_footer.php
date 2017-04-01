@@ -60,12 +60,12 @@ foreach (Service::model()->findAll(['order' => 'sort']) as $service) {
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <ul class="bottom-menu nav nav-justified">
-                    <?= $services ?>
-                </ul>
-            </div>
-        </div>
+<!--        <div class="row">-->
+<!--            <div class="col-sm-12">-->
+<!--                <ul class="bottom-menu nav nav-justified">-->
+<!--                    --><?//= $services ?>
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
     </section>
 </footer>

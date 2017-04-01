@@ -223,13 +223,13 @@ $modelReview = new Review('frontend_insert');
 		</div>
 		<div class="popup__body">
 			<?php
-			$this->widget('\feedback\widgets\FeedbackWidget', array(
-				'id' => 'callback4',
-				'view' => '//feedback/contacts',
-				'formHtmlOptions' => [
-					'class' => 'form ajaxform'
-				],
-			));
+                $this->widget('\feedback\widgets\FeedbackWidget', array(
+                    'id' => 'callback4',
+                    'view' => '//feedback/contacts',
+                    'formHtmlOptions' => [
+                        'class' => 'form ajaxform'
+                    ],
+                ));
 			?>
 		</div>
 		<div class="popup__footer">
