@@ -136,6 +136,15 @@ $modelReview = new Review('frontend_insert');
 	<div id="map">
 		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=kozKoP5ElQ4lOaiQcmSsPZxKyyuKq5fg&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 	</div>
+    <br>
+    <div class="hidden-md">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sru!2sru!4v1491652817927!6m8!1m7!1skEZJukw_so6MNis1HcQAkQ!2m2!1d55.80055582611472!2d37.63600495629265!3f90.63259932868107!4f11.340110943518795!5f0.5172083073603602" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <br class="hidden-md">
+    <img src="/images/google-panorama.png" alt="Главный вход" class="img-responsive">
+    <br>
+    <div>
+    </div>
 </div>
 
 <div class="white-popup mfp-hide" id="questions-popup">
