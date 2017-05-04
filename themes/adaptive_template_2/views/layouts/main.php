@@ -8,6 +8,7 @@
 		CmsHtml::head();
 	?>
 
+	<meta name="google-site-verification" content="rcwA5qPamUiEia67RHMs29W2lUi2aIuR3A7ON1lzCj8" />
     <meta name="yandex-verification" content="8f7443d55d4c23a0" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&subset=cyrillic" rel="stylesheet">
 	<!--[if IE 8]>
@@ -146,14 +147,12 @@ Y::runLoader();
                 });
             } catch(e) { }
         });
-
         var n = d.getElementsByTagName("script")[0],
             s = d.createElement("script"),
             f = function () { n.parentNode.insertBefore(s, n); };
         s.type = "text/javascript";
         s.async = true;
         s.src = "https://mc.yandex.ru/metrika/watch.js";
-
         if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
         } else { f(); }
@@ -161,20 +160,6 @@ Y::runLoader();
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/38644505" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-60609893-7', 'auto');
-    ga('send', 'pageview');
-    setTimeout(function(){
-        ga('send', 'event', 'New Visitor', location.pathname);
-    }, 15000);
-
-</script>
 
 </body>
 </html>

@@ -19,10 +19,11 @@
 	</div>
 
 	<div class="right-col">
+		<?php $this->renderPartial('//site/service/text-' . Yii::app()->request->getQuery('id'), ['service' => $model]); ?>
+		<br>
+		<br>
 		<div class="content">
 			<?= $model->description ?>
 		</div>
-
-		<?php $this->renderPartial('//site/service/text-' . Yii::app()->request->getQuery('id'), ['service' => $model]); ?>
 	</div>
 </div>

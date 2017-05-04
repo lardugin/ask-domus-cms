@@ -8,6 +8,8 @@ $service = Service::model()->findByPk(1);
 
 <h1 class="heading"><?=$page->getMetaH1()?></h1>
 
+<h2 class="center">Цены на дизайн проект</h2>
+<br>
 <div class="price-page">
 	<table class="price-table table table-striped">
 		<tr>
@@ -113,33 +115,123 @@ $service = Service::model()->findByPk(1);
 		<tr>
 			<td>
 				<div class="price-card__price price-card__price_old">
-					<?= $service['price1_old'] ?><span>₽</span> м<sup>2</sup>
+					<?= $service['price1_old'] ?><i class="rub">&#118;</i> м<sup>2</sup>
 				</div>
 				<div class="price-card__price">
-					<?= $service['price1'] ?><span>₽</span> м<sup>2</sup>
+					<?= $service['price1'] ?><i class="rub">&#118;</i> м<sup>2</sup>
 				</div>
 			</td>
 			<td>
 				<div class="price-card__price price-card__price_old">
-					<?= $service['price2_old'] ?><span>₽</span> м<sup>2</sup>
+					<?= $service['price2_old'] ?><i class="rub">&#118;</i> м<sup>2</sup>
 				</div>
 				<div class="price-card__price">
-					<?= $service['price2'] ?><span>₽</span> м<sup>2</sup>
+					<?= $service['price2'] ?><i class="rub">&#118;</i> м<sup>2</sup>
 				</div>
 			</td>
 			<td>
 				<div class="price-card__price price-card__price_old">
-					<?= $service['price3_old'] ?><span>₽</span> м<sup>2</sup>
+					<?= $service['price3_old'] ?><i class="rub">&#118;</i> м<sup>2</sup>
 				</div>
 				<div class="price-card__price">
-					<?= $service['price3'] ?><span>₽</span> м<sup>2</sup>
+					<?= $service['price3'] ?><i class="rub">&#118;</i> м<sup>2</sup>
 				</div>
 			</td>
 		</tr>
 		<tr>
-			<td class="center"><a href="#request-popup-draft" data-tariff-title="&laquo;Эскизный&raquo;" class="button button_green open-popup-link">Заказать проект</a></td>
-			<td class="center"><a href="#request-popup-draft" data-tariff-title="&laquo;Рабочий&raquo;" class="button button_green open-popup-link">Заказать проект</a></td>
-			<td class="center"><a href="#request-popup-draft" data-tariff-title="&laquo;Полный&raquo;" class="button button_green open-popup-link">Заказать проект</a></td>
+			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на дизайн-проект &laquo;Эскизный&raquo;" class="button button_green open-popup-link">Заказать проект</a></td>
+			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на дизайн-проект &laquo;Рабочий&raquo;" class="button button_green open-popup-link">Заказать проект</a></td>
+			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на дизайн-проект &laquo;Полный&raquo;" class="button button_green open-popup-link">Заказать проект</a></td>
+		</tr>
+	</table>
+
+	<br>
+	<br>
+	
+	<h2 class="center">Цены на ремонт и отделку</h2>
+	<br>
+	<table class="price-table table table-striped table-hover">
+		<tr>
+			<th><span class="price-table__heading">Косметический</span></th>
+			<th><span class="price-table__heading">Капитальный</span></th>
+			<th><span class="price-table__heading">Эксклюзивный</span></th>
+		</tr>
+		<tr>
+			<td>Замена декоративных покрытий стен и потолков</td>
+			<td>Замена декоративных покрытий стен и потолков</td>
+			<td>Замена декоративных покрытий стен и потолков</td>
+		</tr>
+		<tr>
+			<td>Замена отделочных материалов</td>
+			<td>Замена отделочных материалов</td>
+			<td>Замена отделочных материалов</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Полная или частичная замена инженерных коммуникаций</td>
+			<td>Полная или частичная замена инженерных коммуникаций</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Прокладка новых сетей электро- и водоснабжения, кондиционирования и вентиляции</td>
+			<td>Прокладка новых сетей электро- и водоснабжения, кондиционирования и вентиляции</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Перепланировка квартиры</td>
+			<td>Перепланировка квартиры</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Перенос стен и перегородок</td>
+			<td>Перенос стен и перегородок</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Замена напольных и потолочных покрытий</td>
+			<td>Замена напольных и потолочных покрытий</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Разработка индивидуального дизайн-проекта и воплощение его в жизнь</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Подбор элементов декора - обоев, фресок, штукатурки и прочего</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Подбор и расстановка мебели</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Размещение других необходимых деталей интерьера</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="price-card__price">
+					4 000<i class="rub">&#118;</i> м<sup>2</sup>
+				</div>
+			</td>
+			<td>
+				<div class="price-card__price">
+					8 000<i class="rub">&#118;</i> м<sup>2</sup>
+				</div>
+			</td>
+			<td>
+				<div class="price-card__price">
+					10 000<i class="rub">&#118;</i> м<sup>2</sup>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на ремонт &laquo;Косметический&raquo;" class="button button_green open-popup-link">Заказать</a></td>
+			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на ремонт &laquo;Капитальный&raquo;" class="button button_green open-popup-link">Заказать</a></td>
+			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на ремонт &laquo;Эксклюзивный&raquo;" class="button button_green open-popup-link">Заказать</a></td>
 		</tr>
 	</table>
 
@@ -152,7 +244,6 @@ $service = Service::model()->findByPk(1);
 	<div class="popup">
 		<div class="popup__header">
 			<h5 class="popup__title">
-				Заявка на дизайн-проект
 				<span class="js-tariff-title"></span>
 			</h5>
 		</div>
