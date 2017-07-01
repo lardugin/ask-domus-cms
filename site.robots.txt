@@ -7,8 +7,7 @@ Disallow: /protected
 Disallow: /themes
 Disallow: /shop
 Disallow: /*?s
-Disallow: index.php
-
+Disallow: /index.php
 
 User-agent: *
 Disallow: /cp
@@ -19,7 +18,7 @@ Disallow: /protected
 Disallow: /themes
 Disallow: /shop
 Disallow: /*?s
-Disallow: index.php
+Disallow: /index.php
 
 Sitemap: https://ask-domus.ru/sitemap.xml
 Host: https://ask-domus.ru

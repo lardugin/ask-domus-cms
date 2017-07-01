@@ -144,6 +144,9 @@ $service = Service::model()->findByPk(1);
 			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на дизайн-проект &laquo;Полный&raquo;" class="button button_green open-popup-link">Заказать проект</a></td>
 		</tr>
 	</table>
+	<div class="price__action-text">
+		<p><?= $service['price_sale_date'] ?></p>
+	</div>
 
 	<br>
 	<br>
@@ -234,10 +237,6 @@ $service = Service::model()->findByPk(1);
 			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на ремонт &laquo;Эксклюзивный&raquo;" class="button button_green open-popup-link">Заказать</a></td>
 		</tr>
 	</table>
-
-	<div class="price__action-text">
-		<p><?= $service['price_sale_date'] ?></p>
-	</div>
 </div>
 
 <div class="white-popup mfp-hide" id="request-popup-draft">

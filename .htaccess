@@ -26,8 +26,10 @@ RewriteRule . /%1 [L,E=htredirect:yes]
 #RewriteCond %{REQUEST_URI} !^/$
 #RewriteRule . %1 [L,E=htredirect:yes]
 
+RewriteCond %{REQUEST_URI} !/feedback/
 RewriteCond %{REQUEST_URI} !/admin/
 RewriteCond %{REQUEST_URI} !/cp/
+RewriteCond %{REQUEST_URI} !/feedback$
 RewriteCond %{REQUEST_URI} !/cp$
 RewriteCond %{REQUEST_URI} !/admin$
 RewriteCond %{REQUEST_FILENAME} !-f

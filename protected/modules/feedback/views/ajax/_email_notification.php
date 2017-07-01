@@ -14,7 +14,7 @@
 		<div style="width: 680px;">
 
 			<p style="margin-top: 0px; margin-bottom: 20px;">
-				<h1>Новая заявка с сайта <a href="http://<?php echo \Yii::app()->request->serverName; ?>" target="_blank"><?php \ModuleHelper::getParam('sitename'); ?></a></h1>
+				<h1>Новая заявка с сайта <a href="https://<?php echo \Yii::app()->request->serverName; ?>" target="_blank"><?php \ModuleHelper::getParam('sitename'); ?></a></h1>
 				<h2><?php echo $factory->getTitle(); ?></h2>
 			</p>
 
