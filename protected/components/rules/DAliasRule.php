@@ -7,6 +7,8 @@ use AttributeHelper as A;
 
 class DAliasRule extends CBaseUrlRule
 {
+	public $urlPostfix = '/';
+
 	/**
 	 * @var array массив конфигурации. 
 	 * array(
@@ -59,9 +61,12 @@ class DAliasRule extends CBaseUrlRule
 	   			
 	   			unset($params['id']);
 				$url=empty($alias) ? sprintf(A::get($cfg, 'replaceUrl', $cfg['url']).'/%d', $id) : sprintf('%s', $alias);
+
+				$url = $url . '/';
 	
-	    		if(!empty($params)) 
+	    		if(!empty($params)) {
 	    			$url.='?' . $manager->createPathInfo($params, '=', $ampersand);
+	    		}
 	    		
 	    		return $url;
 	  		}
@@ -89,6 +94,14 @@ class DAliasRule extends CBaseUrlRule
 		}
 
 		foreach($this->config as $className=>$cfg) {
+			if (strpos($_SERVER['REQUEST_URI'], 'uslugi') === false && $className == 'Service') {
+				continue;
+			}
+
+			if (strpos($_SERVER['REQUEST_URI'], 'novosti') === false && $className == 'Event') {
+				continue;
+			}
+
 			if($module=A::get($cfg, 'module')) {
   				if(!\Yii::app()->d->isActive($module)) continue;
   			}

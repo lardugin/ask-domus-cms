@@ -7,13 +7,48 @@
 	<?php
 		CmsHtml::head();
 	?>
-
 	<meta name="google-site-verification" content="rcwA5qPamUiEia67RHMs29W2lUi2aIuR3A7ON1lzCj8" />
     <meta name="yandex-verification" content="8f7443d55d4c23a0" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&subset=cyrillic" rel="stylesheet">
 	<!--[if IE 8]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<script type='application/ld+json'> 
+		{
+		  "@context": "http://www.schema.org",
+		  "@type": "HomeAndConstructionBusiness",
+		  "name": "ASK-Domus",
+		  "url": "https://ask-domus.ru",
+		  "logo": "https://ask-domus.ru/images/logo.png",
+		  "image": "https://ask-domus.ru/images/screen.png",
+		  "description": "Качественный дизайн интерьера в студии дизайна DOMUS. Наша фирма занимается дизайном и ремонтом квартир, загородных домов и коттеджей.",
+		  "address": {
+		    "@type": "PostalAddress",
+		    "streetAddress": "Проспект мира, дом 102, стр. 12",
+		    "addressLocality": "Москва",
+		    "postalCode": "107051",
+		    "addressCountry": "Россия"
+		  },
+		  "geo": {
+		    "@type": "GeoCoordinates",
+		    "latitude": "55.80157425593313",
+		    "longitude": "37.637663330841065"
+		  },
+		  "hasMap": "Yes",
+		  "openingHours": "Mo, Tu, We, Th, Fr 09:00-21:00 Sa, Su 10:00-19:00",
+		  "priceRange": "30.00 - 300000.00",
+		  "contactPoint": {
+		    "@type": "ContactPoint",
+		    "telephone": "+74952203844",
+		    "contactType": "customer support"
+		  },
+		  "telephone": "<?= strip_tags(D::cms('phone')) ?>"
+		}
+ 	</script>
+
+ 	<?php if (Yii::app()->request->getQueryString() && !isset($_GET['p'])): ?>
+ 		<link rel="canonical" href="https://ask-domus.ru/<?= Yii::app()->request->getPathInfo() ? Yii::app()->request->getPathInfo() . '/' : Yii::app()->request->getPathInfo() ?>">
+ 	<?php endif; ?>
 </head>
 
 <body>
@@ -160,6 +195,18 @@ Y::runLoader();
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/38644505" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
+<!-- Google Analytics counter -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65726851-4', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- /Google Analytics counter -->
 
 </body>
 </html>

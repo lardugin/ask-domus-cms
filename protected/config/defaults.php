@@ -86,7 +86,8 @@ return array(
 		'urlManager'=>array(
 			'urlFormat'=>'path',
             'showScriptName'=>false,
-			'rules'=>include(dirname(__FILE__).DS.'urls.php')
+			'rules'=>include(dirname(__FILE__).DS.'urls.php'),
+			'urlSuffix' => '/', 
 		),
 
 		'db'=>array(
@@ -141,7 +142,13 @@ return array(
             'optimizeScriptFiles' => false,
 //            'coreScriptPosition'=>CClientScript::POS_BEGIN,
             'defaultScriptPosition'=>CClientScript::POS_END,
-            'defaultScriptFilePosition'=>CClientScript::POS_END
+            'defaultScriptFilePosition'=>CClientScript::POS_END,
+            /*'packages'=>array(
+            	'jquery.ui'=>array(
+                    'depends'=>array('jquery'),
+                    'position'=>CClientScript::POS_END
+                ),
+        	),*/
         ),
         'assetManager'=>array(
 			'class'=>'ext.EAssetManager.EAssetManager',

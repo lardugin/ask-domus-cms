@@ -15,13 +15,13 @@ class AssetHelper extends \CComponent
 	 *
 	 * @return void
 	 */
-	public static function registerScriptFiles($files)
+	public static function registerScriptFiles($files, $position = \CClientScript::POS_END)
 	{
 		if(!is_array($files)) $files = array($files);
 		 
 		$cs = Yii::app()->clientScript;
 		foreach ($files as $file) {
-			$cs->registerScriptFile($file);
+			$cs->registerScriptFile($file, $position);
 		}
 	}
 	

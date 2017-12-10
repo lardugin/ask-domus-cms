@@ -132,9 +132,9 @@ class CmsHtml
 
         if (is_array($src)) {
             foreach($src as $link)
-                Yii::app()->clientScript->registerScriptFile($link);
+                Yii::app()->clientScript->registerScriptFile($link, CClientScript::POS_END);
         } else
-            Yii::app()->clientScript->registerScriptFile($src);
+            Yii::app()->clientScript->registerScriptFile($src, CClientScript::POS_END);
 
     }
 
@@ -151,7 +151,7 @@ class CmsHtml
         $cs = Yii::app()->clientScript;
 
         $cs->registerCoreScript('jquery');
-        $cs->registerScriptFile('/js/fancybox/jquery.fancybox.pack.js');
+        $cs->registerScriptFile('/js/fancybox/jquery.fancybox.pack.js', CClientScript::POS_END);
         $cs->registerCssFile('/js/fancybox/jquery.fancybox.css');
 
         self::$_state['fancybox'] = true;

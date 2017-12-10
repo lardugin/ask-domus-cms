@@ -7,16 +7,19 @@ if($this->homeTitle):?>
 <?endif?>
 
 <?foreach($this->breadcrumbs as $breadcrumb):?>
-	<div class="breadcrumbs__item" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+	
 		<?php if($breadcrumb === end($this->breadcrumbs)):?>
-			<span itemprop="title"><?= $breadcrumb['title'] ?></span>
+			<div class="breadcrumbs__item">
+				<span><?= $breadcrumb['title'] ?></span>
+			</div>
 		<?php else: 
 			$params=(array)$breadcrumb['url'];
 			$link=\Yii::app()->createUrl(array_shift($params), $params);
 			?>
-			<a href="<?= $link ?>" itemprop="url"><span itemprop="title"><?= $breadcrumb['title'] ?></span></a>
+			<div class="breadcrumbs__item" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+				<a href="<?= $link ?>" itemprop="url"><span itemprop="title"><?= $breadcrumb['title'] ?></span></a>
+			</div>
 		<?php endif;?>
-	</div>
 <?endforeach?>
 	
 <?=\CHtml::closeTag('div')?>

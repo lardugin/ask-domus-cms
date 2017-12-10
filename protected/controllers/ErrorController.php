@@ -27,11 +27,14 @@ class ErrorController extends Controller
 			\Yii::app()->end();
 			die;
 		}
+
+		$this->prepareSeo(\Yii::t('error', 'error'));
+		$this->render('index', compact('code'));
 		
 		/*if($error && in_array($error['code'], array(400, 403, 404, 500))) {
 			$this->redirect('/'.$error['code']);
 		}*/
 		
-		$this->redirect("/404");
+		// $this->redirect("/404");
 	}
 }

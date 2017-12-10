@@ -9,6 +9,11 @@ IndexIgnore */*
 
 RewriteEngine On
 RewriteBase /
+
+# redirect from index.php
+RewriteCond %{THE_REQUEST} ^.*/index.php
+RewriteRule ^(.*)index.php$ http://%{HTTP_HOST}/$1 [R=301,L]
+
 # https://roem.ru/21-10-2016/235217/source-itsoft/
 RewriteCond %{REQUEST_URI} ^/.git [NC]
 RewriteRule . - [L,R=403]
@@ -33,7 +38,7 @@ RewriteCond %{REQUEST_URI} !/feedback$
 RewriteCond %{REQUEST_URI} !/cp$
 RewriteCond %{REQUEST_URI} !/admin$
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*[^/])$ /$1/ [L,R=301,E=htredirect:yes]
+RewriteRule ^(.*)([^/])$ https://%{HTTP_HOST}/$1$2/ [L,R=301]
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
@@ -99,19 +104,12 @@ ExpiresByType image/png "access plus 1 year"
 ExpiresByType image/jpg "access plus 1 year"
 ExpiresByType image/x-icon "access 1 year"
 ExpiresByType application/x-shockwave-flash "access 1 year"
-
-# Нестандартные шрифты сайта
-ExpiresByType application/x-font-ttf "access plus 1 month"
-ExpiresByType font/opentype "access plus 1 month"
-ExpiresByType application/x-font-woff "access plus 1 month"
-ExpiresByType image/svg+xml "access plus 1 month"
-ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
 </IfModule>
 
 # Cache-Control
 <ifModule mod_headers.c>
 # 30 дней
-<filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|swf|woff)$">
+<filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
 Header set Cache-Control "max-age=2592000, public"
 </filesMatch>
 # 30 дней

@@ -25,7 +25,7 @@ return array(
 	'/download/<filename:.*>' => 'site/downloadFile',
     'brands' => 'brand/index',
     'brands/<alias>' => 'brand/view',
-    '<code:(404)>' => 'error/index',
+    // '<code:(404)>' => 'error/index',
     '' => 'site/index',
     'cart' => 'dCart/index',
     'questions' => 'question/index',
@@ -33,7 +33,7 @@ return array(
     'vopros-otvet' => '/question',
 
     'otzyvy' => 'reviews/default/index',
-    '/otzyvy' => '/reviews',
+    '/otzyvy/' => '/reviews',
 
     'sitemap' => 'site/sitemap',
 

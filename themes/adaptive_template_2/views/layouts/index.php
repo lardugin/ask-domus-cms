@@ -8,7 +8,7 @@
 					<?php $number = $i < 10 ? '0' . $i : $i; ?>
 					<div class="servise__item">
 						<a href="<?= Yii::app()->createUrl('/site/service', ['id' => $service->id]) ?>" class="servise__front">
-							<img src="<?= $service->imageBehavior->getSrc() ?>" alt="<?= $service->title ?>">
+							<img src="<?= ResizeHelper::resizeToCache($service->imageBehavior->getSrc(), 372, 260) ?>" alt="<?= $service->title ?>">
 							<div class="servise-mask">
 								<span class="number"><?= $number ?></span>
 								<div class="mask__inner">
@@ -234,59 +234,59 @@
 						<div class="project__right">
 							<div class="project-foto">
 								<ul id="project">
-									<li><a href="/images/project/luberci/1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/1.jpg"></a></li>
-									<li><a href="/images/project/luberci/2.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/2.jpg"></a></li>
-									<li><a href="/images/project/luberci/3.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/3.jpg"></a></li>
-									<li><a href="/images/project/luberci/4.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/4.jpg"></a></li>
-									<li><a href="/images/project/luberci/5.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/5.jpg"></a></li>
-									<li><a href="/images/project/luberci/6.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/6.jpg"></a></li>
-									<li><a href="/images/project/luberci/7.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/7.jpg"></a></li>
-									<li><a href="/images/project/luberci/8.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/8.jpg"></a></li>
-									<li><a href="/images/project/luberci/1-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/1-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/2-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/2-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/3-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/3-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/4-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/4-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/5-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/5-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/6-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/6-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/7-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/7-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/8-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/8-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/9-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/9-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/10-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/10-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/11-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/11-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/12-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/12-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/13-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/13-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/14-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/14-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/15-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/15-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/16-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/16-1.jpg"></a></li>
-									<li><a href="/images/project/luberci/17-1.jpg" class="fancybox" rel="progect-foto"><img src="/images/project/luberci/17-1.jpg"></a></li>
+									<li><a href="/images/project/luberci/1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/2.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/2.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/3.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/3.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/4.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/4.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/5.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/5.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/6.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/6.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/7.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/7.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/8.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/8.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/1-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/1-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/2-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/2-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/3-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/3-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/4-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/4-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/5-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/5-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/6-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/6-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/7-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/7-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/8-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/8-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/9-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/9-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/10-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/10-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/11-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/11-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/12-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/12-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/13-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/13-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/14-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/14-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/15-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/15-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/16-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/16-1.jpg', 600, 420) ?>"></a></li>
+									<li><a href="/images/project/luberci/17-1.jpg" class="fancybox" rel="progect-foto"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/17-1.jpg', 600, 420) ?>"></a></li>
 								</ul>
 								<div class="project_control"></div>
 								<div class="project-pager" id="bx-pager">
-									<a data-slide-index="0" href="javascript:;"><img src="/images/project/luberci/1.jpg"></a>
-									<a data-slide-index="1" href="javascript:;"><img src="/images/project/luberci/2.jpg"></a>
-									<a data-slide-index="2" href="javascript:;"><img src="/images/project/luberci/3.jpg"></a>
-									<a data-slide-index="3" href="javascript:;"><img src="/images/project/luberci/4.jpg"></a>
-									<a data-slide-index="4" href="javascript:;"><img src="/images/project/luberci/5.jpg"></a>
-									<a data-slide-index="5" href="javascript:;"><img src="/images/project/luberci/6.jpg"></a>
-									<a data-slide-index="6" href="javascript:;"><img src="/images/project/luberci/7.jpg"></a>
-									<a data-slide-index="7" href="javascript:;"><img src="/images/project/luberci/8.jpg"></a>
-									<a data-slide-index="8" href="javascript:;"><img src="/images/project/luberci/1-1.jpg"></a>
-									<a data-slide-index="9" href="javascript:;"><img src="/images/project/luberci/2-1.jpg"></a>
-									<a data-slide-index="10" href="javascript:;"><img src="/images/project/luberci/3-1.jpg"></a>
-									<a data-slide-index="11" href="javascript:;"><img src="/images/project/luberci/4-1.jpg"></a>
-									<a data-slide-index="12" href="javascript:;"><img src="/images/project/luberci/5-1.jpg"></a>
-									<a data-slide-index="13" href="javascript:;"><img src="/images/project/luberci/6-1.jpg"></a>
-									<a data-slide-index="14" href="javascript:;"><img src="/images/project/luberci/7-1.jpg"></a>
-									<a data-slide-index="15" href="javascript:;"><img src="/images/project/luberci/8-1.jpg"></a>
-									<a data-slide-index="16" href="javascript:;"><img src="/images/project/luberci/9-1.jpg"></a>
-									<a data-slide-index="17" href="javascript:;"><img src="/images/project/luberci/10-1.jpg"></a>
-									<a data-slide-index="18" href="javascript:;"><img src="/images/project/luberci/11-1.jpg"></a>
-									<a data-slide-index="19" href="javascript:;"><img src="/images/project/luberci/12-1.jpg"></a>
-									<a data-slide-index="20" href="javascript:;"><img src="/images/project/luberci/13-1.jpg"></a>
-									<a data-slide-index="21" href="javascript:;"><img src="/images/project/luberci/14-1.jpg"></a>
-									<a data-slide-index="22" href="javascript:;"><img src="/images/project/luberci/15-1.jpg"></a>
-									<a data-slide-index="23" href="javascript:;"><img src="/images/project/luberci/16-1.jpg"></a>
-									<a data-slide-index="24" href="javascript:;"><img src="/images/project/luberci/17-1.jpg"></a>
+									<a data-slide-index="0" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="1" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/2.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="2" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/3.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="3" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/4.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="4" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/5.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="5" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/6.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="6" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/7.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="7" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/8.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="8" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/1-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="9" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/2-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="10" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/3-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="11" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/4-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="12" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/5-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="13" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/6-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="14" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/7-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="15" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/8-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="16" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/9-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="17" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/10-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="18" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/11-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="19" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/12-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="20" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/13-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="21" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/14-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="22" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/15-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="23" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/16-1.jpg', 92, 64) ?>"></a>
+									<a data-slide-index="24" href="javascript:;"><img src="<?= ResizeHelper::resizeToCache('/images/project/luberci/17-1.jpg', 92, 64) ?>"></a>
 								</div>
 							</div>
 							<div class="center project-pdf">
@@ -344,14 +344,21 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="content">
-                        <h2>Domus – авторский дизайн интерьеров в Москве</h2>
+                        <h2>Студия ремонта и интерьерного дизайна АСК «Домус» - честная работа на результат!</h2>
+                        <h3>Кто мы?</h3>
                         <p>
-                            Архитектурно-строительная компания “Domus” – это студия дизайна и интерьера в Москве и области.
-                            Выполняем полный спектр услуг, от детальной проработки идеи до ее реализации  в помещениях любого уровня и ландшафте.
-                            Предлагаем решения для каждого клиента, опираясь на предпочтения, возможности и пожелания относительно проекта.
-                            Сотрудничество с “Domus” имеет ряд весомых преимуществ, которые оставляют позади наших конкурентов.
-                            Среди которых сроки, цена и качество выполняемых работ.
+                            Архитектурно-строительная компания “Domus” – это студия дизайна и интерьера в Москве, которую рекомендуют друзьям. Мы выполняем полный спектр услуг, от детальной проработки идеи до ее реализации в помещениях любого вида, экстерьере и ландшафте. Предлагаем решения для каждого клиента, опираясь на предпочтения, возможности и пожелания относительно проекта.
                         </p>
+
+                    	<h3>Почему мы?</h3>
+                    	<p>Студия дизайна интерьера домов и квартир АСК «Домус» - это коллектив профессионалов своего дела, которые работают быстро и слаженно. Вам не придется нервничать, выясняя каждый раз, почему сроки вновь отодвинулись в последний момент. Мы работаем строго по договору, который предусматривает обязанности исполнителя и санкции в случае их невыполнения.</p>
+
+						<p>Мы не гоняемся за клиентами – нам некогда отвлекаться от рабочего процесса. Поэтому мы гарантируем абсолютную честность и прозрачность в отношении клиентов и посетителей сайта. Собственно, мы не делаем различий между одним и вторым. Если вы написали или позвонили нам с вопросом – вы автоматически становитесь клиентом нашего агентства дизайна интерьера, со всеми привилегиями этого гордого звания. Независимо от того, закажете ли вы наши услуги, ваш ждет подробная консультация по всем интересующим моментам сотрудничества.</p>
+
+						<p>АСК «Домус» - это дизайн-студия в Москве, цены на услуги которой вас не оставят равнодушными. Более 11 успешных лет работы и тысячи довольных заказчиков – это повод доверить нам работу над своим помещением или участком, а мы всегда оправдываем оказанное доверие. Доказательство тому – отзывы наших клиентов. Это не просто написанные копирайтером бездушные строчки, а реальный опыт сотрудничества с нашей компанией, правдивость которого каждый из написавших может подтвердить лично.</p>
+                        
+<!-- 					<h2>Domus – авторский дизайн интерьеров в Москве</h2>
+						<p>Архитектурно-строительная компания “Domus” – это студия дизайна и интерьера в Москве и области. Выполняем полный спектр услуг, от детальной проработки идеи до ее реализации в помещениях любого уровня и ландшафте. Предлагаем решения для каждого клиента, опираясь на предпочтения, возможности и пожелания относительно проекта. Сотрудничество с “Domus” имеет ряд весомых преимуществ, которые оставляют позади наших конкурентов. Среди которых сроки, цена и качество выполняемых работ.</p>
                         <h2>Заказать дизайн-проект интерьера</h2>
                         <p>
                             Компания “Domus” предлагает авторский дизайн интерьера в Москве и области.
@@ -362,12 +369,20 @@
                         <p>
                             Более 11 успешных лет работы и тысячи довольных клиентов – это повод доверить нам работу над своим помещением или участком,
                             а мы всегда оправдываем оказанное доверие. АСК «Домус» - это ваш ориентир в мире дизайна и ремонта!
-                        </p>
+                        </p> -->
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="content">
-                        <h2>Индивидуальные дизайн-проекты квартир и загородных домов</h2>
+						<h3>Что мы предлагаем?</h3>
+                        <p>Дизайн, ремонт, отделка квартир и домов – это только часть списка услуг АСК «Домус». Также в этом списке находятся:</p>
+                        <ul>
+                        	<li><a href="/uslugi/proektirovanie/" title="Проектирование">Проектирование</a>. Хотите дачный коттедж или загородный дом с нуля до заселения? Не проблема! Услуга архитектурного проектирования включает в себя разработку проекта с начальной стадии. Даже если для всех остальных этапов строительства и отделки вы выберете другое агентство дизайна интерьера, вы все равно получите первоклассный сервис и полноценное внимание со стороны наших специалистов во время работы над проектом.</li>
+                        	<li><a href="/uslugi/komplektaciya-obektov/" title="Комплектация объектов">Комплектация объектов</a>. Эта услуга подразумевает под собой подбор элементов мебели, дизайна, освещения и даже отделочные материалы согласно разработанному проекту. Стоит отметить, что 100-процентную гарантию по подбору точно таких же материалов, элементов мебели и декора мы можем дать только при разработке дизайна нашими специалистами. Но даже если над интерьером работали другие фирмы, занимающиеся дизайном квартир или домов, мы сделаем все возможное и невозможное, чтобы помочь вам с поиском.</li>
+                        	<li><a href="/uslugi/dekorirovanie/" title="Декорирование">Декорирование</a>. У вас есть готовый объект с выполненным ремонтом «под ключ» и подобранной мебелью, но ему все равно чего-то не хватает? Декораторы в этом случае говорят, что ему не хватает «души» или «характера». Добавить индивидуальности вашему помещению поможет декорирование, которое также заказывается как в комплексе с другими услугами компании “Domus”, так и отдельно от них.</li>
+                        	<li><a href="/uslugi/avtorskij-nadzor/" title="Авторский надзор">Авторский надзор</a>. Говорят, что сделать что-то хорошо можно, только если сделать это самому. Мы разрушаем эти стереотипы! Заказав у нас услугу авторского надзора, вы снимете с себя большое количество забот и обязанностей – за то, чтобы ваш объект после окончания ремонта полностью соответствовал проекту дизайна, будет отвечать головой наша компания. Вам останется только сравнить картинку с реальностью и приятно удивиться результату.</li>
+                        </ul>
+<!--                    <h2>Индивидуальные дизайн-проекты квартир и загородных домов</h2>
                         <p>
                             АСК «Домус» предлагает дизайн интерьера в Москве и области.
                             Главные направления деятельности компании – это дизайн интерьеров, ремонт квартир под ключ,
@@ -387,7 +402,7 @@
                                 Общественные зоны: холлы, магазины, кафе, рестораны, гостиницы. Удачный дизайн интерьера делает общественное место атмосферным и уникальным, то есть, отличным от сотен других аналогичных. А это, в свою очередь, будет главным мотивом для того, чтобы клиенты снова и снова возвращались именно к вам.
                             </li>
                         </ul>
-                        <p>Оценить качество работ и выполненных проектов можно в разделе <a href="/portfolio">«Портфолио»</a>.</p>
+                        <p>Оценить качество работ и выполненных проектов можно в разделе <a href="/portfolio">«Портфолио»</a>.</p> -->
                     </div>
                 </div>
             </div>

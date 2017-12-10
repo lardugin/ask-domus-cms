@@ -59,7 +59,7 @@ class DShopRule extends CBaseUrlRule
 			if(($route == ($this->baseControllerName . '/' . $this->baseControllerAction)) 
 				|| ($route == $this->baseControllerName)) 
 			{
-				return $this->getBaseUrl() . $this->createPathInfo($manager, $params, $ampersand);
+				return $this->getBaseUrl() . '/' . $this->createPathInfo($manager, $params, $ampersand);
 			}
 		}
 		else {
@@ -73,7 +73,7 @@ class DShopRule extends CBaseUrlRule
 				$prefix= empty($brand) ? '' : 'brand';
 				if($url=$this->cacheCategoryGet($params['id'], $prefix)) {
 					unset($params['id']);
-					return $url . $this->createPathInfo($manager, $params, $ampersand);
+					return $url . '/' . $this->createPathInfo($manager, $params, $ampersand);
 				}
 				elseif($url=$this->createCategoryUrl($manager, $route, $params, $ampersand)) {
 					$id=$params['id'];
@@ -84,7 +84,7 @@ class DShopRule extends CBaseUrlRule
 					return $this->cacheCategorySet(
 						$id, 
 						$this->getUrl([$this->getBaseUrl(), $url])
-					) . $this->createPathInfo($manager, $params, $ampersand);
+					) . '/' . $this->createPathInfo($manager, $params, $ampersand);
 				}
 			}
 			elseif($route == ($this->productControllerName . '/' . $this->productControllerAction)) {
@@ -93,7 +93,7 @@ class DShopRule extends CBaseUrlRule
 					if(!empty($params['category_id'])) {
 						unset($params['category_id']);
 					}
-					return $url . $this->createPathInfo($manager, $params, $ampersand);
+					return $url . '/' . $this->createPathInfo($manager, $params, $ampersand);
 				}
 				else {
 					$productModel=$this->productModel;
@@ -117,7 +117,7 @@ class DShopRule extends CBaseUrlRule
 						return $this->cacheProductSet(
 							$id, 
 							$this->getUrl([$this->getBaseUrl(), $url, (empty($product->alias) ? $product->id : $product->alias)]) 
-						) . $this->createPathInfo($manager, $params, $ampersand);
+						) . '/' . $this->createPathInfo($manager, $params, $ampersand);
 					}
 				}
 			}

@@ -17,9 +17,9 @@ class DAdviceRule extends CBaseUrlRule
 	{
         if (!empty($params['id'])) {
             if ($route == $this->baseUrl . '/' . $this->categoryControllerAction) {
-                return $this->getCategoryUrl($params['id']);
+                return $this->getCategoryUrl($params['id']) . '/';
             } elseif ($route == $this->baseUrl . '/' . $this->productControllerAction) {
-                return $this->getAdviceUrl($params['id']);
+                return $this->getAdviceUrl($params['id']) . '/';
             }
         }
 

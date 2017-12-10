@@ -105,6 +105,10 @@ abstract class BaseMenuWidget extends \CWidget
 
 			$url = UrlHelper::createUrl($item['model'], $this->adminMode);
 
+			if ($url == '/novosti') {
+				$url = '/novosti/';
+			}
+
 			$html .= '<li';
 
 			$class = '';
@@ -130,7 +134,7 @@ abstract class BaseMenuWidget extends \CWidget
 				$html .= $this->renderItems($item['childs'], ($level + 1), true);
 			}
 
-            if ($url == '/uslugi') {
+            if ($url == '/uslugi/') {
                 $html .= '<ul class="submenu">';
 
                 foreach (\Service::model()->findAll(['order' => 'sort']) as $service) {
@@ -142,7 +146,7 @@ abstract class BaseMenuWidget extends \CWidget
                 $html .= '</ul>';
             }
 
-            if ($this->sovety && $url == '/sovety') {
+            if ($this->sovety && $url == '/sovety/') {
                 $html .= $this->widget('widget.nested.MenuWidget', [
                     'menuClass' => '',
                 ], true);
@@ -153,7 +157,7 @@ abstract class BaseMenuWidget extends \CWidget
 
                 foreach (\Category::model()->roots()->findAll(['order' => 'ordering']) as $category) {
                     $html .= '<li>';
-                    $html .= \CHtml::link($category->title, ['shop/category', 'id' => $category->id]);
+                    $html .= \CHtml::link($category->title, ['/shop/category', 'id' => $category->id]);
                     $html .= '</li>';
                 }
 

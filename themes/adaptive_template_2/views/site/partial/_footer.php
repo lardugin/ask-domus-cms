@@ -26,8 +26,8 @@ foreach (Service::model()->findAll(['order' => 'sort']) as $service) {
                     </div>
                 </div>
                 <div class="copyright">
-                    &copy; ООО «<a href="http://ask-domus.ru" title="Архитектурно-строительная компания АСК Домус">АСК Домус</a>» 2006-<?= date('Y') ?> <br>
-                    Все права защищены.
+       <!--              &copy; ООО «<a href="http://ask-domus.ru" title="Архитектурно-строительная компания АСК Домус">АСК Домус</a>» 2006-<?= date('Y') ?> <br>
+                    Все права защищены. -->
                 </div>
                 <div class="site-map">
                     <a href="/sitemap">Карта сайта</a>
