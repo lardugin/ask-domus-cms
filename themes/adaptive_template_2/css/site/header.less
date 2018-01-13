@@ -1,34 +1,23 @@
 /* Header
 ----------------------------------------------------------*/
 .top-box {
-	.box-shadow;
+	.box-shadow-inner-bottom;
 	position: relative;
-	background: url(../images/info-box2.jpg) center top no-repeat #191724;
+	background: url('../images/info-box-white.jpg') center top no-repeat #929292;
 
 	&.fixed {
 
 		header {
-			//.box-shadow(0 2px 5px rgba(0, 0, 0, 0.36));
 			.box-shadow;
 			position: fixed;
 			top: 0;
 			left: 0;
 			right: 0;
-		    background: rgba(39,38,48,1);
+		    background: @color-white;
 
 			.logo {
-				margin-top: 4px;
-				margin-bottom: 4px;
-
-			 	img {
-		    		max-width: 69px;
-		    	}
+				margin-top: 10px;
 			}
-			.slogan_min {
-				margin-top: 0;
-				font-size: 0;
-			}
-
 			.top-line {
 				max-height: 0;
 			    opacity: 0;
@@ -45,7 +34,9 @@
 }
 
 .header-wrapper {
-	height: 135px;
+	.box-shadow;
+	height: 120px;
+	background: @color-white;
 }
 
 header {
@@ -58,47 +49,51 @@ header {
 	}
 }
 
-
 .top-line {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .logo {
-  	margin-top: 12px;
-  	max-width: 155px;
+	margin-top: 10px;
+	//max-width: 100px;
+    font-size: 0;
+	.clearfix;
 
-	img {
-		max-width: 100%;
+	a {
+		display: block;
+		max-width: 100px;
+		float: left;
+	}
+
+	svg {
+		height: 61px;
 	}
 }
 
 .slogan_min {
-	.text-shadow;
 	min-height: 100%;
-	max-width: 155px;
-	margin-top: 5px;
-	text-align: center;
-	font-size: 9px;
-	color: #8b8b94;
-	font-weight: 700;
-	font-family: @f-2;
+	max-width: 140px;
+	margin-top: 7px;
+	font-size: 10px;
+	color: @color-gray;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	opacity: 1;
+	float: right;
 }
 
 .top-line {
-    padding-top: 24px;
-    padding-bottom: 16px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 8px;
+    padding-bottom: 8px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .top-line__item {
-	.text-shadow;
+	//.text-shadow;
 	margin-right: 20px;
 	color: @color-gray;
-	font-size: 13px;
-	font-family: @f-2;
+	font-size: 16px;
+	font-weight: 300;
 	text-decoration: none;
 
 	&:last-child {
@@ -106,7 +101,7 @@ header {
 	}
 
 	img {
-    	margin-top: -3px;
+    	margin-top: -7px;
 	}
 
 	&:hover {
@@ -115,19 +110,31 @@ header {
 }
 
 .phone-top {
-	.text-shadow;
+	//.text-shadow;
 	color: @color-gray;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 17px;
 
 	b {
-		color: #34a462;
+		color: @color-blue;
 	}
 }
 
 .info-box {
 	text-align: center;
-	padding: 120px 0;
+	padding: 220px 0;
+	position: relative;
+	box-shadow: inset 0px 130px 150px 0 rgba(0, 0, 0, 0.25), inset 0px -130px 150px rgba(0, 0, 0, 0.25);
+
+	&:before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.2);
+	}
 
 	.info__form {
 		.mui-input {
@@ -138,7 +145,7 @@ header {
 
 .info__heading {
 	.text-shadow;
-	font-weight: 700;
+	font-weight: 500;
 	color: @color-white;
 	font-size: 60px;
 	position: relative;
@@ -158,17 +165,18 @@ header {
 		left: 0;
 		right: 0;
 		margin: auto;
-		background: #4aa770;
+		background: @color-blue;
 	}
 }
 
 .info__heading_min {
 	.text-shadow;
-	font-weight: 700;
+	font-weight: 500;
 	color: @color-white;
 	font-size: 24px;
 	text-transform: uppercase;
-	margin-bottom: 54px;
+	//margin-bottom: 54px;
+	position: relative;
 }
 
 .info__form {
@@ -208,7 +216,8 @@ header {
 /* Nav-block
 ----------------------------------------------------------*/
 .top-menu {
-	padding-top: 5px;
+	.clearfix;
+	//padding-top: 5px;
 }
 
 .nav-box {
@@ -242,11 +251,11 @@ header {
 	&[aria-expanded^=true] .navbar-toggle {
 		.icon-bar:nth-child(2) {
 			.transform (rotate(45deg));
-			margin-top: 9px;
+			margin-top: 8px;
 		}
 		.icon-bar:nth-child(3) {
 			.transform (rotate(-45deg));
-			margin-top: -3px;
+			margin-top: -1px;
 
 		}
 		.icon-bar:nth-child(4) {
@@ -277,16 +286,16 @@ header {
 		}
 
 		> a {
-			.text-shadow;
+			//.text-shadow;
 			text-decoration: none;
-			color: @color-white;
+			color: @color-dark;
 			font-family: @f-2;
 			font-size: 15px;
-			font-weight: 300;
+			font-weight: 500;
 			white-space: nowrap;
 			display: block;
 			text-transform: uppercase;
-			padding: 15px 8px;
+			padding: 29px 8px 25px;
 
 			&:focus {
 				background-color: transparent;
@@ -297,7 +306,8 @@ header {
 	.active > a,
 	> li:hover > a  {
 		.box-shadow;
-		background-color: @color-green;
+		color: @color-white;
+		background-color: @color-blue;
 		background-image: none;
 		text-shadow: none;
 
@@ -307,7 +317,7 @@ header {
 	}
 
 	> li:hover .submenu {
-		display: block;
+		// display: block;
 	}
 }
 
@@ -318,7 +328,7 @@ header {
 	left: 0;
 	min-width: 100%;
 	text-align: left;
-	background-color: @color-green;
+	background-color: @color-blue;
 	display: none;
 
 	> li {
@@ -381,21 +391,20 @@ header {
 }
 .navbar-default {
 	.navbar-toggle {
-		height: 37px;
-		border-color: #f9efc5;
+		height: 42px;
+		border-color: @color-blue;
 		padding: 8px 10px;
-		margin-right: 10px;
-		margin-top: 7px;
-		margin-bottom: 7px;
 		border-radius: 0;
+		margin: 0;
 
 		.icon-bar  {
-			width: 27px;
+			width: 28px;
 			height: 1px;
 			-webkit-transition: opacity 0.2s 0.2s cubic-bezier(0.77, 0, 0.175, 1), -webkit-transform 0.4s 0.2s cubic-bezier(0.77, 0, 0.175, 1), margin 0.4s 0.2s cubic-bezier(0.77, 0, 0.175, 1);
 			transition: opacity 0.2s 0.2s cubic-bezier(0.77, 0, 0.175, 1), transform 0.4s 0.2s cubic-bezier(0.77, 0, 0.175, 1), margin 0.4s 0.2s cubic-bezier(0.77, 0, 0.175, 1);
+
 			+ .icon-bar {
-				margin-top: 5px;
+				margin-top: 6px;
 			}
 		}
 
@@ -404,7 +413,7 @@ header {
 			background: transparent;
 		}
 		.icon-bar {
-			background-color: #FBBA00;
+			background-color: @color-blue;
 		}
 	}
 }
@@ -413,35 +422,27 @@ header {
 .top-hiden__phone-button {
 	float: right;
 	display: none;
-	width: 87%;
-	margin-top: 7px;
-	position: absolute;
-	top: 0;
-	right: 15px;
 
 	.button {
-		font-size: 18px;
-		height: 37px;
-		text-align: center;
-		text-decoration: none;
-		background: #f9efc5;
-		color: #000;
-		font-weight: 500;
-		border-radius: 3px;
-		display: table-cell;
-    	width: 651px;
-		vertical-align: middle;
+		border-radius: 0;
+		.box-shadow(none);
 	}
 }
 
 @media ( max-width: 1199px ) {
+	.top-box.fixed header {
+		position: relative;
+	}
 	.logo {
-		margin-left: -15px;
-		margin-right: -6px;
+		
+	}
+
+	.slogan_min {
+		display: none;
 	}
 
 	.info-box {
-		padding: 100px 0;
+		padding: 120px 0;
 	}
 
 	.info__heading {
@@ -456,45 +457,113 @@ header {
 	}
 }
 
-
 @media ( max-width: 991px ) {
+    .top-box {
+        background-position: center;
+    }
 	.header-wrapper {
-		height: 123px;
+		height: auto;
 	}
 	.logo {
-	    max-width: 103px;
-	    margin-top: 5px;
-		margin-left: 0px;
+	    max-width: 82px;
+	    margin-top: 8px;
 
-	    img {
-	    	max-width: 100%;
-	    }
-
-	    .slogan_min {
-	    	display: none;
+	    svg {
+	    	height: 50px;
 	    }
 	}
 
 	.top-line__item {
 		margin-right: 10px;
-    	font-size: 12px;
+    	font-size: 13px;
 	}
 	.phone-top {
 		font-size: 15px;
     	margin-left: -15px;
 	}
 	.top-menu {
-	    margin-left: -130px;
+	    margin-left: -28px;
 	}
 	.menu > li > a {
 		font-size: 13px;
+        padding: 26px 8px 22px;
 	}
-
+    .info-box {
+        padding: 100px 0;
+    }
 	.info__heading {
 		font-size: 40px;
 	}
 
 	.info__heading_min {
 		font-size: 20px;
+	}
+}
+
+@media ( max-width: 767px ) {
+	.logo {
+		max-width: 100%;
+		text-align: center;
+
+		a {
+			float: none;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+	.slogan_min {
+		display: inline-block;
+		text-align: left;
+		float: none;
+		margin-top: 0;
+		vertical-align: middle;
+		margin-left: 20px;
+	}
+	.top-line {
+		display: none;
+	}
+	.top-menu {
+		margin-left: 0;
+		padding: 12px 0;
+	}
+	.menu_wrap {
+		position: absolute;
+		background: @color-white;
+		width: 100%;
+		top: ~"calc(100% + 4px)";
+		.box-shadow;
+	}
+	.menu > li {
+
+		&:last-child a {
+			border-bottom: 0;
+		}
+
+		a {
+			font-size: 16px;
+			padding: 12px 20px;
+			margin-bottom: 0;
+			text-align: left;
+			border-bottom: 1px solid @color-gray-lighten;
+		}
+	}
+	.navbar-header {
+		float: left;
+	}
+
+	.top-hiden__phone-button {
+		display: block;
+		width: ~"calc(100% - 60px)";
+	}
+
+	.info-box {
+		padding: 44px 0;
+	}
+	.info__heading {
+		font-size: 28px;
+		margin-top: 0;
+	}
+	.info__heading_min {
+		font-size: 16px;
 	}
 }

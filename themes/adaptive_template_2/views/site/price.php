@@ -11,7 +11,8 @@ $service = Service::model()->findByPk(1);
 <h2 class="center">Цены на дизайн проект</h2>
 <br>
 <div class="price-page">
-	<table class="price-table table table-striped">
+    <div class="table-responsive">
+	    <table class="price-table table table-striped">
 		<tr>
 			<th><span class="price-table__heading">Эскизный</span></th>
 			<th>
@@ -144,6 +145,7 @@ $service = Service::model()->findByPk(1);
 			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на дизайн-проект &laquo;Полный&raquo;" class="button button_green open-popup-link">Заказать проект</a></td>
 		</tr>
 	</table>
+    </div>
 	<div class="price__action-text">
 		<p><?= $service['price_sale_date'] ?></p>
 	</div>
@@ -153,7 +155,8 @@ $service = Service::model()->findByPk(1);
 	
 	<h2 class="center">Цены на ремонт и отделку</h2>
 	<br>
-	<table class="price-table table table-striped table-hover">
+    <div class="table-responsive">
+	    <table class="price-table table table-striped table-hover">
 		<tr>
 			<th><span class="price-table__heading">Косметический</span></th>
 			<th><span class="price-table__heading">Капитальный</span></th>
@@ -237,6 +240,7 @@ $service = Service::model()->findByPk(1);
 			<td class="center"><a href="#request-popup-draft" data-tariff-title="Заявка на ремонт &laquo;Эксклюзивный&raquo;" class="button button_green open-popup-link">Заказать</a></td>
 		</tr>
 	</table>
+    </div>
 </div>
 
 <div class="white-popup mfp-hide" id="request-popup-draft">

@@ -81,7 +81,7 @@
 										<?= $service['price1'] ?><span>₽</span> м<sup>2</sup>
 									</div>
 									<div class="price-card__button">
-										<a href="javascript:;" class="button button_green button_arrow button_scaleout" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIN')">Подробнее</a>
+										<a href="javascript:;" class="button button_transparent button_arrow button_scaleout" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIN')">Подробнее</a>
 									</div>
 								</div>
 							</div>
@@ -126,7 +126,7 @@
 										<?= $service['price2'] ?><span>₽</span> м<sup>2</sup>
 									</div>
 									<div class="price-card__button">
-										<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIDDLE')">Подробнее</a>
+										<a href="javascript:;" class="button button_transparent button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIDDLE')">Подробнее</a>
 									</div>
 								</div>
 							</div>
@@ -168,7 +168,7 @@
 										<?= $service['price3'] ?><span>₽</span> м<sup>2</sup>
 									</div>
 									<div class="price-card__button">
-										<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MAX')">Подробнее</a>
+										<a href="javascript:;" class="button button_transparent button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MAX')">Подробнее</a>
 									</div>
 								</div>
 							</div>

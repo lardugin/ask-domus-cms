@@ -48,7 +48,7 @@
 
     sup {
         text-transform: lowercase;;
-        color: @color-green;
+        color: @color-blue;
         font-weight: 400;
         position: absolute;
         top: 0;
@@ -89,5 +89,10 @@
 }
 
 @media ( max-width: 767px ) {
-
+    .price-table {
+        td {
+            max-width: 240px;
+            white-space: normal;
+        }
+    }
 }

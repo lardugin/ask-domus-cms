@@ -36,7 +36,7 @@
 .person__name {
 	color: @coloe-dark;
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: 500;
 	margin-bottom: 1px;
 }
 .person__position {
@@ -53,8 +53,10 @@
 }
 
 @media ( max-width: 991px ) {
+	.command {
+		margin-bottom: 0;
+	}
 	.command__item {
-
 		&,
 		&:nth-child(4) ~.command__item {
 			margin-bottom: 10px;
@@ -66,5 +68,23 @@
 }
 
 @media ( max-width: 767px ) {
+	.command__item {
+		width: 50%;
+	}
 
+	.person__foto {
+		height: auto;
+
+		img {
+			max-width: 100%;
+		}
+	}
+	.person__info {
+		height: 90px;
+		padding: 8px 8px 8px;
+	}
+
+	.person__position {
+		font-size: 12px;
+	}
 }

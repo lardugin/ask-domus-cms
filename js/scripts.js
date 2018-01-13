@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 	// Фиксед меню.
 	$(window).scroll(function() {
-		if($(this).scrollTop() >= 87 && $(this).width() > '991') { // 135-48
+		if($(this).scrollTop() >= 44 && $(this).width() > '991') { // 120-76 выстота меню - высота меню (фиксед)
 			//$('body').css("padding-top", "125px");
 			$('#top').addClass("fixed");
 		} else {
@@ -156,7 +156,7 @@ $(document).ready(function(){
 		$('#object-slider').bxSlider({
 			auto: false,
 			autoHover: true,
-			// adaptiveHeight: true,
+			adaptiveHeight: true,
 			prevSelector  : ".object-slider_control",
 			nextSelector : ".object-slider_control",
 			useCSS: false

@@ -6,6 +6,17 @@
 
 <h1 class="heading"><?=$page->getMetaH1()?></h1>
 
+<div class="company-page">
+
+    <ul class="company-menu">
+        <li><a class="button button_transparent" href="/novosti/"><span>Новости</span></a></li>
+        <li><a class="button button_transparent" href="/o-kompanii/nasha-komanda/"><span>Наша команда</span></a></li>
+        <li><a class="button button_transparent" href="/o-kompanii/diplomy-i-gramoty/"><span>Дипломы и грамоты</span></a></li>
+        <li><a class="button button_transparent" href="/vopros-otvet/"><span>Вопрос - Ответ</span></a></li>
+        <li><a class="button button_transparent" href="/otzyvy/"><span>Отзывы</span></a></li>
+    </ul>
+</div>
+
 <div class="content">
 	<?= $page->text ?>
 </div>
