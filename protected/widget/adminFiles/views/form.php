@@ -4,7 +4,7 @@
     <a class="add js-link">Добавить еще</a>
     <div class="added-files"></div>
 
-    <script type="text/javascript">
+    <script >
         $(function() {
             var context = $('#uploadFilesForm');
             var add     = $('.add', $(context));

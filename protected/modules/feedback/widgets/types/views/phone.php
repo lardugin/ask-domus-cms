@@ -20,7 +20,7 @@ $hash = rand(0, 1000000);
         ));
     ?>
 
-<script type="text/javascript">
+<script >
 /*<![CDATA[*/
 jQuery(function($) {
 	jQuery(".<?php echo $name . $hash;?>").mask("+7 ( 999 ) 999 - 99 - 99");

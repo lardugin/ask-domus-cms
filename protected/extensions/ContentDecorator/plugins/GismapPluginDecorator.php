@@ -30,7 +30,7 @@ class GismapPluginDecorator extends PluginDecorator
         ob_start();
         ?>
         <div id="my2GisMap" style="width:100%; height:400px" class="2gismap"></div>
-        <script type="text/javascript">
+        <script >
             function addMarker(geoPoint, desc) {
                 var balloon = new DG.Balloons.Common({
                     geoPoint: geoPoint,

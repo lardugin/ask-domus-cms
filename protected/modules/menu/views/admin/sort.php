@@ -6,7 +6,7 @@ use \menu\components\helpers\MenuHtmlHelper;
 
 <?php echo MenuHtmlHelper::getList($menu, null, null, array('class'=>'sortable'), null, null); ?>
 
-<script type="text/javascript">
+<script >
 	$(document).ready(function(){
 		$('.sortable').nestedSortable({
 			handle: 'div',

@@ -12,9 +12,9 @@ $baseUrl = $this->module->assetsUrl;
     <link rel="stylesheet" type="text/css" href="<?php echo $baseUrl; ?>/css/login.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $baseUrl; ?>/css/elements.css" />
     <?php $cs->registerCoreScript('jquery'); ?>
-    <script type="text/javascript" src="<?php echo $baseUrl; ?>/js/main.js"></script>
+    <script src="<?php echo $baseUrl; ?>/js/main.js"></script>
     
-    <script type="text/javascript">
+    <script >
     	$(function(){
             var wrap = $('#wrapper');
             var boxH = $(wrap).height();

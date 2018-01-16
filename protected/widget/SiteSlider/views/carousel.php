@@ -10,7 +10,7 @@
     </li>
     <?endforeach?>
 </ul>
-<script type="text/javascript">
+<script>
     $(function() {
         $('#site-slider').jcarousel();
     });

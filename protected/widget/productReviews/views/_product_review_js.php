@@ -6,7 +6,7 @@
  * Time: 12:24
  */
 ?>
-<script type="text/javascript">
+<script >
     $(function() {
         $(':radio.star').rating();
         $('#add-review a').click(function() {

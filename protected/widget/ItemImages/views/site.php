@@ -13,7 +13,7 @@
     <?php endif; ?>
 </div>
 
-<script type="text/javascript">
+<script >
     $(function(){
         $("#images-block a.image").fancybox({
             'transitionIn'	: 'elastic',

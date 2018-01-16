@@ -7,8 +7,9 @@
         <div class="center">
             <img src="/images/404.jpg" alt="404">
         </div>
-        <p>Вы можете перейти на главную или вернуться на <a href="javascript: history.go(-1);">последнюю просмотренную страницу</a>.</p>
-
+        <p>Вы можете перейти на <a href="/">главную</a> или вернуться на <a href="javascript: history.go(-1);">последнюю просмотренную страницу</a>.</p>
+        <br>
+        <br>
         <ul>
         	<li><?= CHtml::link('Главная', '/') ?></li>
         	<li><?= CHtml::link('Дизайн интерьера', ['/site/service', 'id' => 1]) ?></li>

@@ -68,7 +68,7 @@
     </tbody>
 </table>
 
-<script type="text/javascript">
+<script >
 	function deleteAsset(link, blockAll){
 		$.getJSON(link.href, {}, function(data){
 			if(data == 'ok'){

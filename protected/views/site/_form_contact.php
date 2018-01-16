@@ -45,7 +45,7 @@
         <div class="note">Поля отмеченные <span class="required">*</span> обязательны для заполнения.</div>
         <?php echo $form->hiddenField($model, 'verifyCode'); ?>
         
-        <script type="text/javascript">
+        <script >
             $(function() {
                 $('#contact-form :submit').click(function(){
                     $('#ContactForm_verifyCode').val('test_ok');

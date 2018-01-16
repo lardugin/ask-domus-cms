@@ -14,7 +14,7 @@
             'htmlOptions'=>array('class'=>'site-menu'),
         )); ?>
 
-        <script type="text/javascript">
+        <script >
             $(function() {
                 $("#site-menu").sortable({
                     items: "li:not(.ui-state-disabled)",

@@ -13,7 +13,7 @@
     <?php endforeach; ?>
 </div>
 
-<script type="text/javascript">
+<script >
     $(function() {
         var iboxs = $('#photos_container .img');
 
@@ -70,7 +70,7 @@
     <?php endforeach; ?>
 </div>
 
-<script type="text/javascript">
+<script >
     function saveImageDesc(id) {
         var data = {'desc': $('#desc-'+id).val(), 'id': id};
 

@@ -91,7 +91,7 @@ CHtml::$errorContainerTag = 'span';
     </div>
 </div>
 
-<script type="text/javascript">
+<script >
     function submitForm(form, hasError) {
         if (!hasError) {
             $.post($(form).attr('action'), $(form).serialize(), function(data) {

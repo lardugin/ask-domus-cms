@@ -7,7 +7,7 @@
     Редактировать
 </div>
 
-<script type="text/javascript">
+<script>
 jQuery(function($){
 
     $("[data-edit="+<?php echo $this->params['id']; ?>+"] .crop-image").on('click', function(){

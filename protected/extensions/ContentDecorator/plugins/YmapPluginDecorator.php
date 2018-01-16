@@ -45,7 +45,7 @@ class YmapPluginDecorator extends PluginDecorator
 				<balloonContentFooter><?=$data['balloonContentFooter']?></balloonContentFooter>
 			</div>
 			<?endforeach?>
-			<script type="text/javascript">
+			<script >
 			ymaps.ready(init);
 			function init () {
 				<?$center=A::get($ymapBounds, 'center', array('55.04902279997517', '82.91542373974723'))?>

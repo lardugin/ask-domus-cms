@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script >
     $(function() {
         function updateCount(e) {
             var target = $(e.target);

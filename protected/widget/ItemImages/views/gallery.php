@@ -16,7 +16,7 @@ $this->widget('zii.widgets.CListView', array(
 ?>
 </div>
 
-<script type="text/javascript">
+<script >
 $(function(){
     $("#images-gallery a").fancybox({
         'autoDimensions':  false,

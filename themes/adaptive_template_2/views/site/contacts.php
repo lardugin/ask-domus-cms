@@ -89,7 +89,7 @@ $modelReview = new Review('frontend_insert');
 	</div>
 
 	<div id="map">
-		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=kozKoP5ElQ4lOaiQcmSsPZxKyyuKq5fg&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+		<script charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=kozKoP5ElQ4lOaiQcmSsPZxKyyuKq5fg&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 	</div>
     <br>
     <div class="hidden-sm">
@@ -202,7 +202,7 @@ $modelReview = new Review('frontend_insert');
 	</div>
 </div>
 
-<script type="text/javascript">
+<script >
 	function submitForm(form, hasError) {
 		if (!hasError) {
 			$.post($(form).attr('action'), $(form).serialize(), function(data) {

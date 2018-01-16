@@ -27,7 +27,7 @@
     <?php endforeach; ?>
 </div>
 
-<script type="text/javascript">
+<script >
     $(function() {
         $('#onlyImages .ajax-del').click(function(e) {
             e.preventDefault();

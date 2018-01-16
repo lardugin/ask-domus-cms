@@ -1,6 +1,6 @@
 <?use common\components\helpers\HYii as Y;?>
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 <!--	<meta id="myViewport" name="viewport" content="width=750">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -269,7 +269,7 @@ Y::runLoader();
 <?= D::cms('counter') ?>
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
+<script >
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {

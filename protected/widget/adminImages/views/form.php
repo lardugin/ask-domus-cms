@@ -4,7 +4,7 @@
     <a id="add_image" class="js-link">Добавить еще</a>
     <div class="added-files"></div>
 
-    <script type="text/javascript">
+    <script >
         $(function() {
             var div = $('<div></div>').addClass('ufile');
             var input = $('#add_image').prev();

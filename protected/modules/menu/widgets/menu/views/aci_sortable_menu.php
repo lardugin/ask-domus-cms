@@ -6,7 +6,7 @@
 	<?php echo $menu; ?>
 </div>
 
-<script type="text/javascript">
+<script >
 $(function() {
 	// initialization
 	AciSortableMenuWidget.init("<?php echo $this->id; ?>");

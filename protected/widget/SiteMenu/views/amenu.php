@@ -4,7 +4,7 @@
 	</ul>
 </div>
 
-<script type="text/javascript">
+<script >
 $(document).ready(function(){ 
 	$("#<?php echo $this->id; ?>").amenu(<?php echo CJSON::encode($this->options); ?>); 
 });

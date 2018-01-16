@@ -48,7 +48,7 @@ $this->breadcrumbs = array($title=>array('feedback/callback'));
     'pages' => $dataProvider->getPagination(),	
 )); ?>
 
-<script type="text/javascript">
+<script >
 $(function() {
 	FeedbackAdmin.init("<?php echo $factory->getId(); ?>");
 });
