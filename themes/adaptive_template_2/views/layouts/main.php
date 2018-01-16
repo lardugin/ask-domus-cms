@@ -65,7 +65,7 @@
                                 <?= strip_tags(D::cms('address')) ?>
                             </a>
                             <a href="https://yandex.ru/maps/213/moscow/?ol=biz&oid=1189178535&from=1org_photo&ll=37.634433%2C55.799859&z=15" rel="nofollow" target="_blank" class="top-line__item">
-                                <img src="/images/m-orange.png">
+                                <img src="/images/m-orange.png" alt="метро Алексеевская">
                                 Алексеевская
                             </a>
                         </div>
@@ -197,7 +197,7 @@
 									</button>
 								</div>
                                 <div class="top-hiden__phone-button">
-                                    <a href="tel:<?= D::cms('phone') ?>" class="button button_green">Позвонить</a>
+                                    <a href="tel:+74952203844" class="button button_green">Позвонить</a>
                                 </div>
 								<div class="menu_wrap collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<?php
